@@ -1,0 +1,97 @@
+:root {
+  --dma-blue: #0d4ab2;
+  --highlight-color: #ff7528;
+  --accent: 107, 171, 144;
+  /* thanks components.ai */
+  --color-0: #b9bdec;
+  --color-1: #8792df;
+  --color-2: #526cce;
+  --color-3: #184db6;
+  --color-4: #003895;
+  --color-5: #00286e;
+  --color-6: #0d1c45;
+  --color-7: #0e1020;
+  /* breakpoints */
+  --sm-size: 640px;
+  --md-size: 768px;
+  --lg-size: 1024px;
+  --xl-size: 1280px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--dma-blue);
+
+}
+
+.list-style-none {
+  list-style-type: none !important;
+}
+
+.container-xl {
+  max-width: var(--xl-size);
+  margin: auto;
+}
+
+.container-lg {
+  max-width: var(--lg-size);
+  margin: auto;
+}
+
+.container-md {
+  max-width: var(--md-size);
+  margin: auto;
+}
+
+/* my own css utility below */
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.lite-youtube-fallback {
+  aspect-ratio: 16 / 9;
+  /* matches YouTube player */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* right-facing triangle "Play" icon */
+.lite-youtube-fallback::before {
+  display: block;
+  content: '';
+  border: solid transparent;
+  border-width: 2em 0 2em 3em;
+  border-left-color: red;
+}
+
+.lite-youtube-fallback:hover::before {
+  border-left-color: #fff;
+}
+
+.lite-youtube-fallback:focus {
+  outline: 2px solid red;
+}

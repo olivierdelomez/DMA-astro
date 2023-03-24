@@ -1,0 +1,195 @@
+<style>
+  nav {
+    display: grid;
+    place-items: center;
+    z-index: 5;
+  }
+  nav > ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.25rem;
+  }
+
+  ul > li {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  h1 > a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  nav > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: var(--dma-blue);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .dropdown__title {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: var(--dma-blue);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown > ul > li {
+    padding-left: 0.5rem;
+  }
+
+  .dropdown > .dropdown__menu {
+    background-color: var(--dma-blue);
+
+    /* border-radius: 4px; */
+    box-shadow: 0 0.15em 0.25em darkblue;
+    padding: 0.8rem;
+    min-width: 15ch;
+
+    position: absolute;
+
+    top: calc(100% + 0rem);
+    left: 50%;
+    transform: translateX(-50%);
+
+    transform: rotateX(-90deg) translateX(-50%);
+    transform-origin: top center;
+    opacity: 0.3;
+    transition: 280ms all 120ms ease-out;
+  }
+
+  .dropdown:hover .dropdown__menu,
+  .dropdown:focus-within .dropdown__menu {
+    opacity: 1;
+    transform: rotateX(0) translateX(-50%);
+    visibility: visible;
+  }
+
+  .dropdown__menu > li > a {
+    color: white;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .dropdown__menu > li > a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    color: var(--dma-blue);
+  }
+
+  .highlighted > a {
+    color: var(--highlight-color);
+  }
+</style>
+
+<header>
+  <h1>
+    <a href="/"> DEFENSE DES <br /> MILIEUX AQUATIQUES</a>
+  </h1>
+  <nav aria-label="navigation principale">
+    <ul>
+      <li class="dropdown">
+        <button
+          type="button"
+          class="dropdown__title"
+          aria-expanded="false"
+          aria-controls="whoweare-dropdown"
+        >
+          Qui sommes nous ?
+        </button>
+        <ul class="dropdown__menu" id="dma-dropdown">
+          <li>
+            <a href="/equipe">Equipe</a>
+          </li>
+          <li>
+            <a href="/objectifs">Objectifs</a>
+          </li>
+          <li>
+            <a href="/histoire">Histoire</a>
+          </li>
+          <li>
+            <a href="/fonctionnement">Fonctionnement</a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <button
+          type="button"
+          class="dropdown__title"
+          aria-expanded="false"
+          aria-controls="whoweare-dropdown"
+        >
+          Notre Grand Projet
+        </button>
+        <ul class="dropdown__menu" id="dma-dropdown">
+          <li>
+            <a href="/notre-grand-projet">Golden Miles</a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <button
+          type="button"
+          class="dropdown__title"
+          aria-expanded="false"
+          aria-controls="whoweare-dropdown"
+        >
+          Actions
+        </button>
+        <ul class="dropdown__menu" id="dma-dropdown">
+          <li>
+            <a href="/historique">Historique</a>
+          </li>
+          <li>
+            <a href="/donnees-environnementales">Données environnementales</a>
+          </li>
+          <li>
+            <a href="/resultats">Résultats</a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="/blog">Actualité</a>
+      </li>
+      <li class="dropdown highlighted">
+        <a
+          href="https://www.helloasso.com/associations/defense-des-milieux-aquatiques/formulaires/1/widget"
+          >Adhésion / don</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,50 @@
+---
+import { Image } from "astro:assets";
+import facebookIcon from "../assets/facebook.svg";
+import instagramIcon from "../assets/instagram.svg";
+---
+
+<style>
+  footer {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  footer > div {
+    max-width: 1200px;
+    margin: auto;
+  }
+  /* ul {
+    gap: 1rem;
+  } */
+  ul > li {
+    display: inline;
+    padding: 0 1rem;
+  }
+</style>
+<footer>
+  <div>
+    <ul>
+      <li>
+        <img alt={"facebook"} width={24} src={facebookIcon.src} />
+      </li>
+      <li>
+        <img alt={"instagram"} width={24} src={instagramIcon.src} />
+      </li>
+    </ul>
+  </div>
+  <div>
+    Defense des Milieux Aquatiques - DMA, 716 Vimeney Est, ESCOUSSANS 33760 -
+    France
+  </div>
+  <div>
+    <ul>
+      <li>
+        <a href=""> Politique de confidentialité</a>
+      </li>
+      <li><a href=""> Mentions Légales</a></li>
+      <li><a href=""> Contact</a></li>
+    </ul>
+  </div>
+</footer>

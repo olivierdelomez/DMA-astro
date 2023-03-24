@@ -1,0 +1,54 @@
+---
+import { Image } from "astro:assets";
+import myImage from "../assets/file.jpg"; // Image is 1600x900
+---
+
+<style>
+  header {
+    display: grid;
+    grid-template-areas: "hero";
+    height: 48vh;
+    max-height: 600px;
+    place-items: center;
+    background-color: rgba(0, 107, 34, 0.2);
+  }
+  header > * {
+    grid-area: hero;
+  }
+  img {
+    object-fit: cover;
+    height: min(48vh, 600px);
+    width: 100%;
+    z-index: -1;
+  }
+  .hero__content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+  button {
+    background-color: #ff7528;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5ch;
+  }
+</style>
+<header>
+  <div class="hero__content">
+    <h1>
+      SAUVEGARDER LA <br /> BIODIVERSITE AQUATIQUE
+    </h1>
+    <button> nous rejoindre</button>
+  </div>
+  <Image src={myImage} width={1920} alt="Hero image, mountain river." />
+</header>
