@@ -27,8 +27,8 @@ export default defineConfig({
             create: true,
             delete: true,
             fields: [
-              { title: 'title', description: 'Post Title' },
-              { title: 'body', description: 'Post Body' },
+              { name: 'title', widget: 'string', label: 'Titre du post' },
+              { name: 'body', widget: 'markdown', label: 'Contenu du post' },
             ],
           },
         ],
