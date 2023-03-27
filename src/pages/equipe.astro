@@ -1,15 +1,109 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import PhilippeGarcia from "../assets/philippe-garcia.jpeg";
+import LaurentOsswald from "../assets/osswald.webp";
+import JessicaSalmon from "../assets/jessicasalmon.webp";
+import CharlyDally from "../assets/charlydally.webp";
+import DylanMillac from "../assets/millac.webp";
 ---
 
 <style>
+  section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   h1 {
+    text-align: center;
+  }
+  img {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    aspect-ratio: 1/1;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    gap: 2rem;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     text-align: center;
   }
 </style>
 
 <Layout title="equipe">
-  <section class="container-md">
+  <section class="container-xl">
     <h1>Equipe</h1>
+    <ul>
+      <li>
+        <Image
+          src={PhilippeGarcia}
+          width={282}
+          height={286}
+          alt={"Portrait Philippe Garcia"}
+        />
+        <span>
+          <h3>Philippe Garcia</h3>
+          <em>Président</em>
+        </span>
+      </li>
+
+      <li>
+        <Image
+          src={LaurentOsswald}
+          width={282}
+          height={286}
+          alt={"Portrait Laurent Osswald"}
+        />
+        <span>
+          <h3>Laurent Osswald</h3>
+          <em>Vice-Président</em>
+        </span>
+      </li>
+      <li>
+        <Image
+          src={DylanMillac}
+          width={282}
+          height={286}
+          alt={"Portrait Dylan Millac"}
+        />
+        <span>
+          <h3>Dylan Millac</h3>
+          <em>Trésorier</em>
+        </span>
+      </li>
+      <li>
+        <Image
+          src={JessicaSalmon}
+          width={282}
+          height={286}
+          alt={"Portrait Jessica Salmon"}
+        />
+        <span>
+          <h3>Jessica Salmon</h3>
+          <em>Membre du CA</em>
+        </span>
+      </li>
+      <li>
+        <Image
+          src={CharlyDally}
+          width={282}
+          height={286}
+          alt={"Portrait Charly Dally"}
+        />
+        <span>
+          <h3>Charly Dally</h3>
+          <em> Membre du CA</em>
+        </span>
+      </li>
+    </ul>
   </section>
 </Layout>

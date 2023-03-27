@@ -8,6 +8,7 @@ const allPosts = await getCollection("posts");
 
 <Layout title="Welcome to Astro.">
   <main>
+    <h1>Nos dernières actualités</h1>
     <ul role="list" class="link-card-grid">
       {
         allPosts.map((post) => (
@@ -27,11 +28,6 @@ const allPosts = await getCollection("posts");
     margin: auto;
     padding: 1.5rem;
     max-width: 90ch;
-  }
-  h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0;
   }
   .text-gradient {
     background-image: var(--accent-gradient);

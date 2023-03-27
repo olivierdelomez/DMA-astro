@@ -1,5 +1,5 @@
 ---
-import Layout from "../layouts/Layout.astro";
+layout: ../layouts/BlogLayout.astro
 ---
 
 <Layout title="historique">

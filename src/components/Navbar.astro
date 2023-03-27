@@ -1,4 +1,7 @@
 <style>
+  .mobile-nav-toggle {
+    display: none;
+  }
   nav {
     display: grid;
     place-items: center;
@@ -13,11 +16,49 @@
     gap: 1.25rem;
   }
 
+  @media (max-width: 35em) {
+    .main-nav {
+      position: fixed;
+      inset: 0 0 0 30%;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      margin: 0;
+      padding: min(20vh, 4rem);
+      gap: 1.25rem;
+      background-color: hsl(0 0% 100% / 0.7);
+      backdrop-filter: blur(2em);
+      transform: translateX(100%);
+      transition: transform 120ms ease-in;
+    }
+
+    .main-nav[data-visibility="true"] {
+      transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle {
+      display: block;
+      background-image: url(/images/hamburger-open.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      border: none;
+      top: 2rem;
+      right: 2rem;
+      z-index: 9999;
+      width: 2rem;
+      aspect-ratio: 1;
+    }
+  }
+
   ul > li {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
   }
 
+  h1 {
+    margin-left: 1rem;
+  }
   h1 > a {
     text-decoration: none;
     color: inherit;
@@ -85,6 +126,16 @@
     visibility: visible;
   }
 
+  @media (max-width: 35em) {
+    .dropdown__menu {
+      opacity: 1 !important;
+      transform: rotateX(0) translateX(-50%) !important;
+      visibility: visible !important;
+      position: relative !important;
+      top: 0px !important;
+    }
+  }
+
   .dropdown__menu > li > a {
     color: white;
     display: block;
@@ -115,12 +166,27 @@
   }
 </style>
 
+<script>
+  const navToggle = document.querySelector(".mobile-nav-toggle");
+  const navMenu = document.querySelector(".main-nav");
+
+  navToggle?.addEventListener("click", () => {
+    const visibility = navMenu?.getAttribute("data-visibility");
+    if (visibility === "false") {
+      navMenu?.setAttribute("data-visibility", "true");
+    } else if (visibility === "true") {
+      navMenu?.setAttribute("data-visibility", "false");
+    }
+  });
+</script>
+
 <header>
   <h1>
     <a href="/"> DEFENSE DES <br /> MILIEUX AQUATIQUES</a>
   </h1>
+  <button class="mobile-nav-toggle"></button>
   <nav aria-label="navigation principale">
-    <ul>
+    <ul data-visibility="false" class="main-nav">
       <li class="dropdown">
         <button
           type="button"
