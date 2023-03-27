@@ -8,7 +8,7 @@ import instagramIcon from "../assets/instagram.svg";
 import Youtube from "../components/Youtube.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="DEFENSE DES MILIEUX AQUATIQUES">
   <Hero />
   <main>
     <div class="container">
@@ -159,6 +159,7 @@ import Youtube from "../components/Youtube.astro";
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
   }
   h1,
   h3 {
@@ -198,6 +199,7 @@ import Youtube from "../components/Youtube.astro";
     margin-top: auto;
     margin-bottom: auto;
     position: relative;
+    min-width: 300px;
   }
 
   .newsletter {
@@ -259,6 +261,7 @@ import Youtube from "../components/Youtube.astro";
     border: none;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0.5rem;
   }
   form > input {
     height: 42px;
@@ -271,12 +274,12 @@ import Youtube from "../components/Youtube.astro";
     margin-top: 6rem;
     margin-bottom: 6rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
     font-size: 1.4rem;
+    padding: 2rem;
     line-height: 1.5;
     background-color: white;
-    padding: 2rem;
   }
   .link-container {
     place-self: center;
