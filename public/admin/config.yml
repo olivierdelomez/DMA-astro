@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Layout", name: "layout", widget: "hidden", default: "$/layouts/BlogLayout.astro"}
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Contenus', name: 'body', widget: 'markdown' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       # - { label: 'Tags', name: 'tags', widget: 'list' }
       # - { label: 'Author', name: 'author', widget: 'string' }
@@ -32,4 +32,4 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Layout", name: "layout", widget: "hidden", default: "$/layouts/BlogLayout.astro"}
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Contenus', name: 'body', widget: 'markdown' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }

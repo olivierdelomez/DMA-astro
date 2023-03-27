@@ -1,3 +1,9 @@
+---
+layout: ../layouts/BlogLayout.astro
+title: status
+description: description page
+---
+
 Article 1 - Dénomination
 
 ​

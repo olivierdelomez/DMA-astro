@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogLayout.astro
+title: historique
+description: description page
 ---
 
-<Layout title="historique">
-  <h1>Hello</h1>
-</Layout>
+historique
