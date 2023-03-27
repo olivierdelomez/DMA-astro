@@ -38,6 +38,7 @@
 
     .mobile-nav-toggle {
       display: block;
+      background-color: transparent;
       background-image: url(/images/hamburger-open.svg);
       background-repeat: no-repeat;
       background-size: contain;
@@ -56,9 +57,6 @@
     padding-bottom: 0.25rem;
   }
 
-  h1 {
-    margin-left: 1rem;
-  }
   h1 > a {
     text-decoration: none;
     color: inherit;
@@ -154,6 +152,13 @@
     justify-content: space-between;
     max-width: 72rem;
     margin: auto;
+  }
+
+  @media (max-width: 1200px) {
+    header {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
   }
 
   h1 {
