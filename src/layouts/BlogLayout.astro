@@ -11,6 +11,13 @@ const { frontmatter } = Astro.props;
 
 <Layout title={frontmatter.title}>
   <section class="container-md">
+    <h1>{frontmatter.title}</h1>
     <slot />
   </section>
 </Layout>
+
+<style>
+  h1 {
+    text-align: center;
+  }
+</style>

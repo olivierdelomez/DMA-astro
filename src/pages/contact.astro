@@ -1,0 +1,27 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="contact">
+  <section class="container-md">
+    <h1>Contact</h1>
+    <form name="contact" netlify>
+      <p>
+        <label>Nom <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Email <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>
+          Message
+          <textarea name="message"></textarea>
+        </label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+  </section>
+</Layout>
