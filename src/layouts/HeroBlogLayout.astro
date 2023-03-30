@@ -6,12 +6,14 @@ import type { MarkdownLayoutProps } from "astro";
 type Props = MarkdownLayoutProps<{
   title: string;
   description?: string;
+  vignette?: string;
 }>;
 const { frontmatter } = Astro.props;
+console.log("OLI ~ frontmatter:", frontmatter);
 ---
 
 <Layout title={frontmatter.title}>
-  <Hero title={frontmatter.title}>
+  <Hero title={frontmatter.title} vignette={frontmatter.vignette}>
     <p>
       {frontmatter.description}
     </p>

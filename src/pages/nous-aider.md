@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/HeroBlogLayout.astro
+layout: "@layouts/HeroBlogLayout.astro"
 title: Nous Aider
 description: Nous Aider
 vignette: /images/uploads/thierry-meier-pkepaemboiu-unsplash.jpg

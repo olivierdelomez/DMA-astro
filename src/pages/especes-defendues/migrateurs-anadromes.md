@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogLayout.astro"
+layout: "@layouts/BlogLayout.astro"
 ---
 
 # poissons migrateurs anadromes (saumons, aloses, lamproies et esturgeons)

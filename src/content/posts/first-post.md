@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/BlogLayout.astro'
+layout: '@layouts/BlogLayout.astro'
 title: 'Communiqué de presse commun aux trois ONG BLOOM, CLIENTEARTH et DMA'
 pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'

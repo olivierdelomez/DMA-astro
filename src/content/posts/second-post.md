@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/BlogLayout.astro'
+layout: '@layouts/BlogLayout.astro'
 title: "Manifestation publique samedi 9 juillet 14h00 parking de la patinoire à ANGLET contre les filets dérivants de l'Adour"
 pubDate: 2022-07-01
 description: "Manifestation publique samedi 9 juillet 14h00 parking de la patinoire à ANGLET contre les filets dérivants de l'Adour."
