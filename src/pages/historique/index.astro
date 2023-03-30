@@ -1,0 +1,31 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+const allPosts = await Astro.glob("./*.md");
+---
+
+<Layout title="historique">
+  <section class="container-md">
+    <h1>Historique de nos actions</h1>
+    <ul role="list" class="link-card-grid">
+      {
+        allPosts.map((post) => (
+          <Card
+            href={`${post.url}`}
+            title={post.frontmatter.shortTitle}
+            body={post.frontmatter.description}
+          />
+        ))
+      }
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
+</style>

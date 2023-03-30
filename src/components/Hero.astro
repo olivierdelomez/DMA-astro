@@ -1,10 +1,12 @@
 ---
 import { Image } from "astro:assets";
 import myImage from "../assets/file.jpg"; // Image is 1600x900
+
+const { title } = Astro.props;
 ---
 
 <style>
-  header {
+  section {
     display: grid;
     grid-template-areas: "hero";
     height: 48vh;
@@ -12,7 +14,7 @@ import myImage from "../assets/file.jpg"; // Image is 1600x900
     place-items: center;
     background-color: rgba(0, 107, 34, 0.2);
   }
-  header > * {
+  section > * {
     grid-area: hero;
   }
   img {
@@ -32,23 +34,13 @@ import myImage from "../assets/file.jpg"; // Image is 1600x900
     text-align: center;
     font-size: 2rem;
   }
-  button {
-    background-color: #ff7528;
-    color: white;
-    padding: 1rem;
-    border: none;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.5ch;
-  }
 </style>
-<header>
+<section>
   <div class="hero__content">
     <h1>
-      SAUVEGARDER LA <br /> BIODIVERSITE AQUATIQUE
+      {title}
     </h1>
-    <button> nous rejoindre</button>
+    <slot />
   </div>
   <Image src={myImage} width={1920} alt="Hero image, mountain river." />
-</header>
+</section>

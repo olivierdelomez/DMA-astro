@@ -3,25 +3,89 @@ import type { HTMLAttributes } from "astro/types";
 import Layout from "../layouts/Layout.astro";
 ---
 
+<style>
+  :root {
+    --input-border: #8b8a8b;
+    --input-focus-h: 245;
+    --input-focus-s: 100%;
+    --input-focus-l: 42%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  label {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+  }
+  .input:focus {
+    border-color: hsl(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      var(--input-focus-l)
+    );
+    box-shadow: 0 0 0 3px
+      hsla(
+        var(--input-focus-h),
+        var(--input-focus-s),
+        calc(var(--input-focus-l) + 40%),
+        0.8
+      );
+    outline: 3px solid transparent;
+  }
+  .input:not(textarea) {
+    line-height: 1;
+    height: 2.25rem;
+  }
+  .input + label {
+    margin-top: 2rem;
+  }
+  button {
+    background-color: var(--dma-blue);
+    color: white;
+    border: none;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+</style>
+
 <Layout title="contact">
   <section class="container-md">
     <h1>Contact</h1>
-    <form name="contact" netlify>
-      <p>
-        <label>Nom <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Email <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>
-          Message
-          <textarea name="message"></textarea>
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+    <div>
+      <div></div>
+      <form name="contact" netlify>
+        <div>
+          <label>Nom</label>
+          <input class="input" type="text" name="name" />
+        </div>
+        <div>
+          <label>Email</label>
+          <input class="input" type="email" name="email" />
+        </div>
+        <div>
+          <label> Message</label>
+          <textarea class="input" name="message"></textarea>
+        </div>
+        <button type="submit">envoyer</button>
+      </form>
+    </div>
   </section>
 </Layout>
