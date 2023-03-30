@@ -2,6 +2,7 @@
 layout: ../layouts/HeroBlogLayout.astro
 title: Nous Aider
 description: Nous Aider
+vignette: /images/uploads/thierry-meier-pkepaemboiu-unsplash.jpg
 ---
 
 En 1977, 14 pêcheurs récréatifs américains se sont associés pour former l'Association de la Protection des Eaux Côtières au Texas en réaction à l'effondrement de la ressource halieutique, et notamment de deux espèces emblématiques :
