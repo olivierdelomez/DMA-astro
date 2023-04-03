@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import myImage from "../assets/file.jpg"; // Image is 1600x900
 
-const { title, vignette } = Astro.props;
+const { title, vignette, asset } = Astro.props;
 ---
 
 <style>
@@ -12,7 +12,7 @@ const { title, vignette } = Astro.props;
     height: 48vh;
     max-height: 600px;
     place-items: center;
-    background-color: rgba(0, 107, 34, 0.1);
+    background-color: rgba(13, 74, 178, 0.1);
   }
   section > * {
     grid-area: hero;
@@ -46,7 +46,7 @@ const { title, vignette } = Astro.props;
     vignette ? (
       <img src={vignette} alt="Hero image" />
     ) : (
-      <Image src={myImage} width={1920} alt="Hero image, mountain river." />
+      <Image src={asset ?? myImage} width={1920} alt="Hero image" />
     )
   }
 </section>

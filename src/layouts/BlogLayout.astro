@@ -1,17 +1,27 @@
 ---
 import Layout from "./Layout.astro";
-
 import type { MarkdownLayoutProps } from "astro";
+import Hero from "@components/Hero.astro";
 
 type Props = MarkdownLayoutProps<{
   title: string;
+  description?: string;
+  vignette?: string;
 }>;
+
 const { frontmatter } = Astro.props;
 ---
 
 <Layout title={frontmatter.title}>
+  {
+    !!frontmatter.vignette && (
+      <Hero title={frontmatter.title} vignette={frontmatter.vignette}>
+        <p>{frontmatter.description}</p>
+      </Hero>
+    )
+  }
   <section class="container-md">
-    <h1>{frontmatter.title}</h1>
+    {!frontmatter.vignette && <h1>{frontmatter.title}</h1>}
     <slot />
   </section>
 </Layout>
@@ -19,5 +29,8 @@ const { frontmatter } = Astro.props;
 <style>
   h1 {
     text-align: center;
+  }
+  p {
+    color: white;
   }
 </style>

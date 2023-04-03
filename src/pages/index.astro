@@ -63,6 +63,7 @@ import Youtube from "../components/Youtube.astro";
         <input type="text" placeholder="votre adresse email" />
         <button>m'inscrire</button>
       </form>
+
       <!-- <ul>
         <li>
           <img src={youtubeIcon.src} width={48} alt="Youtube Icon" />
@@ -91,17 +92,17 @@ import Youtube from "../components/Youtube.astro";
         <ul>
           <li data-icon="🐟">
             <h3 class="link-hover">
-              <a href="">Sensibilisation</a>
+              <a href="/notre-grand-projet">Sensibilisation</a>
             </h3>
           </li>
           <li data-icon="🦀">
             <h3 class="link-hover">
-              <a href="">Actions</a>
+              <a href="/actions">Actions</a>
             </h3>
           </li>
           <li data-icon="🐚">
             <h3 class="link-hover">
-              <a href="">Protection</a>
+              <a href="/especes-defendues">Protection</a>
             </h3>
           </li>
         </ul>
@@ -219,18 +220,19 @@ import Youtube from "../components/Youtube.astro";
     flex-direction: column;
     gap: 1rem;
     background-color: #0d4ab2a6;
+    background-image: url("/images/newsletter.jpg");
+    background-blend-mode: overlay;
     border-radius: 6px;
     z-index: 2;
   }
 
-  .newsletter::before {
+  /* .newsletter::before {
     content: "";
     position: absolute;
     inset: 0 0 0 0;
     z-index: 1;
     border-radius: 6px;
-    /* here  */
-    --s: 80px; /* the size */
+    --s: 80px;
     --c: var(--dma-blue, #5e8c6a);
 
     --_s: calc(2 * var(--s)) calc(2 * var(--s));
@@ -244,7 +246,7 @@ import Youtube from "../components/Youtube.astro";
       repeating-conic-gradient(var(--c) 0 25%, #0000 0 50%) 0 0 / var(--_s),
       radial-gradient(var(--_c)) 0 calc(var(--s) / 2) / var(--s) var(--s)
         var(--c);
-  }
+  } */
 
   .newsletter h3 {
     color: white;
