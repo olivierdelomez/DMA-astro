@@ -23,7 +23,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Contenu', name: 'body', widget: 'markdown' }
-      - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image' }
+      - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image', required: false }
       # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
   - name: 'pages'
     label: 'Pages'
@@ -37,6 +37,6 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Layout", name: "layout", widget: "hidden", default: "@layouts/BlogLayout.astro"}
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Image de couverture', name: 'vignette', choose_url: false,
+      - { label: 'Image de couverture', name: 'vignette', choose_url: false, required: false,
        widget: "image"}
       - { label: 'Contenu', name: 'body', widget: 'markdown' }
