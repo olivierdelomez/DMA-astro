@@ -20,7 +20,7 @@ const { frontmatter } = Astro.props;
       </Hero>
     )
   }
-  <section class="container-md">
+  <section class="container-md container-white">
     {!frontmatter.vignette && <h1>{frontmatter.title}</h1>}
     <slot />
   </section>
