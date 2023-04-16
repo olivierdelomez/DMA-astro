@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: Communiqués de presse
-description: "Ici, les vous trouverez les communiqués de presse de DMA. "
+title: "Communiqué de presse 11/04/2023 "
+description: Communiqué de presse du 11-4-2023, jugement 20BX02908 Chaluts Arcachon
 ---
 ## CHALUTAGE CÔTIER
 Sur la requête de DÉFENSE DES MILIEUX AQUATIQUES,
