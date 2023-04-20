@@ -4,14 +4,10 @@ title: "Communiqué de presse 11/04/2023 "
 description: Communiqué de presse du 11-4-2023, jugement 20BX02908 Chaluts Arcachon
 ---
 ## CHALUTAGE CÔTIER
-Sur la requête de DÉFENSE DES MILIEUX AQUATIQUES,
-La Cour d'Appel de Bordeaux
-annule l'usage des filets remorqués
-dans les trois milles d'Arcachon.
+
+Sur la requête de DÉFENSE DES MILIEUX AQUATIQUES, La Cour d'Appel de Bordeaux annule l'usage des filets remorqués dans les trois milles d'Arcachon.
 
 Communiqué de presse du 11-4-2023, jugement 20BX02908 Chaluts Arcachon
-
-
 
 ► L'arrêté du 12-01-2018 du préfet de la région Nouvelle-Aquitaine portant réglementation de
 l’usage des filets remorqués à moins de trois milles de la laisse de basse mer au large d’Arcachon
@@ -61,8 +57,6 @@ objectifs de conservation des quatre aires NATURA 2000 suivantes :
    partie correspondante de la bande chalutée de trois milles visée par l'arrêté contesté :
 
    ![](/images/uploads/2.jpg)
-
-
 
    2. Deux Zones de Protection Spéciale (ZPS) se superposent exactement aux deux ZSC et
       protègent des dizaines d'espèces d'oiseaux notamment marins au titre de la Directive Oiseaux2
