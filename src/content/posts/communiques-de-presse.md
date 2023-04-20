@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: "Communiqué de presse 11/04/2023 "
+title: COMMUNIQUE DE PRESSE DU 11/04/2023  SUR LA PECHE AUX CHALUTS A ARCACHON
 description: Communiqué de presse du 11-4-2023, jugement 20BX02908 Chaluts Arcachon
 ---
 ## CHALUTAGE CÔTIER
