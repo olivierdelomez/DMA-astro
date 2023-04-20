@@ -11,6 +11,9 @@ import Layout from "../layouts/Layout.astro";
     --input-focus-l: 42%;
   }
   form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -64,13 +67,26 @@ import Layout from "../layouts/Layout.astro";
     text-transform: uppercase;
     font-weight: bold;
   }
+  /* section > div {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  } */
+  h1 {
+    text-align: center;
+  }
 </style>
 
 <Layout title="contact">
   <section class="container-md container-white">
     <h1>Contact</h1>
     <div>
-      <div></div>
+      <div>
+        <p>L'association Défense des Milieux Aquatiques est joignable</p>
+        <strong>Par email:</strong>
+        <p>maigre42@gmail.com</p>
+        <strong>ou par formulaire</strong>
+      </div>
       <form name="contact" netlify>
         <div>
           <label>Nom</label>
