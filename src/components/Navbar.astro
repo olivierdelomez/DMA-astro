@@ -1,3 +1,8 @@
+---
+import Logo from "@assets/dma-logo.png";
+import { Image } from "astro:assets";
+---
+
 <style>
   .mobile-nav-toggle {
     display: none;
@@ -55,6 +60,13 @@
   ul > li {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 
   h1 > a {
@@ -193,6 +205,7 @@
 
 <header>
   <h1>
+    <Image src={Logo} alt="logo dma" />
     <a href="/"> DÉFENSE DES <br /> MILIEUX AQUATIQUES</a>
   </h1>
   <button class="mobile-nav-toggle"></button>
