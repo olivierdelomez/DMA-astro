@@ -122,10 +122,6 @@ CONTACTEZ-NOUS
 
 ​
 
-Si vous avez des questions, vous pouvez directement nous contacter par email à l’adresse maigre42@gmail.com ou par courrier à :
-
-​
+Si vous avez des questions, vous pouvez directement nous contacter par email à l’adresse maigre42@gmail.com:
 
 Association DMA
-
-716 Vimeney Est 33760 ESCOUSSANS FRANCE

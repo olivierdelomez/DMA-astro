@@ -33,10 +33,7 @@ sont irréversibles.
 activement l'environnement aquatique. À ce jour nous avons d'ailleurs
 déposé plus de quatre-vingt recours en justice.**
 
-Pour finir, le siège social de l'association est implanté en Gironde, au
-716 Vimeney Est, à ESCOUSSANS (33760). De plus, l'administration fiscale a
-reconnu le statut d'association d'intérêt général à DMA : toute adhésion
-et don sont alors fiscalement déductibles dès le premier euro.
+Pour finir, le siège social de l'association est implanté en Gironde. De plus, l'administration fiscale a reconnu le statut d'association d'intérêt général à DMA : toute adhésion et don sont alors fiscalement déductibles dès le premier euro.
 
 Refusant toute subvention afin d'écarter les situations de dépendance, le
 développement de l'association est garanti grâce à ses adhérents et

@@ -64,9 +64,6 @@ et du bureau, sont gratuites et bénévoles.
 Article 3 - Siège social
 
 ​
-
-Le siège social est fixé au 716 Vimeney Est 33760 ESCOUSSANS. 
-
 Il pourra être transféré en tout autre lieu sur simple décision du conseil d'administration.
 
 ​
