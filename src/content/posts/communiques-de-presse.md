@@ -45,10 +45,6 @@ objectifs de conservation des quatre aires NATURA 2000 suivantes :
    L'extension marine est d'environ 1,5 milles nautiques. Elle est donc totalement incluse dans
    la bande chalutée de 3 milles visée par l'arrêté contesté: 
 
-   ![](/images/uploads/1-1.jpg)
-
-   ![]()
-
    (b) La ZSC FR7200812 - PORTION DU LITTORAL SABLEUX DE LA CÔTE
    AQUITAINE protège le grand dauphin (tursiops truncatus) et le marsouin commun
    (phocoena phocoena), mais aussi l'esturgeon d'Europe (acipenser sturio) espèce prioritaire
@@ -56,7 +52,6 @@ objectifs de conservation des quatre aires NATURA 2000 suivantes :
    d'eau marine. L'extension marine est de 12 milles nautiques, englobant complètement la
    partie correspondante de la bande chalutée de trois milles visée par l'arrêté contesté :
 
-   ![](/images/uploads/2.jpg)
 
    2. Deux Zones de Protection Spéciale (ZPS) se superposent exactement aux deux ZSC et
       protègent des dizaines d'espèces d'oiseaux notamment marins au titre de la Directive Oiseaux2
@@ -64,11 +59,9 @@ objectifs de conservation des quatre aires NATURA 2000 suivantes :
 
    (a) La ZPS FR7212018 - BASSIN D'ARCACHON ET BANC D'ARGUIN
 
-   ![](/images/uploads/3.jpg)
 
    (b) La ZPS FR7212017 - AU DROIT DE L'ÉTANG D'HOURTIN-CARCANS
 
-   ![](/images/uploads/last.jpg)
 
    L'autorisation du chalutage dans ces aires NATURA 2000 marines dégrade sans arrêt les fonds
    marins et majore les captures de mammifères marins, d'esturgeons et de poissons migrateurs, de
