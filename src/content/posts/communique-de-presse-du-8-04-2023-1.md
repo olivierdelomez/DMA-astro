@@ -25,14 +25,6 @@ E﻿n conclusion, le Conseil des ministres européens a sévèrement affaibli la
 
 P﻿ar ce jugement du Conseil d'Etat, DEFENSE DES MILIEUX AQUATIQUES entend répondre au secrétaire d'Etat chargé de la mer Hervé Berville, qui avait déclaré le 13 décembre 2022 être "opposé aux solutions proposées par la sommission européenne qui précconisait une fermeture totale de cette pêche en Atlantique et en Méditerranée. Hervé Berville s'était vanté d'avoir obtenu la possibilité d'adapter la nouvelle période de fermeture de 6 mois (de manière consécutive ou non, selon les stades de développement de l'espèce et en fonction des différentes zones géographiques) pour "*maintenir une pêche adaptée à chaque bassin*".
 
-P﻿hilippe GARCIA
+Philippe GARCIA
 
-
-
-A﻿NNEXE : TABLEAUX COMPARATIFS DES PERIODES DE PECHE
-
-![](/images/uploads/tab1.jpg)
-
-![](/images/uploads/tab2.jpg)
-
-![](/images/uploads/tab3.jpg)
+ANNEXE : TABLEAUX COMPARATIFS DES PERIODES DE PECHE
