@@ -201,8 +201,6 @@ demandent, pour leur part, l'annulation pour excès de pouvoir du refus
 opposé par la ministre de la mer à leur demande tendant à prendre des
 mesures complémentaires de nature à réduire au minimum les captures
 accidentelles de petits cétacés à l'occasion des activités de pêche menées
-
-
 dans le golfe de Gascogne, au motif qu'elles mettent en danger la
 conservation de trois espèces protégées de petits cétacés, le dauphin
 commun (Delphinus delphis), le grand dauphin (Tursiops truncatus) et le
@@ -240,10 +238,7 @@ ministre de la mer de prévoir une telle présence.
 5. En second lieu, il ressort des pièces du dossier, d'une part, que
 l'association Sea Shepherd France a adressé une demande à la ministre de
 la mer le 17 février 2021 tendant à ce que soient prises des mesures visant
-à limiter les captures accidentelles de petits cétacés dans le golfe de
-
-
-Gascogne et, d'autre part, que la qualité pour agir de sa présidente au
+à limiter les captures accidentelles de petits cétacés dans le golfe de Gascogne et, d'autre part, que la qualité pour agir de sa présidente au
 nom de l'association est établie par ses statuts et le mandat donné par le
 conseil d'administration le 14 juin 2021. Dès lors, la requête formée par
 cette association est recevable.
@@ -280,21 +275,23 @@ des mesures techniques de protection, incluant la fixation pour certaines
 espèces d'une taille minimale de référence de conservation, et délègue
 dans certaines hypothèses à la Commission européenne le pouvoir de
 fixer cette même taille. L'article 3 de ce règlement dispose que ces
-mesures techniques " contribuent notamment à la réalisation des objectif
-
-
-généraux suivants : / a) optimiser les diagrammes d'exploitation afin de
+mesures techniques " contribuent notamment à la réalisation des objectifs généraux suivants : 
+/ a) optimiser les diagrammes d'exploitation afin de
 protéger les regroupements de juvéniles et de reproducteurs des
-ressources biologiques de la mer ; / b) veiller à ce que les captures
+ressources biologiques de la mer ; 
+/ b) veiller à ce que les captures
 accidentelles d'espèces marines sensibles, y compris celles énumérées
 dans les directives 92/43/CEE et 2009/147/CE, imputables à la pêche,
 soient réduites au minimum et si possible éliminées de telle sorte qu'elles
 ne représentent pas une menace pour l'état de conservation de ces
-espèces ". L'article 4 du même règlement dispose que " 1. Les mesures
-techniques visent à veiller à ce que : / a) les captures d'espèces marines
+espèces ". L'article 4 du même règlement dispose que " 1. 
+Les mesures
+techniques visent à veiller à ce que : 
+/ a) les captures d'espèces marines
 inférieures à la taille minimale de référence de conservation soient
 réduites autant que possible conformément à l'article 2, paragraphe 2, du
-règlement (UE) n° 1380/2013; / b) les captures accidentelles de
+règlement (UE) n° 1380/2013; 
+/ b) les captures accidentelles de
 mammifères marins, de reptiles marins, d'oiseaux de mer et d'autres
 espèces exploitées à des fins non commerciales ne dépassent pas les
 niveaux prévus dans la législation de l'Union et les accords internationaux
@@ -403,10 +400,7 @@ zones spéciales de conservation, les États membres établissent les
 mesures de conservation nécessaires impliquant, le cas échéant, des plans
 de gestion appropriés spécifiques aux sites ou intégrés dans d'autres
 plans d'aménagement et les mesures réglementaires, administratives ou
-contractuelles appropriées, qui répondent aux exigences écologiques (...)
-
-
-des espèces de l'annexe II présents sur les sites. / 2. Les États membres
+contractuelles appropriées, qui répondent aux exigences écologiques (...) des espèces de l'annexe II présents sur les sites. / 2. Les États membres
 prennent les mesures appropriées pour éviter, dans les zones spéciales de
 conservation, la détérioration des habitats naturels et des habitats
 d'espèces ainsi que les perturbations touchant les espèces pour lesquelles
@@ -486,8 +480,6 @@ espèces ". Aux termes du II bis de l'article L. 414-4 du même code : " Les
 activités de pêche maritime professionnelle s'exerçant dans le périmètre
 d'un ou de plusieurs sites Natura 2000 font l'objet d'analyses des risques
 d'atteinte aux objectifs de conservation des sites Natura 2000, réalisées à
-
-
 l'échelle de chaque site, lors de l'élaboration ou de la révision des
 documents d'objectifs mentionnés à l'article L. 414-2. Lorsqu'un tel risque
 est identifié, l'autorité administrative prend les mesures réglementaires
@@ -526,8 +518,6 @@ ministre doit prendre en compte tant les incidences de ces mesures sur les
 équilibres socio-économiques du secteur que les possibilités raisonnables
 d'adaptation des engins et techniques de pêche, notamment en cas de
 pêcherie plurispécifique, elles doivent assurer à tout le moins aux juvéniles
-
-
 de l'espèce concernée une protection suffisante pour rétablir ou maintenir
 le stock de l'espèce à un niveau supérieur à celui qui permet d'obtenir le
 rendement maximal durable, compte tenu de l'ensemble des mesures
@@ -564,8 +554,6 @@ complémentaires, n'assurerait pas une protection suffisante à l'espèce
 concernée, doit être écarté.
 17. En troisième lieu, l'association requérante ne saurait utilement
 contester, dans le cadre du présent recours, la légalité de la taille minimale
-
-
 de capture du bar, fixée à 40 cm par l'arrêté du 4 février 2020, d'une part,
 et des règles de maillage des filets, fixées par une délibération du Comité
 national des pêches maritimes et des élevages marins (CNPMEM) du 23
@@ -605,8 +593,6 @@ animaux lorsque cette approche est non intentionnelle et par l'interdiction
 de capture lorsque celle-ci est accidentelle au sens du règlement (UE)
 2019/1241 du Parlement européen et du Conseil du 20 juin 2019 susvisé
 (...) ". L'article 4 de ce même arrêté, modifié par un arrêté du 6 septembre
-
-
 2018, dispose que : " A des fins de connaissance scientifique, tout
 spécimen de mammifère marin capturé accidentellement dans un engin
 de pêche doit faire l'objet d'une déclaration par les capitaines de navires
@@ -646,8 +632,6 @@ de surveillance et de contrôle des captures accidentelles, outre l'obligation
 de déclaration prévue par les dispositions de l'arrêté du 1er juillet 2011
 citées au point 19, dont la méconnaissance est passible de l'amende
 prévue à l'article L. 945-4 du code rural et de la pêche maritime, l'arrêté du
-
-
 29 décembre 2022 mentionné ci-dessus dispose que cent navires parmi
 ceux concernés par l'expérimentation qu'il prévoit seront équipés de
 caméras embarquées, et deux arrêtés du ministre chargé de la mer du 27
@@ -685,8 +669,6 @@ relatives à l'utilisation de certains engins de pêche.
 23. En troisième lieu, ainsi qu'il résulte de la jurisprudence de la Cour de
 justice de l'Union européenne, l'article 12 de la directive " Habitats " doit
 être interprété à la lumière du principe de précaution mentionné au
-
-
 paragraphe 2 de l'article 191 du traité sur le fonctionnement de l'Union
 européenne pour apprécier la conformité aux objectifs qu'il définit des
 mesures adoptées. Celles-ci doivent, de même, s'inscrire dans l'approche
@@ -726,8 +708,6 @@ dans le cadre des activités de pêche dans le golfe de Gascogne, sont
 connus et avérés, tant des pêcheurs que des autorités françaises, ces
 captures doivent être regardées comme des captures intentionnelles au
 sens de l'article 12 de la directive " Habitats ", prohibées par l'article L. 411-
-
-
 1 du code de l'environnement. Toutefois, il résulte des termes mêmes tant
 des règlements relatifs à la politique commune de la pêche, qui
 mentionnent l'impératif de réduction des captures accidentelles à un
@@ -766,8 +746,6 @@ que le principe de précaution garanti notamment par l'article 5 de la
 Charte de l'environnement, en ce qu'elles ne permettent pas de réduire les
 captures accidentelles de petits cétacés à un niveau compatible avec le
 maintien ou le rétablissement d'un état de conservation favorable pour
-
-
 ces espèces.
 
 28. D'une part, il ressort des pièces du dossier, et notamment de l'avis
@@ -807,8 +785,6 @@ de l'ordre de 7 200 décès pour le seul hiver 2020 et de l'ordre de 6 800
 décès pour le seul hiver 2021. Ces rapports soulignent que ces données ne
 portent que sur les mois de janvier à mars de chaque année,
 correspondant au pic des captures accidentelles et que les échouages
-
-
 observés le reste de l'année, notamment pendant les périodes estivales,
 sont en progression. La dernière note de l'Observatoire Pelagis, en janvier
 2023, indique qu'aucun élément ne permet de conclure à une diminution
@@ -848,8 +824,6 @@ la conservation des espèces concernées, de combiner l'équipement des
 navires en dispositifs de dissuasion acoustique avec des mesures de
 réduction de l'effort de pêche ou des mesures de fermeture spatiale et
 temporelle des pêcheries concernées, en soulignant que de telles mesures
-
-
 doivent, eu égard au cycle de vie des petits cétacés, être mises en oeuvre
 pendant une période appropriée et suffisamment longue. Dans son nouvel
 avis du 24 janvier 2023, le CIEM réaffirme l'urgence de renforcer la
@@ -888,8 +862,6 @@ niveaux permettant d'assurer, sur l'ensemble de la zone Atlantique Nord-
 Est, un état de conservation favorable des petits cétacés.
 31. En quatrième lieu, les requérantes soutiennent que les décisions
 attaquées méconnaissent également l'article 6 de la directive " Habitats "
-
-
 et les articles L. 414-1 et L. 414-4 du code de l'environnement, dès lors que,
 d'une part, des sites Natura 2000 désignés dans le golfe de Gascogne pour
 assurer la conservation du grand dauphin et du marsouin commun,
@@ -1044,8 +1016,6 @@ que de la directive " Habitats " n'est pas établi à la date de la présente
 décision. Dès lors, il y a lieu d'enjoindre à l'Etat de mettre en oeuvre des
 mesures complémentaires permettant d'estimer de manière fiable le
 nombre de captures annuelles de petits cétacés, notamment en
-
-
 poursuivant le renforcement du dispositif d'observation en mer, et de
 disposer d'éléments suffisamment précis pour définir et évaluer les
 mesures de conservation nécessaires, dans un délai de six mois à compter
@@ -1068,9 +1038,11 @@ administrative.
 Article 1er : Les interventions de l'association Défense des milieux
 aquatiques au soutien des requêtes présentées par l'association France
 Nature Environnement et l'association Sea Shepherd France sont admises.
+
 Article 2 : L'arrêté du 24 décembre 2020 est annulé en tant qu'il ne prévoit
 pas de mesures suffisantes de nature à réduire les incidences de la pêche
 au bar dans le golfe de Gascogne sur les petits cétacés.
+
 Article 3 : Les décisions par lesquelles la ministre de la mer a refusé de
 prendre, d'une part, des mesures de protection complémentaires de
 nature à réduire les captures accidentelles de petits cétacés relevant
@@ -1078,6 +1050,7 @@ d'espèces protégées dans le golfe de Gascogne et, d'autre part, des
 mesures complémentaires de nature à garantir l'efficacité du système de
 contrôle des captures et mises à mort accidentelles des mêmes espèces
 sont annulées.
+
 Article 4 : Il est enjoint à l'Etat d'adopter, dans un délai de six mois à
 compter de la notification de la présente décision, des mesures
 complémentaires de nature à réduire l'incidence des activités de pêche
@@ -1091,6 +1064,7 @@ tant que n'est pas établie leur suffisance pour atteindre cet objectif, sans
 porter atteinte dans des conditions contraires à celui-ci à l'accès des petits
 cétacés aux zones de nutrition essentielles à leur survie, de mesures de
 fermeture spatiales et temporelles de la pêche appropriées.
+
 Article 5 : Il est enjoint à l'Etat de mettre en oeuvre, dans un délai de six
 mois à compter de la notification de la présente décision, des mesures
 complémentaires permettant d'estimer de manière fiable le nombre de
@@ -1104,13 +1078,16 @@ Article 6 : L'Etat versera une somme de 3 000 euros à l'association France
 Nature Environnement et une somme de 2 000 euros à l'association Sea
 Shepherd France, au titre de l'article L. 761-1 du code de justice
 administrative.
+
 Article 7 : Le surplus des conclusions des associations requérantes est
 rejeté.
+
 Article 8 : La présente décision sera notifiée aux associations France
 Nature Environnement, Défense des milieux aquatiques et Sea Shepherd
 France, au ministre de l'agriculture et de la souveraineté alimentaire, au
 ministre de la transition écologique et de la cohésion des territoires et à la
 Première ministre.
+
 Copie en sera adressée à la section du rapport et des études.
 
 Délibéré à l'issue de la séance du 24 février 2023 où siégeaient : M.
