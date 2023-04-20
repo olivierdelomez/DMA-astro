@@ -3,6 +3,7 @@ layout: "@layouts/BlogLayout.astro"
 title: JUGEMENT DU TRIBUNAL ADMINISTRATIF DE BORDEAUX N° 2301662 sur la lamproie
   marine
 description: "Jugement du 17 avril 2023 : Suspension de la pêche à la lamproie"
+vignette: /images/uploads/legal-g3fa734d1f_1920.jpg
 ---
 
 ___________
