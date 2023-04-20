@@ -1,6 +1,7 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: "JUGEMENT DU CONSEIL D'ETAT N° 449788 SUR LA PRESERVATION DES DAUPHINS "
+title: "JUGEMENT DU CONSEIL D'ETAT N° 449788 le 20/03/2023 SUR LA PRESERVATION
+  DES DAUPHINS "
 description: Jugement du conseil d'Etat
 tags:
   - dauphins
