@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: "COMMUNIQUE DE PRESSE DU 5/04/2023 "
+title: COMMUNIQUE DE PRESSE DU 5/04/2023 SUR LA PÊCHE AUX FILETS DANS L'ADOUR
 description: Suspension de la pêche aux filets pour les grandes aloses et les
   lamproies dans le Bassin de l'Adour
 tags:
