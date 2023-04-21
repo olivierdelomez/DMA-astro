@@ -7,19 +7,7 @@ tags:
   - aloses
 vignette: /images/uploads/capture-d-ecran-2023-04-20-135923.jpg
 ---
-# 16 associations obtiennent l'annulation
-
-# des arrêtés annuels de pêche 2021
-
-# aux engins et filets
-
-# des migrateurs
-
-# du bassin de l'Adour fluvial
-
-# pour les grandes aloses et les lamproies
-
-# marines
+# 16 associations obtiennent l'annulation des arrêtés annuels de pêche 2021 aux engins et filets des migrateurs du bassin de l'Adour fluvial pour les grandes aloses et les lamproies marines
 
 Les deux décisions 2100155 et 2100157 du Tribunal administratif de Pau rendues le 5 avril 2023
 concernent les arrêtés annuels de pêche qui fixent, dans les départements des Landes et des

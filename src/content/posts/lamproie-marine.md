@@ -7,15 +7,7 @@ tags:
 ---
 <!--StartFragment-->
 
-
-
-# Sur la requête de DÉFENSE DES MILIEUX AQUATIQUES,
-
-# Le tribunal administratif de
-
-# Bordeaux suspend toutes les pêches
-
-# de la lamproie marine en Gironde.
+# Sur la requête de DÉFENSE DES MILIEUX AQUATIQUES, le tribunal administratif de Bordeaux suspend toutes les pêches de la lamproie marine en Gironde.
 
 ► « *L'exécution de l'arrêté du 28 mars 2023 du préfet de la Gironde est suspendue en tant qu'il\
 autorise dans ses annexes 1, 4 et 5 la pêche à la lamproie marine, et ce, jusqu'à ce qu' il soit statué\
