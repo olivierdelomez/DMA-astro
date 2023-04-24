@@ -33,17 +33,16 @@ la dégradation générale, quelque soit sa localisation et son intensité.
 
 Dans ce but, elle peut agir à plusieurs niveaux:
 
-```
-(1)défendre toutes les espèces et les écosystèmes dépendants du milieu aquatique et leurs
+1. défendre toutes les espèces et les écosystèmes dépendants du milieu aquatique et leurs
 habitats respectifs, sans discrimination concernant leur état de conservation ou leur statut
 juridique,
-(2)œuvrer pour faire appliquer strictement les lois et règlements relatifs à ces situations
-(3)participer à l'amélioration constante de toutes les dispositions juridiques qui bénéficient aux
+2. œuvrer pour faire appliquer strictement les lois et règlements relatifs à ces situations
+3. participer à l'amélioration constante de toutes les dispositions juridiques qui bénéficient aux
 milieux aquatiques
-(4)sensibiliser les citoyens par la publication numérique des actions et des motivations de
+4. sensibiliser les citoyens par la publication numérique des actions et des motivations de
 l'association (site internet, réseaux sociaux)
-(5)la lutte de toutes discriminations, dans le cadre de son objet
-```
+5. la lutte de toutes discriminations, dans le cadre de son objet
+
 II. L'association aura recours à tous les moyens légaux pouvant contribuer directement ou
 indirectement à la réalisation de son objectif.
 
@@ -110,7 +109,7 @@ I. La qualité de membre se perd :
     d'administration dans le délai d'un mois à noter de la notification de l'exclusion qui est faite
     dans la délibération du conseil d'administration.
 
-```
+
 Les membres du conseil d'administration sont appelés à se prononcer à l'initiative du
 Président de l'association. La décision d'exclusion est prise par décision collective des
 membres du conseil d'administration statuant à la majorité simple. La décision d'exclusion
@@ -121,7 +120,7 @@ qu'il puisse, dans un délai maximal d'un mois, présenter ses observations et f
 arguments en défense. La décision d'exclusion prend effet à compter de son prononcé ; elle
 est notifiée à l’adhérent exclu au moyen d'un courrier électronique à l'initiative du Président
 de l'association. Elle est non contestable.
-```
+
 II. Dans tous les cas, la ou les sommes déjà payées, à titre de cotisation et de don, reste(nt)
 acquise(s) à l'association.
 III. Le décès, la démission, l'exclusion ou la radiation d'un ou de plusieurs membre(s) ne met pas fin
@@ -147,10 +146,7 @@ précèdent l'assemblée générale sera possible, par voie électronique ou pos
 faisant foi.
 
 IV. L'assemblée générale se réunit 1 fois par an, dans un lieu défini par le conseil d'administration,
-ou chaque fois qu'elle est convoquée par le conseil d'administration ou sur la demande du tiers au
-
-
-moins des adhérents à jour de leur cotisation.
+ou chaque fois qu'elle est convoquée par le conseil d'administration ou sur la demande du tiers au moins des adhérents à jour de leur cotisation.
 
 V. La date de l'assemblée générale doit être signalée aux adhérents par voie de presse, et/ou par
 courriel et/ou par voie postale et/ou par tout autre moyen permettant de s'assurer que chaque
@@ -196,10 +192,7 @@ I. L'association est dirigée par un conseil d'administration qui est investi de
 tous les pouvoirs importants qui ne sont pas de la responsabilité d'un autre organe de l'association.
 
 II. C'est pourquoi le conseil d'administration dispose de tous les pouvoirs pour décider d'agir en
-justice et représenter l'association dans le cadre d'action en Justice tant en défense, en demande
-
-
-qu'en intervention volontaire devant toutes les juridictions nationales (et notamment civiles, pénales
+justice et représenter l'association dans le cadre d'action en Justice tant en défense, en demande qu'en intervention volontaire devant toutes les juridictions nationales (et notamment civiles, pénales
 et administratives), européennes et internationales.
 
 III. Le conseil d'administration peut déléguer en priorité et de façon permanente ce pouvoir d'agir en
