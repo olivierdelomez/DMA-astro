@@ -1,9 +1,8 @@
 ---
 layout: ../layouts/BlogLayout.astro
-title: Status de l'association
-description: Les status de l'association
+title: NOUVEAUX STATUTS de L'ASSOCIATION DÉFENSE DES MILIEUX AQUATIQUES (DMA ) (modifiés par l'assemblée générale du 11 mars 2023)
+description: Les statuts de l'association
 ---
-# NOUVEAUX STATUTS de L'ASSOCIATION DÉFENSE DES MILIEUX AQUATIQUES (DMA ) (modifiés par l'assemblée générale du 11 mars 2023)
 
 **Article 1: dénomination**
 
