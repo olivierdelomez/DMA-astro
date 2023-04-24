@@ -22,9 +22,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+      - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'DD MM YYYY hh:mm:ss'}
       - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image', required: false, optional: true, }
-      # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     folder: 'src/pages'
