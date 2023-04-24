@@ -4,6 +4,7 @@ title: COMMUNIQUE DE PRESSE 17/04/2023 LAMPROIE MARINE
 description: "Communiqué de presse du 17 avril 2023 : suspension de la pêche à la lamproie."
 tags:
   - lamproie
+created_at: 17 04 2023 11:08:19
 ---
 <!--StartFragment-->
 
