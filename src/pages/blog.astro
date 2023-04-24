@@ -4,6 +4,15 @@ import Card from "../components/Card.astro";
 import "../styles/global.css";
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
+
+const datedPost = allPosts
+  .filter((post) => post.data.created_at)
+  .sort(
+    (a, b) =>
+      new Date(b.data.created_at as string).valueOf() -
+      new Date(a.data.created_at as string).valueOf()
+  );
+const notDatedPosts = allPosts.filter((post) => !post.data.created_at);
 ---
 
 <Layout title="Welcome to Astro.">
@@ -11,7 +20,16 @@ const allPosts = await getCollection("posts");
     <h1>Nos dernières actualités</h1>
     <ul role="list" class="link-card-grid">
       {
-        allPosts.map((post) => (
+        datedPost.map((post) => (
+          <Card
+            href={`/blog/${post.slug}`}
+            title={post.data.title}
+            body={post.data.description}
+          />
+        ))
+      }
+      {
+        notDatedPosts.map((post) => (
           <Card
             href={`/blog/${post.slug}`}
             title={post.data.title}
