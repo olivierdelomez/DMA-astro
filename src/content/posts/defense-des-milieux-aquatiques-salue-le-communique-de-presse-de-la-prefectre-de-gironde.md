@@ -8,8 +8,6 @@ description: "DMA demande à ce que soit révélé par un arrêté la liste des
 tags:
   - "#lamproie"
 ---
-![](/images/uploads/communique-prefecture-gironde-lamproie.jpg)
-
 ## MORATOIRE DE LA LAMPROIE MARINE = DÉFENSE DES MILIEUX AQUATIQUES SALUE LE  COMMUNIQUÉ DE PRESSE DE LA PRÉFECTURE DE LA GIRONDE
 
 Aujourd'hui jeudi 20 avril 2023, la préfecture de la Gironde a émis un communiqué de
