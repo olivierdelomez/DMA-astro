@@ -25,6 +25,19 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'DD MM YYYY hh:mm:ss'}
       - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image', required: false, optional: true, }
       - { label: 'Contenu', name: 'body', widget: 'markdown' }
+  - name: 'Jugements' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Jugements ' # Used in the UI, ie.: "New Post"
+    folder: 'src/content/jugements' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    format: 'frontmatter'
+    fields: # The fields each document in this collection have
+      - { label: "Layout", name: "layout", widget: "hidden", default: "@layouts/BlogLayout.astro"}
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'DD MM YYYY hh:mm:ss'}
+      - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image', required: false, optional: true, }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     folder: 'src/pages'

@@ -4,6 +4,7 @@ import Card from "../components/Card.astro";
 import "../styles/global.css";
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
+const allJugemenents = await getCollection("jugements");
 
 const datedPost = allPosts
   .filter((post) => post.data.created_at)
@@ -13,31 +14,67 @@ const datedPost = allPosts
       new Date(a.data.created_at as string).valueOf()
   );
 const notDatedPosts = allPosts.filter((post) => !post.data.created_at);
+
+const datedJugements = allJugemenents
+  .filter((post) => post.data.created_at)
+  .sort(
+    (a, b) =>
+      new Date(b.data.created_at as string).valueOf() -
+      new Date(a.data.created_at as string).valueOf()
+  );
+const notDatedJugements = allJugemenents.filter(
+  (post) => !post.data.created_at
+);
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <h1>Nos dernières actualités</h1>
-    <ul role="list" class="link-card-grid">
-      {
-        datedPost.map((post) => (
-          <Card
-            href={`/blog/${post.slug}`}
-            title={post.data.title}
-            body={post.data.description}
-          />
-        ))
-      }
-      {
-        notDatedPosts.map((post) => (
-          <Card
-            href={`/blog/${post.slug}`}
-            title={post.data.title}
-            body={post.data.description}
-          />
-        ))
-      }
-    </ul>
+    <section>
+      <h1>Nos dernières actualités</h1>
+      <ul role="list" class="link-card-grid">
+        {
+          datedPost.map((post) => (
+            <Card
+              href={`/blog/${post.slug}`}
+              title={post.data.title}
+              body={post.data.description}
+            />
+          ))
+        }
+        {
+          notDatedPosts.map((post) => (
+            <Card
+              href={`/blog/${post.slug}`}
+              title={post.data.title}
+              body={post.data.description}
+            />
+          ))
+        }
+      </ul>
+    </section>
+    <section>
+      <h1>Jugements rendus</h1>
+      <ul role="list" class="link-card-grid">
+        {
+          datedJugements.map((post) => (
+            <Card
+              href={`/blog/${post.slug}`}
+              title={post.data.title}
+              body={post.data.description}
+            />
+          ))
+        }
+        {
+          notDatedJugements.map((post) => (
+            <Card
+              href={`/blog/${post.slug}`}
+              title={post.data.title}
+              body={post.data.description}
+            />
+          ))
+        }
+      </ul>
+    </section>
   </main>
 </Layout>
 

@@ -13,7 +13,21 @@ const blogCollection = defineCollection({
     }).optional(),
   }),
 });
+
+const jugementCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    created_at: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    image: z.object({
+      url: z.string(),
+      alt: z.string()
+    }).optional(),
+  }),
+});
 // 3. Export a single `collections` object to register your collection(s)
 export const collections = {
   'posts': blogCollection,
+  'jugements': jugementCollection,
 };
