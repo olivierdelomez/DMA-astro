@@ -59,12 +59,24 @@ import Youtube from "../components/Youtube.astro";
     </div>
     <section class="newsletter">
       <h3>Restez informé! Je veux recevoir la newsletter</h3>
-      <form action="">
-        <input type="text" placeholder="votre adresse email" />
-        <button>m'inscrire</button>
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
+        class="embeddable-buttondown-form"
+      >
+        <input
+          type="email"
+          name="email"
+          id="bd-email"
+          placeholder="votre adresse email"
+        />
+        <input id="formButton" type="submit" value="m'inscrire" />
       </form>
+    </section>
 
-      <!-- <ul>
+    <!-- <ul>
         <li>
           <img src={youtubeIcon.src} width={48} alt="Youtube Icon" />
         </li>
@@ -75,75 +87,74 @@ import Youtube from "../components/Youtube.astro";
           <img src={facebookIcon.src} width={36} alt="Facebook Icon" />
         </li>
       </ul> -->
-    </section>
-    <section class="description">
-      <div>
-        <h3>Défense des milieux aquatiques</h3>
-        <p>
-          DMA a pour vocation exclusive d'agir pour la défense, la protection et
-          la conservation de l'intégrité du milieu aquatique naturel en général
-          ; plus particulièrement marin et de toutes les espèces dépendantes de
-          ce milieu, telles que par exemple les poissons et tous les organismes
-          connus ou à découvrir sans exception, y compris les mammifères marins,
-          les reptiles, les oiseaux, mais aussi les habitats concernés.
-        </p>
-      </div>
-      <div class="link-container">
-        <ul>
-          <li data-icon="🐟">
-            <h3 class="link-hover">
-              <a href="/notre-grand-projet">Sensibilisation</a>
-            </h3>
-          </li>
-          <li data-icon="🦀">
-            <h3 class="link-hover">
-              <a href="/blog">Actions</a>
-            </h3>
-          </li>
-          <li data-icon="🐚">
-            <h3 class="link-hover">
-              <a href="/especes-defendues">Protection</a>
-            </h3>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="situation-urgente">
-      <h3>Une situation urgente</h3>
-      <p>
-        L'officialisation du chalutage au ras des côtes girondines depuis des
-        dizaines d'années, la baisse du stock de bar du Golfe de Gascogne et la
-        privatisation rampante de sa pêche, l'absence de zones côtières
-        débarrassées de filets, l'absence de volonté politique et de contrôle
-        efficace pour repousser les pratiques non-conformes, le scandale de la
-        pêcherie du maigre, le drame des salmonidés de l'Adour et de la Gironde
-        ne sont que quelques uns des sujets qui préoccupent DMA.
-      </p>
-      <p>
-        <strong>L'association n'est pas opposée à la pêche,</strong>
-        laquelle est indispensable à des centaines de millions de personnes dans
-        le monde, car l’économie fait également partie du processus de sauvegarde
-        et un équilibre doit être trouvé entre les différents acteurs de ce milieu.
-      </p>
-      <p>
-        Toutefois, l'association use de tous les moyens juridiques qui sont à sa
-        disposition pour atteindre des pratiques de pêche durables : préserver
-        la biodiversité aquatique en envisageant uniquement l'aspect
-        environnemental ne suffit pas, notre stratégie repose donc sur la triple
-        condition socio-économique et environnementale.
-      </p>
-      <p>
-        Aussi, DMA tente de démontrer le bien-fondé de ses propositions sous ce
-        triple aspect et élaborer des stratégies gagnant-gagnant afin de
-        neutraliser les pressions et les blocages qui ont permis de tisser une
-        véritable toile d'inepties. Enfin, <strong>
-          notre objectif est d'agir comme catalyseur du changement</strong
-        >. Ainsi, depuis nos débuts, en 2017, nous portons les idées sur
-        lesquelles notre organisation sans but lucratif a été fondée : la
-        sensibilisation, la protection et l'action.
-      </p>
-    </section>
   </main>
+  <section class="description">
+    <div>
+      <h3>Défense des milieux aquatiques</h3>
+      <p>
+        DMA a pour vocation exclusive d'agir pour la défense, la protection et
+        la conservation de l'intégrité du milieu aquatique naturel en général ;
+        plus particulièrement marin et de toutes les espèces dépendantes de ce
+        milieu, telles que par exemple les poissons et tous les organismes
+        connus ou à découvrir sans exception, y compris les mammifères marins,
+        les reptiles, les oiseaux, mais aussi les habitats concernés.
+      </p>
+    </div>
+    <div class="link-container">
+      <ul>
+        <li data-icon="🐟">
+          <h3 class="link-hover">
+            <a href="/notre-grand-projet">Sensibilisation</a>
+          </h3>
+        </li>
+        <li data-icon="🦀">
+          <h3 class="link-hover">
+            <a href="/blog">Actions</a>
+          </h3>
+        </li>
+        <li data-icon="🐚">
+          <h3 class="link-hover">
+            <a href="/especes-defendues">Protection</a>
+          </h3>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="situation-urgente">
+    <h3>Une situation urgente</h3>
+    <p>
+      L'officialisation du chalutage au ras des côtes girondines depuis des
+      dizaines d'années, la baisse du stock de bar du Golfe de Gascogne et la
+      privatisation rampante de sa pêche, l'absence de zones côtières
+      débarrassées de filets, l'absence de volonté politique et de contrôle
+      efficace pour repousser les pratiques non-conformes, le scandale de la
+      pêcherie du maigre, le drame des salmonidés de l'Adour et de la Gironde ne
+      sont que quelques uns des sujets qui préoccupent DMA.
+    </p>
+    <p>
+      <strong>L'association n'est pas opposée à la pêche,</strong>
+      laquelle est indispensable à des centaines de millions de personnes dans le
+      monde, car l’économie fait également partie du processus de sauvegarde et un
+      équilibre doit être trouvé entre les différents acteurs de ce milieu.
+    </p>
+    <p>
+      Toutefois, l'association use de tous les moyens juridiques qui sont à sa
+      disposition pour atteindre des pratiques de pêche durables : préserver la
+      biodiversité aquatique en envisageant uniquement l'aspect environnemental
+      ne suffit pas, notre stratégie repose donc sur la triple condition
+      socio-économique et environnementale.
+    </p>
+    <p>
+      Aussi, DMA tente de démontrer le bien-fondé de ses propositions sous ce
+      triple aspect et élaborer des stratégies gagnant-gagnant afin de
+      neutraliser les pressions et les blocages qui ont permis de tisser une
+      véritable toile d'inepties. Enfin, <strong>
+        notre objectif est d'agir comme catalyseur du changement</strong
+      >. Ainsi, depuis nos débuts, en 2017, nous portons les idées sur
+      lesquelles notre organisation sans but lucratif a été fondée : la
+      sensibilisation, la protection et l'action.
+    </p>
+  </section>
 </Layout>
 
 <style>
@@ -246,7 +257,7 @@ import Youtube from "../components/Youtube.astro";
   .newsletter > form {
     z-index: 2;
   }
-  form > button {
+  form > #formButton {
     padding: 0.7rem;
     font-size: 1.1rem;
     color: var(--dma-blue);
