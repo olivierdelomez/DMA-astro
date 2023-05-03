@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: Jugement du Conseil d'Etat n° 472213 - Anguille
+title: JUGEMENT DU CONSEIL D'ETAT n° 472213 - Anguille
 description: Décision du Conseil d'Etat
 created_at: 03 05 2023 04:46:40
 vignette: /images/uploads/legal-g3fa734d1f_1920.jpg
