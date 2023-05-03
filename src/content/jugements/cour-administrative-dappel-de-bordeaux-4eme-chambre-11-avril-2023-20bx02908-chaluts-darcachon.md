@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: Cour administrative d'appel de Bordeaux, 4ème chambre, 11 avril 2023,
+title: COUR D'APPEL ADMINISTRATIVE DE BORDEAUX, 4ème chambre, 11 avril 2023,
   20BX02908 - Chaluts d'Arcachon
 description: Affaire du chalutage d'Arcachon
 tags:
