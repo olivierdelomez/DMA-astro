@@ -5,14 +5,13 @@ title: COMMUNIQUE DE PRESSE DU CONSEIL D'ETAT du 7 avril 2023 sur la suspension
 description: Certaines périodes de pêche de l’anguille en mer sont temporairement suspendues
 created_at: 03 05 2023 04:54:20
 ---
-```
+
 Paris, le 7 avril 2023
-```
+
 # COMMUNIQUÉ DE PRESSE
 
-```
-[Décision de justice]
-```
+[Décision de justice]
+
 ## Certaines périodes de pêche de l’anguille en mer sont temporairement suspendues
 
 **Saisi par deux associations de défense de l’environnement, le juge des référés du Conseil d’Etat suspend
