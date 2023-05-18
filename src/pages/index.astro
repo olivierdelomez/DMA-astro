@@ -88,36 +88,38 @@ import Youtube from "../components/Youtube.astro";
         </li>
       </ul> -->
   </main>
-  <section class="container-lg description">
-    <div>
-      <h3>Défense des milieux aquatiques</h3>
-      <p>
-        DMA a pour vocation exclusive d'agir pour la défense, la protection et
-        la conservation de l'intégrité du milieu aquatique naturel en général ;
-        plus particulièrement marin et de toutes les espèces dépendantes de ce
-        milieu, telles que par exemple les poissons et tous les organismes
-        connus ou à découvrir sans exception, y compris les mammifères marins,
-        les reptiles, les oiseaux, mais aussi les habitats concernés.
-      </p>
-    </div>
-    <div class="link-container">
-      <ul>
-        <li data-icon="🐟">
-          <h3 class="link-hover">
-            <a href="/notre-grand-projet">Sensibilisation</a>
-          </h3>
-        </li>
-        <li data-icon="🦀">
-          <h3 class="link-hover">
-            <a href="/blog">Actions</a>
-          </h3>
-        </li>
-        <li data-icon="🐚">
-          <h3 class="link-hover">
-            <a href="/especes-defendues">Protection</a>
-          </h3>
-        </li>
-      </ul>
+  <section class="container-lg">
+    <div class="description">
+      <div>
+        <h3>Défense des milieux aquatiques</h3>
+        <p>
+          DMA a pour vocation exclusive d'agir pour la défense, la protection et
+          la conservation de l'intégrité du milieu aquatique naturel en général
+          ; plus particulièrement marin et de toutes les espèces dépendantes de
+          ce milieu, telles que par exemple les poissons et tous les organismes
+          connus ou à découvrir sans exception, y compris les mammifères marins,
+          les reptiles, les oiseaux, mais aussi les habitats concernés.
+        </p>
+      </div>
+      <div class="link-container">
+        <ul>
+          <li data-icon="🐟">
+            <h3 class="link-hover">
+              <a href="/notre-grand-projet">Sensibilisation</a>
+            </h3>
+          </li>
+          <li data-icon="🦀">
+            <h3 class="link-hover">
+              <a href="/blog">Actions</a>
+            </h3>
+          </li>
+          <li data-icon="🐚">
+            <h3 class="link-hover">
+              <a href="/especes-defendues">Protection</a>
+            </h3>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   <section class="situation-urgente">
@@ -275,8 +277,7 @@ import Youtube from "../components/Youtube.astro";
     font-size: 1.2rem;
   }
   .description {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin: 6rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
