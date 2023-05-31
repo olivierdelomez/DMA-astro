@@ -10,12 +10,21 @@ import Youtube from "../components/Youtube.astro";
 
 <Layout title="DEFENSE DES MILIEUX AQUATIQUES">
   <Hero title="DEFENSE DES MILIEUX AQUATIQUES">
-    <a
-      class="btn"
-      href="https://www.helloasso.com/associations/defense-des-milieux-aquatiques"
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
+      class="embeddable-buttondown-form"
     >
-      nous rejoindre
-    </a>
+      <input
+        type="email"
+        name="email"
+        id="bd-email"
+        placeholder="votre adresse email"
+      />
+      <input class="btn-hero" type="submit" value="nous rejoindre" />
+    </form>
   </Hero>
   <main>
     <div class="container">
@@ -353,6 +362,18 @@ import Youtube from "../components/Youtube.astro";
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.3ch;
+    text-decoration: none;
+  }
+  .btn-hero {
+    display: inline;
+    background-color: #ff7528;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
     text-decoration: none;
   }
 </style>
