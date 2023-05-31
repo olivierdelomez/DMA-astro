@@ -1,0 +1,38 @@
+---
+import CardWithImage from "@components/CardWithImage.astro";
+import Layout from "@layouts/Layout.astro";
+import pechecologie from "../../assets/pechecologie.jpg";
+---
+
+<Layout title="resultats">
+  <section class="container-lg livres container-white">
+    <h1>Notre sélection de livres</h1>
+    <ul>
+      <li>
+        <CardWithImage
+          src={pechecologie.src}
+          width={pechecologie.width}
+          height={pechecologie.height}
+          title="La pêchécologie, Manifeste pour une pêche vraiment durable."
+          body={`Didier Gascuel est ingénieur, directeur du pôle Halieutique, mer et littoral à
+          l' Agrocampus Ouest, Rennes, membre du Conseil scientifique technique
+          et économique des pêches de l'Union Européenne et responsable du
+          Groupe d'expert Approche écosystémique de la gestion des pêches.
+          Il est l'auteur de plusieurs ouvrage. La pêchécologie est son dernier.`}
+          href="./la-peche-ecologie-didier-gascuel"
+          button={"lire la suite"}
+        />
+      </li>
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  .livres {
+    width: 100%;
+  }
+</style>
