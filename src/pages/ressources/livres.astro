@@ -1,7 +1,7 @@
 ---
 import CardWithImage from "@components/CardWithImage.astro";
 import Layout from "@layouts/Layout.astro";
-import pechecologie from "../../assets/pechecologie.jpg";
+import pechecologie from "@assets/pechecologie.jpg";
 ---
 
 <Layout title="resultats">
@@ -19,9 +19,11 @@ import pechecologie from "../../assets/pechecologie.jpg";
           et économique des pêches de l'Union Européenne et responsable du
           Groupe d'expert Approche écosystémique de la gestion des pêches.
           Il est l'auteur de plusieurs ouvrage. La pêchécologie est son dernier.`}
-          href="./la-peche-ecologie-didier-gascuel"
-          button={"lire la suite"}
-        />
+        >
+          <a class="button" href="./livres/la-peche-ecologie-didier-gascuel">
+            {"lire la suite"}
+          </a>
+        </CardWithImage>
       </li>
     </ul>
   </section>
@@ -34,5 +36,16 @@ import pechecologie from "../../assets/pechecologie.jpg";
   }
   .livres {
     width: 100%;
+  }
+  .button {
+    background-color: var(--dma-blue);
+    color: white;
+    padding: 0.5rem 1rem;
+    align-self: flex-end;
+    margin-top: auto;
+  }
+  .button:hover,
+  .button:visited {
+    color: white !important;
   }
 </style>

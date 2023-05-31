@@ -3,35 +3,25 @@ import { Image } from "astro:assets";
 export interface Props {
   title: string;
   body: string;
-  href: string;
   src: string;
   width: number;
   height: number;
-  button?: string;
 }
 
-const { href, title, body, src, width, height, button } = Astro.props;
+const { title, body, src, width, height } = Astro.props;
 ---
 
 <li class="link-card">
   <div>
     <Image src={src} width={width} height={height} alt={title} />
     <div class="title-container">
-      <a href={href}>
-        <h2>
-          {title}
-        </h2>
-      </a>
+      <h2>
+        {title}
+      </h2>
       <p>
         {body}
       </p>
-      {
-        !!button && (
-          <a class="button" href={href}>
-            {button}
-          </a>
-        )
-      }
+      <slot />
     </div>
   </div>
 </li>
@@ -83,17 +73,7 @@ const { href, title, body, src, width, height, button } = Astro.props;
   img {
     border: 1px solid var(--dma-blue);
   }
-  .button {
-    background-color: var(--dma-blue);
-    color: white;
-    padding: 0.5rem 1rem;
-    align-self: flex-end;
-    margin-top: auto;
-  }
-  .button:hover,
-  .button:visited {
-    color: white !important;
-  }
+
   .title-container {
     display: flex;
     flex-direction: column;
