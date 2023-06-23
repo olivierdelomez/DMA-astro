@@ -31,7 +31,8 @@ import Youtube from "@components/Youtube.astro";
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     gap: 2rem;
   }
-  li {
+  li,
+  li > a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,40 +47,46 @@ import Youtube from "@components/Youtube.astro";
     <h1>Equipe</h1>
     <ul>
       <li>
-        <Image
-          src={PhilippeGarcia}
-          width={282}
-          height={286}
-          alt={"Portrait Philippe Garcia"}
-        />
-        <span>
-          <h3>Philippe Garcia</h3>
-          <em>Président</em>
-        </span>
+        <a href="./equipe/philippe-garcia">
+          <Image
+            src={PhilippeGarcia}
+            width={282}
+            height={286}
+            alt={"Portrait Philippe Garcia"}
+          />
+          <span>
+            <h3>Philippe Garcia</h3>
+            <em>Président</em>
+          </span>
+        </a>
       </li>
       <li>
-        <Image
-          src={JessicaSalmon}
-          width={282}
-          height={286}
-          alt={"Portrait Jessica Salmon"}
-        />
-        <span>
-          <h3>Jessica Salmon</h3>
-          <em>Membre du CA</em>
-        </span>
+        <a href="./equipe/jessica-salmon">
+          <Image
+            src={JessicaSalmon}
+            width={282}
+            height={286}
+            alt={"Portrait Jessica Salmon"}
+          />
+          <span>
+            <h3>Jessica Salmon</h3>
+            <em>Membre du CA</em>
+          </span>
+        </a>
       </li>
       <li>
-        <Image
-          src={Gwen}
-          width={282}
-          height={286}
-          alt={"Portrait Gwenaëlle Boulet"}
-        />
-        <span>
-          <h3>Gwenaëlle Boulet</h3>
-          <em>Membre du CA</em>
-        </span>
+        <a href="./equipe/gwenaelle-boulet">
+          <Image
+            src={Gwen}
+            width={282}
+            height={286}
+            alt={"Portrait Gwenaëlle Boulet"}
+          />
+          <span>
+            <h3>Gwenaëlle Boulet</h3>
+            <em>Membre du CA</em>
+          </span>
+        </a>
       </li>
     </ul>
     <Youtube videoid="DE2kvrQQVWQ" />
