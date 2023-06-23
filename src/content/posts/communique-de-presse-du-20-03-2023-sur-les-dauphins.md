@@ -1,11 +1,12 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: COMMUNIQUE DE PRESSE DU 20/03/2023 SUR LES DAUPHINS
-description: "Le Conseil d'Etat ordonne des fermetures de pêche pour la
-  préservation des dauphins et marsouins. "
+title: CP - PRÉSERVATION DES DAUPHINS
+description: Le Conseil d'Etat ordonne des fermetures de pêche pour la préservation des dauphins et marsouins.
 tags:
+  - presse
   - dauphins
 vignette: /images/uploads/captures-accidentelle-dauphin-filet-fixe.jpg
+created_at: 20 03 2023 08:00:00
 ---
 
 

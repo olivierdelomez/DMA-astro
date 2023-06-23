@@ -1,10 +1,11 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: COMMUNIQUE DE PRESSE DU 8/04/2023 SUR LES NOUVELLES DATES DE PECHE A L'ANGUILLE
+title: CP - LES NOUVELLES DATES DE PECHE A L'ANGUILLE
 description: Nouvelles dates de pêche pour l'anguille et la civelle
 tags:
+  - presse
   - anguille
-created_at: 03 05 2023 04:32:22
+created_at: 08 04 2023 04:32:22
 ---
 
 L'arrêté du 9 mars 2023 portant sur les nouvelles dates de pêche de l'anguille (1) devait appliquer le règlement européen du 30 janvier 2023 établissant, pour 2023, les possibilités de pêche dans les eaux de l'Union (2). L'objectif officiel était de "mieux protéger" l'anguille, notamment en appliquant des fermetures de pêche qui tiennent compte des période de migration des civelles (alevins d'anguille) et des anguilles argentées(anguilles sur le point de disparaître en haute mer pour s'y reproduire).\

@@ -1,9 +1,7 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: LE TRIBUNAL A SOUHAITE REPORTER AU 11 MAI POUR TENIR COMPTE DE L'AGENDA
-  UN AVOCAT PARISIEN
-description: L'audience a été différée, et se tiendra après la saison, malgré
-  notre tentative de maintenir une date cohérente.
+title: LE TRIBUNAL A SOUHAITE REPORTER AU 11 MAI POUR TENIR COMPTE DE L'AGENDA UN AVOCAT PARISIEN
+description: L'audience a été différée, et se tiendra après la saison, malgré notre tentative de maintenir une date cohérente.
 tags:
   - "#migrateurs"
 created_at: 27 04 2023 05:41:41
