@@ -12,6 +12,7 @@
   "dependencies": {
     "@justinribeiro/lite-youtube": "^1.5.0",
     "astro": "^2.4.5",
+    "astro-relative-links": "^0.3.4",
     "autoprefixer": "^10.4.14"
   }
 }

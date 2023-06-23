@@ -1,9 +1,14 @@
 import { defineConfig } from 'astro/config';
 
+import relativeLinks from "astro-relative-links";
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://defensedesmilieuxaquatiques.org',
-  server: { port: 3333, host: true},
+  server: {
+    port: 3333,
+    host: true
+  },
   vite: {
     ssr: {
       noExternal: ['@justinribeiro/lite-youtube']
@@ -11,6 +16,6 @@ export default defineConfig({
   },
   experimental: {
     assets: true
-   },
-   
+  },
+  integrations: [relativeLinks()]
 });
