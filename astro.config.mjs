@@ -17,5 +17,6 @@ export default defineConfig({
   experimental: {
     assets: true
   },
+  base: '/',
   integrations: [relativeLinks()]
 });
