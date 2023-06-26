@@ -6,6 +6,7 @@ description: Jugement du conseil d'Etat
 tags:
   - dauphins
 vignette: /images/uploads/legal-g3fa734d1f_1920.jpg
+created_at: Tue Oct 03 2023 09:00:00 GMT+0200
 ---
 **Conseil d'État**
 
@@ -238,7 +239,8 @@ ministre de la mer de prévoir une telle présence.
 5. En second lieu, il ressort des pièces du dossier, d'une part, que
 l'association Sea Shepherd France a adressé une demande à la ministre de
 la mer le 17 février 2021 tendant à ce que soient prises des mesures visant
-à limiter les captures accidentelles de petits cétacés dans le golfe de Gascogne et, d'autre part, que la qualité pour agir de sa présidente au
+à limiter les captures accidentelles de petits cétacés dans le golfe de
+ Gascogne et, d'autre part, que la qualité pour agir de sa présidente au
 nom de l'association est établie par ses statuts et le mandat donné par le
 conseil d'administration le 14 juin 2021. Dès lors, la requête formée par
 cette association est recevable.
@@ -275,7 +277,8 @@ des mesures techniques de protection, incluant la fixation pour certaines
 espèces d'une taille minimale de référence de conservation, et délègue
 dans certaines hypothèses à la Commission européenne le pouvoir de
 fixer cette même taille. L'article 3 de ce règlement dispose que ces
-mesures techniques " contribuent notamment à la réalisation des objectifs généraux suivants : 
+mesures techniques " contribuent notamment à la réalisation des objectifs
+ généraux suivants : 
 / a) optimiser les diagrammes d'exploitation afin de
 protéger les regroupements de juvéniles et de reproducteurs des
 ressources biologiques de la mer ; 
@@ -400,7 +403,8 @@ zones spéciales de conservation, les États membres établissent les
 mesures de conservation nécessaires impliquant, le cas échéant, des plans
 de gestion appropriés spécifiques aux sites ou intégrés dans d'autres
 plans d'aménagement et les mesures réglementaires, administratives ou
-contractuelles appropriées, qui répondent aux exigences écologiques (...) des espèces de l'annexe II présents sur les sites. / 2. Les États membres
+contractuelles appropriées, qui répondent aux exigences écologiques (...)
+ des espèces de l'annexe II présents sur les sites. / 2. Les États membres
 prennent les mesures appropriées pour éviter, dans les zones spéciales de
 conservation, la détérioration des habitats naturels et des habitats
 d'espèces ainsi que les perturbations touchant les espèces pour lesquelles

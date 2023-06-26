@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'DD MM YYYY hh:mm:ss'}
+      - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'YYYY-MM-DDTHH:mm:ss'}
       - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image', required: false, optional: true, }
       - { label: 'Contenu', name: 'body', widget: 'markdown' }
   - name: 'Jugements' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'DD MM YYYY hh:mm:ss'}
+      - { label: 'Date de publication', name: 'created_at', widget: 'datetime', default: "", format: 'YYYY-MM-DDTHH:mm:ss'}
       - { label: 'Vignette', name: 'vignette', choose_url: false, widget: 'image', required: false, optional: true, }
       - { label: 'Contenu', name: 'body', widget: 'markdown' }
   - name: 'pages'

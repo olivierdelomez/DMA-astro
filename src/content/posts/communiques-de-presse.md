@@ -3,7 +3,7 @@ layout: "@layouts/BlogLayout.astro"
 title: CP - LA PECHE AUX CHALUTS A ARCACHON
 description: Communiqué de presse du 11-4-2023, jugement 20BX02908 Chaluts Arcachon
 vignette: /images/uploads/capture-d-ecran-2023-04-20-141021.jpg
-created_at: 11 04 2023 08:00:00
+created_at: Sat Nov 04 2023 08:00:00 GMT+0100
 tags:
  - presse
 ---

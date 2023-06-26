@@ -2,11 +2,13 @@
 import Layout from "./Layout.astro";
 import type { MarkdownLayoutProps } from "astro";
 import Hero from "@components/Hero.astro";
+import SimilarPosts from "@components/SimilarPosts.astro";
 
 type Props = MarkdownLayoutProps<{
   title: string;
   description?: string;
   vignette?: string;
+  tags?: string[];
 }>;
 
 const { frontmatter } = Astro.props;
@@ -23,6 +25,14 @@ const { frontmatter } = Astro.props;
   <section class="container-md container-white">
     {!frontmatter.vignette && <h1>{frontmatter.title}</h1>}
     <slot />
+    {
+      !!frontmatter.tags && (
+        <SimilarPosts
+          tags={frontmatter.tags}
+          currentTitle={frontmatter.title}
+        />
+      )
+    }
   </section>
 </Layout>
 

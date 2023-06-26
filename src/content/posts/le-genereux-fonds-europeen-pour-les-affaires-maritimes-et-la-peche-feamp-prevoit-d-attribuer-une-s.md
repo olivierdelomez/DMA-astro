@@ -3,7 +3,7 @@ layout: "@layouts/BlogLayout.astro"
 title: Le généreux Fonds Européen pour les Affaires Maritimes et la Pêche (FEAMP)
 description: Le généreux Fonds Européen pour les Affaires Maritimes et la Pêche (FEAMP)
 tags:
-  - "#feamp"
+  - "feamp"
 created_at: 17 01 2021 09:00:00
 ---
 

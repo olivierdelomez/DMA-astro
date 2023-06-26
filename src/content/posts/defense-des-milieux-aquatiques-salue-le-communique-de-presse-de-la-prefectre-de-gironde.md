@@ -3,7 +3,7 @@ layout: "@layouts/BlogLayout.astro"
 title: DEFENSE DES MILIEUX AQUATIQUES SALUE LE COMMUNIQUE DE PRESSE DE LA PREFECTRE DE GIRONDE
 description: "DMA demande à ce que soit révélé par un arrêté la liste des pêcheurs habilités à poursuivre la pêche de la lamproie à dans le seul but d'alimenter le programe de translocation. "
 tags:
-  - "#lamproie"
+  - "lamproie"
 created_at: 20 04 2023 08:00:00
 ---
 ## MORATOIRE DE LA LAMPROIE MARINE = DÉFENSE DES MILIEUX AQUATIQUES SALUE LE  COMMUNIQUÉ DE PRESSE DE LA PRÉFECTURE DE LA GIRONDE

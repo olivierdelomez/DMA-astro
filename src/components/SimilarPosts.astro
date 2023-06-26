@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+
+type Props = {
+  tags: string[];
+  currentTitle: string;
+};
+
+const { tags, currentTitle } = Astro.props;
+
+const allPosts = await getCollection("posts", ({ data }) => {
+  return (
+    tags.some((tag) => data.tags?.includes(tag)) && data.title !== currentTitle
+  );
+});
+
+const sortedPosts = allPosts.sort(
+  (a, b) =>
+    new Date(b.data.created_at as string).valueOf() -
+    new Date(a.data.created_at as string).valueOf()
+);
+---
+
+<section>
+  <hr />
+  <h3>Sur le même thème</h3>
+  <ul>
+    {
+      sortedPosts.map((post) => (
+        <li>
+          <a href={"/blog/" + post.slug}>{post.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</section>

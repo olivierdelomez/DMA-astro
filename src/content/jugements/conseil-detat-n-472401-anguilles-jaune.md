@@ -3,7 +3,7 @@ layout: "@layouts/BlogLayout.astro"
 title: JUGEMENT DU CONSEIL D'ETAT n°472401- Anguilles jaunes
 description: Jugement du Conseil d'Etat
 tags: []
-created_at: 03 05 2023 04:39:45
+created_at: Sun Mar 05 2023 04:39:45 GMT+0100
 vignette: /images/uploads/legal-g3fa734d1f_1920.jpg
 ---
 ## CONSEIL D'ETAT

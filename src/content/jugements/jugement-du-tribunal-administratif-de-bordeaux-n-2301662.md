@@ -4,6 +4,7 @@ title: JUGEMENT DU TRIBUNAL ADMINISTRATIF DE BORDEAUX N° 2301662 sur la lamproi
   marine
 description: "Jugement du 17 avril 2023 : Suspension de la pêche à la lamproie"
 vignette: /images/uploads/legal-g3fa734d1f_1920.jpg
+created_at: 17 04 2023 09:00:00
 ---
 
 ___________
@@ -38,7 +39,9 @@ de 8 jours.
 Elle soutient que :
 les rivières Dordogne et Garonne sont désignées en application de la directive
 « Habitats », Site Natura 2000 par arrêtés du 27 octobre 2015 et du 5 avril 2016 pour la protection,
-notamment, de l'esturgeon d'Europe, de la lamproie marine, de la lamproie fluviatile, du saumon atlantique, de la grande alose et de l'alose feinte ; les rivières Isle et Dronne sont aussi classées aire NATURA 2000 par arrêtés du 27 octobre 2015 3 et du 20 novembre 2014 pour la protection,
+notamment, de l'esturgeon d'Europe, de la lamproie marine, de la lamproie fluviatile, du saumon
+ atlantique, de la grande alose et de l'alose feinte ; les rivières Isle et Dronne sont aussi classées aire 
+NATURA 2000 par arrêtés du 27 octobre 2015 3 et du 20 novembre 2014 pour la protection,
 notamment, de la lamproie marine, du saumon atlantique et de la grande alose ;
 l'urgence est présumée dès lors que l'arrêté du préfet n'a pas fait l'objet de la procédure
 d'évaluation environnementale Natura 2000 ainsi que l'y obligent les articles L. 414-4 et L. 122-

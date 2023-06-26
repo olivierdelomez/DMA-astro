@@ -4,10 +4,10 @@ title: CP - LA PÊCHE AUX FILETS DANS L'ADOUR
 description: Suspension de la pêche aux filets pour les grandes aloses et les
   lamproies dans le Bassin de l'Adour
 tags:
-  - Presse
+  - presse
   - aloses
 vignette: /images/uploads/capture-d-ecran-2023-04-20-135923.jpg
-created_at: 05 04 2023 08:00:00
+created_at: Thu May 04 2023 08:00:00 GMT+0200
 ---
 # 16 associations obtiennent l'annulation des arrêtés annuels de pêche 2021 aux engins et filets des migrateurs du bassin de l'Adour fluvial pour les grandes aloses et les lamproies marines
 

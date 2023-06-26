@@ -1,0 +1,60 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Card from "@components/Card.astro";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("posts");
+
+  const tags = allPosts
+    .flatMap((post) => post.data.tags)
+    .filter((tag) => tag !== undefined);
+
+  let uniqueTags = [...new Set(tags)];
+  return uniqueTags.map((tag) => ({ params: { tag } }));
+}
+
+const { tag } = Astro.params;
+
+if (!tag) {
+  return Astro.redirect("/404");
+}
+
+const posts = await getCollection("posts", ({ data }) => {
+  return data.tags?.includes(tag);
+});
+---
+
+<Layout title="Les dernières actualités de Defense des Milieux Aquatiques.">
+  <main>
+    <section>
+      <h1>Nos articles #{tag}</h1>
+      <ul role="list" class="link-card-grid">
+        {
+          posts.map((post) => (
+            <Card
+              href={`/blog/${post.slug}`}
+              title={post.data.title}
+              body={post.data.description}
+              tags={post.data.tags}
+            />
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 90ch;
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
+</style>

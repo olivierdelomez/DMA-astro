@@ -1,9 +1,9 @@
 ---
 layout: "@layouts/BlogLayout.astro"
 title: Des senneurs au ras de la côte landaise
-description: Des senneurs au ras de la côte landaise
+description: 3 navires à la silhouette imposante qui depuis début janvier flirtent avec la bande littorale landaise
 tags:
-  - "#landes"
+  - "landes"
 created_at: 17 01 2021 08:00:00
 ---
 

@@ -3,8 +3,8 @@ layout: "@layouts/BlogLayout.astro"
 title: Projet pêche Effarouchement Silure glane St Laurent des Eaux
 description: Projet pêche Effarouchement Silure glane St Laurent des Eaux
 tags:
-  - "#silure"
-created_at: 9 04 2022 09:00:00
+  - "silure"
+created_at: Sat, 09 Avr 2022 23:00:00 GMT
 ---
 
 

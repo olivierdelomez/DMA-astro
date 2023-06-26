@@ -6,48 +6,50 @@ import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
 const allJugemenents = await getCollection("jugements");
 
-const datedPost = allPosts
+const posts = allPosts
   .filter((post) => post.data.created_at)
-  .sort(
-    (a, b) =>
-      new Date(b.data.created_at as string).valueOf() -
-      new Date(a.data.created_at as string).valueOf()
-  );
-const notDatedPosts = allPosts.filter((post) => !post.data.created_at);
+  .sort((a, b) => {
+    const aDate = new Date(a.data.created_at as string).valueOf();
+    const bDate = new Date(b.data.created_at as string).valueOf();
+    return bDate - aDate;
+  });
 
-const datedJugements = allJugemenents
+const tags = allPosts
+  .flatMap((post) => post.data.tags)
+  .filter((tag) => tag !== undefined);
+
+const uniqueTags = [...new Set(tags)];
+
+const jugements = allJugemenents
   .filter((post) => post.data.created_at)
   .sort(
     (a, b) =>
       new Date(b.data.created_at as string).valueOf() -
       new Date(a.data.created_at as string).valueOf()
   );
-const notDatedJugements = allJugemenents.filter(
-  (post) => !post.data.created_at
-);
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Les dernières actualités de Defense des Milieux Aquatiques.">
   <main>
     <section>
       <h1>Nos dernières actualités</h1>
+      <ul>
+        {
+          uniqueTags.map((tag) => (
+            <li class={`tag ${tag}`}>
+              <a href={`/tag/${tag}`}>{tag}</a>
+            </li>
+          ))
+        }
+      </ul>
       <ul role="list" class="link-card-grid">
         {
-          datedPost.map((post) => (
+          posts.map((post) => (
             <Card
               href={`/blog/${post.slug}`}
               title={post.data.title}
               body={post.data.description}
               tags={post.data.tags}
-            />
-          ))
-        }
-        {
-          notDatedPosts.map((post) => (
-            <Card
-              href={`/blog/${post.slug}`}
-              title={post.data.title}
-              body={post.data.description}
             />
           ))
         }
@@ -57,16 +59,7 @@ const notDatedJugements = allJugemenents.filter(
       <h1>Jugements rendus</h1>
       <ul role="list" class="link-card-grid">
         {
-          datedJugements.map((post) => (
-            <Card
-              href={`/blog/${post.slug}`}
-              title={post.data.title}
-              body={post.data.description}
-            />
-          ))
-        }
-        {
-          notDatedJugements.map((post) => (
+          jugements.map((post) => (
             <Card
               href={`/blog/${post.slug}`}
               title={post.data.title}
@@ -85,6 +78,9 @@ const notDatedJugements = allJugemenents.filter(
     padding: 1.5rem;
     max-width: 90ch;
   }
+  .selected {
+    color: red;
+  }
   .text-gradient {
     background-image: var(--accent-gradient);
     -webkit-background-clip: text;
@@ -97,5 +93,25 @@ const notDatedJugements = allJugemenents.filter(
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
     gap: 1rem;
     padding: 0;
+  }
+  ul {
+    margin-left: 0;
+    padding: 0;
+  }
+  .tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: white;
+    color: var(--dma-blue);
+  }
+  .tag:hover {
+    transform: translateY(-0.2rem) scale(1.03);
+    transition: transform 0.2s ease-in-out;
+  }
+  .tag > a {
+    text-decoration: none;
+    color: var(--dma-blue);
   }
 </style>
