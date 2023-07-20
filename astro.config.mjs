@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
-
 import relativeLinks from "astro-relative-links";
+
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,5 +19,5 @@ export default defineConfig({
     assets: true
   },
   base: '/',
-  integrations: [relativeLinks()]
+  integrations: [relativeLinks(), sitemap()]
 });
