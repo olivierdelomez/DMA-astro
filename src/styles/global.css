@@ -25,6 +25,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 p {
   line-height: 2.3ch;
   font-size: 18px;

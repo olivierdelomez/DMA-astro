@@ -18,7 +18,7 @@ const { frontmatter } = Astro.props;
   {
     !!frontmatter.vignette && (
       <Hero title={frontmatter.title} vignette={frontmatter.vignette}>
-        <p>{frontmatter.description}</p>
+        <p class="align-center">{frontmatter.description}</p>
       </Hero>
     )
   }
@@ -42,5 +42,8 @@ const { frontmatter } = Astro.props;
   }
   p {
     color: white;
+  }
+  .align-center {
+    text-align: center;
   }
 </style>

@@ -73,7 +73,7 @@ import Youtube from "../components/Youtube.astro";
         method="post"
         target="popupwindow"
         onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
-        class="embeddable-buttondown-form"
+                class="embeddable-buttondown-form"
       >
         <input
           type="email"
@@ -268,6 +268,15 @@ import Youtube from "../components/Youtube.astro";
   .newsletter > form {
     z-index: 2;
   }
+
+  form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
   form > #formButton {
     padding: 0.7rem;
     font-size: 1.1rem;
