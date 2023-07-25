@@ -1,0 +1,32 @@
+---
+layout: "@layouts/BlogLayout.astro"
+title: Le tamis à civelle
+description: La civelle est le fruit de la métamorphose de la larve d'anguille. La pêche au tamis utilise des mailles plus petites au niveau de la "chaussette", si petites qu'elles sont difficiles à voir à l'œil nu (0,8 à 1,2 mm)
+---
+
+La civelle est le fruit de la métamorphose de la larve d'anguille, le leptocéphale qui a dérivé pendant des mois dans les courants océaniques pour aborder nos côtes européennes au petit bonheur la chance. La civelle est une anguille minuscule de quelques centimètres et quasiment translucide. C'est l'anguille de verre des anglo-saxons ou « glass eel ».
+
+La pêche de la crevette au chalut utilise des petites mailles (8 à 10 mm de côté) qui retiennent beaucoup d'alevins de nombreuses espèces dans des proportions considérables puisqu'elle se pratique dans les nourriceries estuariennes (estuaires de la Somme et de la Seine, pertuis charentais). Dans la mer de Barents, la pêche est fermée quand un taux maximal de juvéniles capturés par tonne de crevette est atteint. En 1997, Dupouy et al. ont estimé à environ 1 tonne de poissons plats et une tonne de gadidés la casse en équivalent poissons de taille commercialisable, par tonne de crevette grise débarquée dans l'estuaire de la Vilaine. Des grilles de tri ont fini par être imposées à partir de 2007 (Chalut DEVISMES, chalut ASSELIN) mais elles ne font que limiter la casse. Les juvéniles sont souvent des soles, des bars, des merlans, des rougets ou des tacauds. La mortalité des rejets est estimée entre 90 et 100%. C'est au nom de ce fantastique gâchis que IFREMER a toujours manifesté son opposition à cette pêche.
+
+La pêche de la civelle au tamis utilise des mailles encore plus petites au niveau de la "chaussette", si petites qu'elles sont difficiles à voir à l'œil nu (0,8 à 1,2 mm). La saison de pêche s'étale de novembre à avril et recouvre donc la période de reproduction de nombreuses espèces. Elle se pratique au beau milieu des nourriceries, eaux côtières et estuaires. Certains navires poussent deux tamis de deux m2 chacun plongés dans la colonne d'eau et les alevins sont rattrapés par le piège comme le ferait un chalut. D'autres navires en Gironde manipulent des ailes beaucoup plus grandes. Mais tous les pêcheurs vident ensuite le contenu des tamis sur le "crible", fine grille horizontale qui surmonte une caisse : les civelles ont vite fait de se faufiler à travers la grille et tombent prisonnières dans la caisse. Beaucoup de débris végétaux mais aussi beaucoup d'alevins restent sur la grille. Ces juvéniles très fragiles s'asphyxient si le pêcheur ne fait pas l'effort de les remettre à l'eau très vite. Si certains le font, ce n'est pas le cas de la majorité : il est tellement plus rentable de remettre les tamis en pêche sans perdre une minute et de repartir tamiser l'eau en quête de l'or blanc. Les grilles ne seront débarrassées des débris végétaux et des alevins qu'au coup suivant, une demi-heure après, alors que tous les alevins sont raides morts. Outre ces petits poissons, il y a aussi une grande variété d'organismes planctoniques que l'on ne voit pas forcément.
+
+Sur des clichés réalisés en 2021, on identifie le plus souvent crevettes et mulets, puis bar, épinoche, gobies, petites anguilles, anchois et flet, voire sandres et carassins. Sur l'un des clichés, les très nombreux alevins translucides n'ont pas pu être identifiés formellement.
+
+En 1982, un premier travail de Gascuel et al.(1) avait déjà identifié des poissons de plus d'un été (anguille, sprat, merlan, tacaud, bar, mulet, flet et sole), les larves d'espèces commerciales (flet, hareng, sprat, tacaud, lançon, mulet, plie et sole) et beaucoup d'autres espèces (éperlan, athérine, gobies, cyprinidés, divers) sans oublier plusieurs espèces de crevettes, notamment la grise.
+
+En 1987, pour chaque heure de pêche avec deux tamis d'un mètre 20 de diamètre sur la Loire et la Vilaine, les quantités observées se comptent jusqu'à 998 larves de flet de 10-15 mm, 188 larves de hareng de 30 à 40 mm et 53 larves de sprat, 98 anguilles de plus de 12 cm et 1500 crevettes.
+
+Au total sont dénombrés 49,3 millions de juvéniles de 32 espèces différentes pour 117 tonnes de civelles pêchées cette année là par 265 navires, soit la bagatelle de 421 individus / kg de civelle.
+
+98,4% de ces individus sont des flets, de la crevette grise et du sprat.
+
+Devant l'énormité de ces chiffres, les halieutes d'IFREMER tous acquis à la poursuite de la pêcherie balayent sèchement les "affirmations péremptoires concernant l'usage de filets à petits maillages" concernant le problème des captures accidentelles en faisant juste remarquer que, de toutes les façons, en prenant en compte la mortalité naturelle très élevée, 90% des crevettes sont vouées à disparaître dans les 6 mois, et qu'au mieux pouvait-on estimer les pertes à 18,5 à 144 tonnes de flet et 3 ou 4 malheureuses tonnes de bars ...
+
+Sauf que cette biomasse détruite par les tamis à civelle aurait servi à nourrir l’écosystème estuarien en entier plutôt que quelques nécrophages et ça, les halieutes de l'époque ne s'en sont même pas douté ou plutôt se sont contentés de ne pas en parler... Depuis, l'Approche Écosystémique des Pêches est même entrée dans la loi, ce qui rend cette pêcherie bien litigieuse puisqu'elle affaiblit considérablement l'écosystème et ne réduit pas les incidences négatives de la pêche au minimum, comme le veut la loi, c'est le moins que l'on puisse dire.
+
+La pêche civellière, déjà inadmissible au vu de la situation de l'anguille, est en réalité un véritable carnage d'alevins d'une vingtaine d'espèces qui dépouille l'écosystème et tire vers le bas toute la production potentielle de l'estuaire qui aurait du bénéficier à toutes les pêches ...
+
+​
+1 Gascuel Didier, Elie Pierre (1982). Les prises accessoires effectuees lors de la peche de la Civelle d'anguille (Anguilla anguilla L.), Etude preliminaire en Loire et en Vilaine. Revue des Travaux de l'Institut des Pêches Maritimes, 46(1), 71-86. Open Access version : [https://archimer.ifremer.fr/doc/00000/1882/](https://archimer.ifremer.fr/doc/00000/1882/)
+
+doc PRISES ACCESSOIRES PECHE TAMIS CIVELLE GASCUEL 1982

@@ -1,0 +1,21 @@
+---
+layout: "@layouts/BlogLayout.astro"
+title: Filets fixes sur l'estran
+description: Les pêcheurs ont depuis très longtemps appris à fixer des filets à marée basse, ces filets seront vérifiés à la marée basse suivante.
+---
+
+Côté Atlantique, l'amplitude de marée est telle qu'elle découvre des étendues importantes. Ces « zones de balancement des marées » correspondent à l'estran où des pêcheurs ont depuis très longtemps appris à fixer des filets à marée basse. Complètement submergés par le flot du montant, ces filets seront vérifiés à la marée basse suivante.
+
+Ces « filets fixes sur l'estran » correspondent aujourd'hui à une pratique autorisée de façon discrétionnaire à des pêcheurs amateurs. Ils sont 500 dans les Landes, 266 en Gironde, mais entre 2000 et 3000 en Charente Maritime. Au total, une enquête de DÉFENSE DES MILIEUX AQUATIQUES a estimé à 5500 le nombre d'autorisations accordées tout le long de la façade océanique métropolitaine.
+
+Outre le problème d'un activité privée sur le domaine public qui génère de plus en plus de conflits d'usage, se posent les questions liées aux excès que ces pratiques génèrent, en matière de captures de poissons juvéniles, de non respect des règles voire d'activités carrément illégales. L'association est opposée à l'usage amateur de tout filet de pêche, en mer comme en rivière, estimant que c'est un engin dont les capacités de capture ne sont justifiées que pour le seul usage du pêcheur professionnel. Par ailleurs, son projet de Bande Marine littorale Sans Filets suppose bien évidemment la fin de cette pratique puisque ces filets impactent les nourriceries, par exemple celle du maigre le long des côtes girondines. Le déclin des bars amorcé dans le golfe de Gascogne après l'effondrement officiel en 2015 au nord du 48ième parallèle (latitude d'Audierne, dans le Finistère), est venu rallonger la liste de nos arguments : l'Union Européenne a interdit la pêche amateur du bar au filet fixe depuis 2020.
+
+Mais l'administration française a refusé d'appliquer cette interdiction communautaire au motif que les filets fixes capturent d'autres espèces qui elles ne sont pas interdites à la pêche. Les bars continuent donc d'être capturés au filet fixe amateur et l'administration croit s'en sortir en exigeant que ces pêcheurs amateurs, qu'elle autorise à pêcher exactement comme il le faut et où il le faut pour capturer des bars, abandonnent ces bars morts sur la plage sous peine de poursuite...
+
+DÉFENSE DES MILIEUX AQUATIQUES a donc attaqué les arrêtés correspondants en Nouvelle-Aquitaine où le bar fait partie des deux ou trois premières espèces capturés par les filets fixes. Il a même été systématiquement la première espèce capturée dans les années 2000 et début 2010 au temps de son abondance passée.
+
+En Charente-Maritime, l'administration a d'abord retiré un premier arrêté de 2018 sous la menace d'un premier recours mais l'a remplacé par un arrêté plus ancien de 2010 bien pire que nous avons alors attaqué. Elle a réagi en abrogeant ce vieil arrêté par un troisième texte de 2020 que nous nous sommes fait un plaisir de contester dans la foulée. L'instruction est désormais terminée qui viendra peut être mettre un terme à ce jeu chronophage du chat et de la souris.
+
+En Gironde, le tribunal a rejeté notre demande d'annulation d'un arrêté de 2018. Nous n'avons pas fait appel, jugeant qu'il était plus efficace d'attaquer l'arrêté suivant de 2020 qui se trouve sous le coup de l'interdiction européenne. La clôture de l'instruction a été fixée au 4 octobre 2021.
+
+Dans les Landes, le jugement du 28 octobre 2021 rejette notre recours contre l'arrêté de 2018. Rien de grave, nous choisissons de ne pas faire appel. Notre moisson d'informations tirées de la lecture du mémoire en défense est bonne et nous place en bonne position pour attaquer entre temps le dernier arrêté de 2019. Sous la menace d'une mise en demeure, l'administration produit un mémoire en défense bien faible en novembre auquel nous répliquons avant la Noël. Il ne reste plus qu'à attendre sereinement l'audience en 2022.
