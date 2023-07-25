@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /newsletter-confirmation/
+Disallow: /newsletter-souscription/
