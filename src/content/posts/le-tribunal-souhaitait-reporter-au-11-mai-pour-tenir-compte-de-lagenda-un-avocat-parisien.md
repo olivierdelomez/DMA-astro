@@ -82,7 +82,7 @@ Les 8 associations requérantes sont :
 
 4. **AAPPMA du Gave d'OLORON** , 6, rue Jéliotte 64400 OLORON-SAINTE-MARIE
 5. **SEPANSO 64** Maison de la Nature et de l’Environnement Domaine de Sers 64000 PAU,
-6. **SALMO TIERRA SALVA TIERRA** Mairie de SAUVETERRE DE BEARN 64390
+6. **SALMO TIERRA SALVA TIERRA** Mairie de SAUVETERRE DE BEARN 64390 [salmotierra-salvatierra.com](https://salmotierra-salvatierra.com/)
 
 ### SAUVETERRE DE BEARN
 

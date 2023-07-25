@@ -65,11 +65,11 @@ AAPPMA LE PESQUIT
 ACCOB
 ANPER-TOS
 DÉFENSE DES MILIEUX AQUATIQUES
-PROTECTION HAUT BÉARN ENVIRONNEMENT
-SALMO TIERRA SALVA TIERRA
-SEA SHEPHERD
-SEPANSO 40
-SEPANSO 64
+[PROTECTION HAUT BÉARN ENVIRONNEMENT](https://www.phbe.fr/)
+[SALMO TIERRA SALVA TIERRA](https://salmotierra-salvatierra.com/)
+[SEA SHEPHERD](https://seashepherd.fr/)
+[SEPANSO 40](https://www.sepanso40.fr/)
+[SEPANSO 64](http://sepanso64.org/)
 ```
 Contact presse :
 
