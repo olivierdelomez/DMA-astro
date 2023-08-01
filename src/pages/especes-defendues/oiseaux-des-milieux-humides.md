@@ -14,43 +14,24 @@ La bataille est engagée sur deux sites de la Nouvelle-Aquitaine. L'administrati
 
 Les oiseaux protégés par la directive Oiseaux mais qui sont néanmoins chassés en France au sein même des aires NATURA 2000 dédiées à leur protection sont par exemple :
 
- 
-
 - la barge rousse (Limosa lapponica)
 - le bécasseau maubèche (Calidris canutus)
 - la bécasse des bois (Scolopax rusticola)
 - la bécassine des Marais ( Gallinago gallinago),
-
-le canard colvert (Anas platyrhynchos),
-
-le canard siffleur (anas penelope),
-
-le chevalier aboyeur (Tringa nebularia),
-
-le chevalier arlequin (Tringa erythropus),
-
-le chevalier gambette (Tringa totanus),
-
-le chevalier combattant (philomachus pugnax)
-
-le courlis cendré (Numenius arquata),
-
-le courlis corlieu (Numenius phaeopus),
-
-la foulque macroule (Fulica atra),
-
-le fuligule milouin (Aythya ferina),
-
-le fuligule morillon (Aythya fuligula),
-
-l'huîtrier pie (Haematopus ostralegus)
-
-la macreuse noire (melanitta nigra)
-
-l'oie cendrée (Anser anser),
-
-le pluvier argenté (Pluvialis squatarola),
-
-la poule d'eau (Gallinula chloropus),
-
-le râle d'eau (Rallus aquaticus)
+- le canard colvert (Anas platyrhynchos),
+- le canard siffleur (anas penelope),
+- le chevalier aboyeur (Tringa nebularia),
+- le chevalier arlequin (Tringa erythropus),
+- le chevalier gambette (Tringa totanus),
+- le chevalier combattant (philomachus pugnax)
+- le courlis cendré (Numenius arquata),
+- le courlis corlieu (Numenius phaeopus),
+- la foulque macroule (Fulica atra),
+- le fuligule milouin (Aythya ferina),
+- le fuligule morillon (Aythya fuligula),
+- l'huîtrier pie (Haematopus ostralegus)
+- la macreuse noire (melanitta nigra)
+- l'oie cendrée (Anser anser),
+- le pluvier argenté (Pluvialis squatarola),
+- la poule d'eau (Gallinula chloropus),
+- le râle d'eau (Rallus aquaticus)
