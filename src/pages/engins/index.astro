@@ -1,22 +1,110 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import FiletsFixesEstran from "@assets/filets-fixes-estran.jpg";
+import TamisCivelles from "@assets/tamis-a-civelles.jpg";
+import Chalut from "@assets/chalut.jpg";
 ---
 
 <Layout title="Engins de pêche combattus">
-  <section class="container-md container-white">
+  <section class="container-lg container-white">
     <h1>Engins de pêche combattus</h1>
-    <ul>
-      <li>
-        <a href="/engins/filets-fixes-estran">Filets fixes sur l'estran</a>
-      </li>
-      <li>
-        <a href="/engins/tamis-a-civelles">Tamis à civelles</a>
-      </li>
-      <li>
-        <a href="/engins/les-filets-remorques-ou-chaluts"
-          >Filets remorques ou Chaluts</a
-        >
-      </li>
-    </ul>
+    <div class="listContainer">
+      <a href="/engins/filets-fixes-estran">
+        <div class="imageContainer">
+          <Image
+            src={FiletsFixesEstran}
+            width={512}
+            class="imageBg"
+            alt={`Filets Fixes sur l'Estran`}
+          />
+          <div class="backdrop"></div>
+          <h3>Filets Fixes sur l'Estran</h3>
+        </div>
+      </a>
+      <a href="/engins/tamis-a-civelles">
+        <div class="imageContainer">
+          <Image
+            src={TamisCivelles}
+            width={512}
+            class="imageBg"
+            alt={`Tamis à civelles`}
+          />
+          <div class="backdrop"></div>
+          <h3>Tamis à civelles</h3>
+        </div>
+      </a>
+      <a href="/engins/les-filets-remorques-ou-chaluts">
+        <div class="imageContainer">
+          <Image
+            src={Chalut}
+            width={512}
+            class="imageBg"
+            alt={`chalut - credit to https://unsplash.com/@davidclode`}
+          />
+          <div class="backdrop"></div>
+          <h3>Filets remorques ou Chaluts</h3>
+        </div>
+      </a>
+    </div>
   </section>
 </Layout>
+
+<style>
+  a {
+    text-decoration: none;
+  }
+  .backdrop {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    object-fit: cover;
+    inset: 0px;
+    z-index: -10;
+    background: linear-gradient(
+      to top,
+      rgba(00 00 00 / 0.8),
+      rgba(00 00 00 / 0.1)
+    );
+  }
+  .listContainer {
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-auto-rows: minmax(260px, 1fr);
+    display: grid;
+    gap: 2rem;
+  }
+  .imageContainer {
+    isolation: isolate;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-top: 20rem;
+    padding-bottom: 1rem;
+  }
+  .imageContainer h3 {
+    color: white;
+  }
+  .imageContainer:hover .backdrop {
+    transition: all ease-in-out 0.5s;
+    background: linear-gradient(
+      to top,
+      rgba(00 00 00 / 0.6),
+      rgba(00 00 00 / 0.05)
+    );
+  }
+  .imageBg {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    object-fit: cover;
+    inset: 0px;
+    z-index: -10;
+  }
+</style>
