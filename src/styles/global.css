@@ -60,16 +60,19 @@ h4 {
 .container-xl {
   max-width: var(--xl-size);
   margin: auto;
+  width: stretch;
 }
 
 .container-lg {
   max-width: var(--lg-size);
   margin: auto;
+  width: stretch;
 }
 
 .container-md {
   max-width: var(--md-size);
   margin: auto;
+  width: stretch;
 }
 
 .container-white {
