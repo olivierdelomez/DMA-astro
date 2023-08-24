@@ -9,13 +9,91 @@ import Youtube from "../components/Youtube.astro";
 ---
 
 <Layout title="DEFENSE DES MILIEUX AQUATIQUES">
+  <div class="timeline-wrapper">
+    <div class="timeline-years">
+      <h2>2023</h2>
+    </div>
+  </div>
+  <div class="hero-wrapper">
+    <div class="hero-timeline">
+      <ul>
+        <li>
+          <div>
+            Annulation des filets fixes sur l'estran de la Charente Maritime
+            <span class="tag">2 Mars</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a
+              href="/blog/jugement-du-conseil-detat-n-449788-sur-la-preservation-des-dauphins"
+            >
+              Injonction à l'État de fermer la pêche maritime du Golfe de
+              Gascogne pour réduire la mortalité des dauphins
+            </a>
+            <span class="tag">20 Mars</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            Suspension des Plans de Gestion des poissons migrateurs des bassins
+            Garonne-Dordogne (10/2/2023), Adour (28/3/2023) et
+            Rhône-Méditerranée (03/04/2023)
+            <span class="tag">10 Fevrier</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a
+              href="/blog/communique-de-presse-du-conseil-detat-du-7-avril-2023-sur-la-suspension-de-certaines-periodes-de-peche-de-languille"
+            >
+              Réduction des nouvelles dates de pêche de l'anguille en mer d'un
+              mois 1/2
+            </a>
+            <span class="tag">7 Avril</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a
+              href="/blog/cour-administrative-dappel-de-bordeaux-4eme-chambre-11-avril-2023-20bx02908-chaluts-darcachon"
+            >
+              Exclusion des chaluts des trois milles d'Arcachon
+            </a>
+            <span class="tag">11 avril</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a
+              href="/blog/jugement-du-tribunal-administratif-de-bordeaux-n-2301662"
+            >
+              Suspension de la pêche de la lamproie marine dans l'Adour puis en
+              Gironde
+            </a>
+            <span class="tag">17 avril</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            Fin de la chasse de 7 espèces d'oiseaux migrateurs sur le bassin
+            d'Arcachon
+            <span class="tag">16 mai</span>
+          </div>
+        </li>
+      </ul>
+      <p class="keep-fighting">
+        <strong>👇 Défendons les milieux aquatiques ensemble 👇</strong>
+      </p>
+    </div>
+  </div>
   <Hero title="DEFENSE DES MILIEUX AQUATIQUES">
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
-      class="embeddable-buttondown-form"
+            class="embeddable-buttondown-form"
     >
       <input
         type="email"
@@ -41,7 +119,7 @@ import Youtube from "../components/Youtube.astro";
             body="Golden Miles, REO plutot RMD"
           />
           <Card
-            href="/resultats"
+            href="/historique"
             title="Résultats Juridiques"
             body="Les résultats juridiques de notre association"
           />
@@ -51,9 +129,9 @@ import Youtube from "../components/Youtube.astro";
             body="Dons de temps et d'argent, vous pouvez nous aider de plusieurs façons"
           />
           <Card
-            href="/ressources"
-            title="Ressources"
-            body="Retrouvez toutes nos ressources: études, vidéos, audio, etc"
+            href="/actualité"
+            title="Actualités"
+            body="Retrouvez nos dernières actualités"
           />
           <Card
             href="/contact"
@@ -83,19 +161,18 @@ import Youtube from "../components/Youtube.astro";
         />
         <input id="formButton" type="submit" value="m'inscrire" />
       </form>
-    </section>
-
-    <!-- <ul>
+      <!-- <ul class="social-media">
         <li>
-          <img src={youtubeIcon.src} width={48} alt="Youtube Icon" />
+          <img src={youtubeIcon.src} width={36} alt="Youtube Icon" />
         </li>
         <li>
-          <img src={instagramIcon.src} width={38} alt="Instagram Icon" />
+          <img src={instagramIcon.src} width={36} alt="Instagram Icon" />
         </li>
         <li>
           <img src={facebookIcon.src} width={36} alt="Facebook Icon" />
         </li>
       </ul> -->
+    </section>
   </main>
   <section class="container-lg">
     <div class="description">
@@ -295,7 +372,7 @@ import Youtube from "../components/Youtube.astro";
     font-size: 1.2rem;
   }
   .description {
-    margin: 6rem auto;
+    margin: 4rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
@@ -384,5 +461,59 @@ import Youtube from "../components/Youtube.astro";
     text-transform: uppercase;
     letter-spacing: 0.1ch;
     text-decoration: none;
+  }
+  .hero-wrapper {
+    background-color: white;
+  }
+  .timeline-wrapper {
+    background-color: var(--dma-blue);
+  }
+  .hero-timeline {
+    max-width: var(--md-size);
+    margin: auto;
+    color: var(--dma-blue);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: white;
+  }
+
+  .hero-timeline ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .hero-timeline ul > li {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    position: relative;
+  }
+  .hero-timeline ul > li > div {
+  }
+  .timeline-years h2 {
+    color: white;
+  }
+  .timeline-years {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    max-width: var(--md-size);
+    margin: auto;
+  }
+  .tag {
+    background-color: var(--dma-blue);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.1rem 0.2rem;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-left: 0.15rem;
+  }
+  .keep-fighting {
+    text-align: center;
+    margin-top: 2rem;
   }
 </style>
