@@ -8,17 +8,11 @@ vignette: /images/uploads/legal-g3fa734d1f_1920.jpg
 ---
 ## CONSEIL D'ETAT
 
-```
-
-```
-
 ## N° 472401
 
 ## **__**
 
-## ASSOCIATION DEFENSE DES
-
-## MILIEUX AQUATIQUES
+## ASSOCIATION DEFENSE DES MILIEUX AQUATIQUES
 
 ## **__**
 
@@ -30,18 +24,6 @@ Ordonnance du 7 avril 2023
 
 ## LE JUGE DES RÉFÉRÉS
 
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
 * l’article 1 er, en tant qu’il concerne les unités de gestion de l’anguille (UGA)
   Artois-Picardie, Seine-Normandie, Bretagne, Garonne-Dordogne-Charente-Gironde et
   Adour-cours d’eau côtiers et qu’il ne prévoit aucun encadrement des dates de pêche dans les deux
@@ -50,19 +32,6 @@ Ordonnance du 7 avril 2023
   majorées d’un mois et en pleine période de migration ;
 * l’article 3 , en tant qu’il concerne les UGA Artois-Picardie, Seine-Normandie,
   Loire, Côtiers vendéens et Sèvre niortaise et Garonne-Dordogne-Gironde ;
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
 * la condition d’urgence est satisfaite dès lors que l’arrêté contesté, en autorisant
   la pêche à l’anguille européenne dans le domaine maritime pendant certaines périodes en
   méconnaissance des dispositions du règlement (UE) n° 2023/194 du Conseil du 30 janvier 2023
@@ -125,13 +94,13 @@ La requête a été communiquée à la Première ministre, au ministre de la tra
 écologique et de la cohésion des territoires ainsi qu’au secrétaire d’Etat auprès de la Première
 ministre, chargé de la mer, qui n’ont pas produit d’observations.
 
-```
 
-```
 
-```
 
-```
+
+
+
+
 
 * Me Doumic-Seillier, avocate au Conseil d’Etat et à la Cour de cassation,
   avocate de l’association Défense des milieux aquatiques ;
@@ -141,13 +110,6 @@ ministre, chargé de la mer, qui n’ont pas produit d’observations.
 à l’issue de laquelle le juge des référés a prolongé l’instruction jusqu’au 31 mars
 à 17 heures ;
 
-```
-
-```
-
-```
-
-```
 
 * le règlement (UE) n° 2023/194 du Conseil 30 janvier 2023 ;
 * le règlement (CE) n° 1100/2007 du Conseil du 18 septembre 2007 ;
@@ -158,9 +120,6 @@ ministre, chargé de la mer, qui n’ont pas produit d’observations.
   campagne de pêche 2022 - 2023 ;
 * le code de justice administrative ;
 
-```
-
-```
 
 1. Aux termes de l’article L. 521 - 1 du code de justice administrative : « Quand
    une décision administrative, même de rejet, fait *l’objet d’une* requête en annulation ou en
@@ -169,9 +128,9 @@ ministre, chargé de la mer, qui n’ont pas produit d’observations.
    fait état *d’un* moyen propre à créer, en *l’état* de *l’instruction,* un doute sérieux quant à la légalité
    de la décision ».
 
-```
 
-```
+
+
 
 En ce qui concerne le cadre réglementaire général des mesures pour la protection
 et l’exploitation durable du stock d’anguilles européennes :
@@ -252,15 +211,7 @@ l’anguille :
    prise accessoire, à tous les stades de développement, pendant une période *d’au* moins six mois. À
    cet effet, chaque État membre concerné détermine une ou plusieurs périodes de fermeture sous
    réserve de ce qui suit : / a) le cas échéant, la ou les périodes de fermeture peuvent varier au sein
-   *d’un* État membre *d’une* zone de pêche à *l’autre* afin de tenir compte du schéma de migration
-
-géographique et temporelle de *l’anguille* à ses différents stades de développement ; / b) la ou les
-périodes de fermeture ont une durée de six mois consécutifs ou une durée totale de six mois,
-conformément aux paragraphes 3 ou 4; et / c) par dérogation au point b), si *l’État* membre
-concerné détermine que la période de fermeture dans les sous-régions géographiques CGPM 1 à
-27 commence le 1er mars 2023 ou après cette date, la période a une durée de six mois consécutifs;
-/ d) la ou les périodes de fermeture sont cohérentes avec les objectifs de conservation fixés par le
-règlement (CE) no 1100/2007, les plans nationaux de gestion existants et les schémas de migration
+   *d’un* État membre *d’une* zone de pêche à *l’autre* afin de tenir compte du schéma de migration géographique et temporelle de *l’anguille* à ses différents stades de développement ; / b) la ou lespériodes de fermeture ont une durée de six mois consécutifs ou une durée totale de six mois, conformément aux paragraphes 3 ou 4; et / c) par dérogation au point b), si *l’État* membre concerné détermine que la période de fermeture dans les sous-régions géographiques CGPM 1 à 27 commence le 1er mars 2023 ou après cette date, la période a une durée de six mois consécutifs;  d) la ou les périodes de fermeture sont cohérentes avec les objectifs de conservation fixés par le règlement (CE) no 1100/2007, les plans nationaux de gestion existants et les schémas de migration
 temporelle de *l’anguille d’Europe* au stade de développement respectif dans *l’État* membre
 concerné. / 3. Dans les sous-régions géographiques CGPM 1 à 27, la période de fermeture
 *s’étend* du 1er janvier au 31 mars 2023, et une période de fermeture supplémentaire de trois mois
@@ -284,10 +235,6 @@ ce cas, *l’État* membre concerné détermine une nouvelle période de fermetu
 mois ; / iv) *l’application* des points i) à iii), ne peut pas conduire à une situation dans laquelle
 *l’État* membre concerné autorise la pêche, entre le 1er janvier et le 31 mars 2023, pour une
 période supérieure à un mois plus un mois supplémentaire exclusivement pour le repeuplement. ».
-
-```
-
-```
 
 8. Par un arrêté du 28 octobre 2013, le ministre de l'écologie, du développement
    durable et de l'énergie et le ministre délégué auprès du ministre de l'écologie, du développement
@@ -331,10 +278,6 @@ la décision attaquée :
     s’étendre du 1 er janvier au 31 mars 2023 et comprendre une période de fermeture supplémentaire
     de trois mois entre le 1 er avril et le 30 novembre 2023.
 
-```
-
-```
-
 12. En premier lieu, il n’est pas contesté que les périodes de fermeture de la
     pêche de l’anguille jaune fixées par l’article 1 er de l’arrêté litigieux, d’une part, dans les UGA
     Artois-Picardie et Seine-Normandie (du 16 juillet 2023 au 14 février 2024), d’autre part, dans
@@ -372,10 +315,6 @@ nature à créer un doute sérieux sur la légalité des dispositions contestée
     l’anguille jaune dans les prud’homies d’Agde et de Sète-Mole n’est pas, en l’état de l’instruction,
     de nature à créer un doute sérieux sur la légalité des dispositions contestées.
 
-```
-
-```
-
 14. L’article 2 de l’arrêté attaqué autorise la pêche de l’anguille argentée dans
     les UGA Corse et Rhône Méditerranée jusqu’au 31 mars 2023, puis du 1 er octobre 2023 au 31 mars
 15.
@@ -394,11 +333,6 @@ nature à créer un doute sérieux sur la légalité des dispositions contestée
     conservation fixés par le règlement (CE) 1100/2007 du Conseil du 18 septembre 2007 et les plans
     nationaux de gestion existants n’est pas, en l’état de l’instruction, de nature à créer un doute sérieux
     sur la légalité des dispositions contestées.
-
-```
-
-```
-
 17. Il n’est pas contesté que l’article 3 de l’arrêté attaqué n’est pas conforme aux
     dispositions du b) du 4 de l’article 13 du règlement (UE) n° 2023/194 en ce qu’il autorise la pêche
     de l’anguille de moins de 12 centimètres dans les UGA Artois-Picardie, Seine-Normandie, Loire,
@@ -410,9 +344,6 @@ nature à créer un doute sérieux sur la légalité des dispositions contestée
 quatre UGA est, en l’état de l’instruction, de nature à créer un doute sérieux sur la légalité de ses
 dispositions.
 
-```
-
-```
 
 18. L'urgence justifie que soit prononcée la suspension d'un acte administratif
     lorsque l'exécution de celui-ci porte atteinte, de manière suffisamment grave et immédiate, à un
@@ -435,9 +366,9 @@ dispositions.
     compte tenu des périodes de migration des anguilles et des pics de capture aux différents stades
     de leur cycle de vie.
 
-```
 
-```
+
+
 
 20. En l’absence de quotas, la fixation des périodes de pêche est, dans les zones
     où elle est autorisée, la seule mesure de régulation de la pêche de l’anguille jaune. Il résulte de
@@ -455,9 +386,9 @@ dispositions.
     l’urgence justifie la suspension de l’exécution des dispositions de l’article 1 er dans les UGA
     mentionnées au point 12.
 
-```
 
-```
+
+
 
 21. Il résulte de l’instruction que le quota de pêche pour les anguilles de moins
     de 12 centimètres destinées à la mise en consommation pour la période du 1 er novembre 2022 au
@@ -487,9 +418,9 @@ dispositions.
     demander la suspension de l’exécution des articles 1 er et 3 de l’arrêté attaqué dans la mesure
     indiquée aux points 20 et 22.
 
-```
 
-```
+
+
 
 24. La suspension de l’exécution des dispositions mentionnées au point 23
     n’implique pas que l’autorité compétente prenne une mesure d’exécution dans un sens déterminé.
