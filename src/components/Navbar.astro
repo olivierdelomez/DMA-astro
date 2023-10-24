@@ -1,9 +1,10 @@
 ---
 import Logo from "@assets/dma-logo.png";
 import { Image } from "astro:assets";
+import MobileMenu from "./MobileMenu.astro";
 ---
 
-<style>
+<style scoped>
   .mobile-nav-toggle {
     display: none;
   }
@@ -19,42 +20,6 @@ import { Image } from "astro:assets";
     margin: 0;
     padding: 0;
     gap: 1.25rem;
-  }
-
-  @media (max-width: 35em) {
-    .main-nav {
-      position: fixed;
-      inset: 0 0 0 30%;
-      display: flex;
-      flex-direction: column;
-      list-style: none;
-      margin: 0;
-      padding: min(20vh, 4rem);
-      gap: 1.25rem;
-      background-color: hsl(0 0% 100% / 0.7);
-      backdrop-filter: blur(2em);
-      transform: translateX(100%);
-      transition: transform 120ms ease-in;
-    }
-
-    .main-nav[data-visibility="true"] {
-      transform: translateX(0%);
-    }
-
-    .mobile-nav-toggle {
-      display: block;
-      background-color: transparent;
-      background-image: url(/images/hamburger-open.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      border: none;
-      top: 2rem;
-      right: 2rem;
-      z-index: 9999;
-      width: 2rem;
-      aspect-ratio: 1;
-    }
   }
 
   ul > li {
@@ -185,128 +150,119 @@ import { Image } from "astro:assets";
 
   .highlighted > a,
   .highlighted > a:visited {
-    color: var(--highlight-color);
+    color: var(--highlight-color) !important;
   }
 </style>
 
-<script>
-  const navToggle = document.querySelector(".mobile-nav-toggle");
-  const navMenu = document.querySelector(".main-nav");
 
-  navToggle?.addEventListener("click", () => {
-    const visibility = navMenu?.getAttribute("data-visibility");
-    if (visibility === "false") {
-      navMenu?.setAttribute("data-visibility", "true");
-    } else if (visibility === "true") {
-      navMenu?.setAttribute("data-visibility", "false");
-    }
-  });
-</script>
 
 <header>
-  <h1>
+  <h1 class="p-4">
     <Image src={Logo} alt="logo dma" />
-    <a href="/"> DÉFENSE DES <br /> MILIEUX AQUATIQUES</a>
+    <a href="/" class="font-bold text-xl"> DÉFENSE DES <br /> MILIEUX AQUATIQUES</a>
   </h1>
-  <button class="mobile-nav-toggle"></button>
-  <nav aria-label="navigation principale">
-    <ul data-visibility="false" class="main-nav">
-      <li class="dropdown">
-        <button
-          type="button"
-          class="dropdown__title"
-          aria-expanded="false"
-          aria-controls="whoweare-dropdown"
-        >
-          Qui sommes-nous ?
-        </button>
-        <ul class="dropdown__menu" id="dma-dropdown">
-          <li>
-            <a href="/equipe">Equipe</a>
-          </li>
-          <li>
-            <a href="/objectifs">Objectifs</a>
-          </li>
-          <li>
-            <a href="/histoire">Histoire</a>
-          </li>
-          <li>
-            <a href="/fonctionnement">Fonctionnement</a>
-          </li>
-          <li>
-            <a href="/bilans-comptables">Bilans comptables</a>
-          </li>
-          <li>
-            <a href="/statuts">Statuts</a>
-          </li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <button
-          type="button"
-          class="dropdown__title"
-          aria-expanded="false"
-          aria-controls="whoweare-dropdown"
-        >
-          Projets
-        </button>
-        <ul class="dropdown__menu" id="dma-dropdown">
-          <li>
-            <a href="/notre-grand-projet">Golden Miles</a>
-          </li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <button
-          type="button"
-          class="dropdown__title"
-          aria-expanded="false"
-          aria-controls="actions-dropdown"
-        >
-          Actions
-        </button>
-        <ul class="dropdown__menu" id="dma-dropdown">
-          <li>
-            <a href="/historique">Historique</a>
-          </li>
-          <li>
-            <a href="/donnees-environnementales">Données environnementales</a>
-          </li>
-          <!-- <li>
-            <a href="/resultats">Résultats</a>
-          </li> -->
-        </ul>
-      </li>
-      <li class="dropdown">
-        <button
-          type="button"
-          class="dropdown__title"
-          aria-expanded="false"
-          aria-controls="actions-dropdown"
-        >
-          Ressources
-        </button>
-        <ul class="dropdown__menu" id="dma-dropdown">
-          <li>
-            <a href="/especes-defendues">Espèces défendues</a>
-          </li>
-          <li>
-            <a href="/engins">Engins combattus</a>
-          </li>
-          <li>
-            <a href="/ressources/livres">Livres</a>
-          </li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="/blog">Actualité</a>
-      </li>
-      <li class="dropdown highlighted">
-        <a
-          href="https://www.helloasso.com/associations/defense-des-milieux-aquatiques"
-          >Adhésion / don</a
-        >
-      </li>
-    </ul>
-  </nav>
+  <div class="hidden md:block z-10">
+    <nav aria-label="navigation principale">
+      <ul data-visibility="false" class="main-nav">
+        <li class="dropdown">
+          <button
+            type="button"
+            class="dropdown__title"
+            aria-expanded="false"
+            aria-controls="whoweare-dropdown"
+          >
+            Qui sommes-nous ?
+          </button>
+          <ul class="dropdown__menu" id="dma-dropdown">
+            <li>
+              <a href="/equipe">Equipe</a>
+            </li>
+            <li>
+              <a href="/objectifs">Objectifs</a>
+            </li>
+            <li>
+              <a href="/histoire">Histoire</a>
+            </li>
+            <li>
+              <a href="/fonctionnement">Fonctionnement</a>
+            </li>
+            <li>
+              <a href="/bilans-comptables">Bilans comptables</a>
+            </li>
+            <li>
+              <a href="/statuts">Statuts</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <button
+            type="button"
+            class="dropdown__title"
+            aria-expanded="false"
+            aria-controls="whoweare-dropdown"
+          >
+            Projets
+          </button>
+          <ul class="dropdown__menu" id="dma-dropdown">
+            <li>
+              <a href="/notre-grand-projet">Golden Miles</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <button
+            type="button"
+            class="dropdown__title"
+            aria-expanded="false"
+            aria-controls="actions-dropdown"
+          >
+            Actions
+          </button>
+          <ul class="dropdown__menu" id="dma-dropdown">
+            <li>
+              <a href="/historique">Historique</a>
+            </li>
+            <li>
+              <a href="/donnees-environnementales">Données environnementales</a>
+            </li>
+            <!-- <li>
+              <a href="/resultats">Résultats</a>
+            </li> -->
+          </ul>
+        </li>
+        <li class="dropdown">
+          <button
+            type="button"
+            class="dropdown__title"
+            aria-expanded="false"
+            aria-controls="actions-dropdown"
+          >
+            Ressources
+          </button>
+          <ul class="dropdown__menu" id="dma-dropdown">
+            <li>
+              <a href="/especes-defendues">Espèces défendues</a>
+            </li>
+            <li>
+              <a href="/engins">Engins combattus</a>
+            </li>
+            <li>
+              <a href="/ressources/livres">Livres</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="/blog/" data-astro-reload>Actualité</a>
+        </li>
+        <li class="dropdown highlighted">
+          <a
+          class="text-red-700 visited:text-red-700"
+            href="https://www.helloasso.com/associations/defense-des-milieux-aquatiques"
+            >Adhésion / don</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <MobileMenu />
 </header>
