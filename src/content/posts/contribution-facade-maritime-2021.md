@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/BlogLayout.astro"
 title: Contribution de DÉFENSE DES MILIEUX AQUATIQUES à la Consultation 2021 Stratégie pour la Façade Maritime 
-description: "Vous souhaitez participez à la consultation mais vous êtes désemparé(e) par l'ampleur des documents, la complexité des questions et la limitation des réponses à 1000 caractères : inspirez vous de ce KIT de CONSULTATION que DÉFENSE DES MILIEUX AQUATIQUES vous propose."
+description: "Vous souhaitez participez à la consultation mais vous êtes désemparé(e) par l'ampleur des documents, la complexité des questions et la limitation des réponses à 1000 caractères: inspirez vous de ce KIT de consultation que DMA vous propose."
 vignette: /images/uploads/capture-d-ecran-2023-04-20-141021.jpg
 created_at: Sat Nov 04 2021 08:00:00 GMT+0100
 tags:

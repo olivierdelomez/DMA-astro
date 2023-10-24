@@ -1,0 +1,125 @@
+<style>
+  .mobile-nav-toggle {
+      background-color: transparent;
+      background-image: url(/images/hamburger-open.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      border: none;
+      top: 2rem;
+      right: 2rem;
+      z-index: 9999;
+      width: 2rem;
+      aspect-ratio: 1;
+    }
+</style>
+<script>
+  const navToggle = document.querySelector(".mobile-nav-toggle");
+  const navMenu = document.querySelector("#mobile-nav");
+
+  navToggle?.addEventListener("click", () => {
+    const visibility = navMenu?.getAttribute("data-visibility");
+    if (visibility === "false") {
+      navMenu?.setAttribute("data-visibility", "true");
+      document.body.classList.add("overflow-hidden")
+    } else if (visibility === "true") {
+      navMenu?.setAttribute("data-visibility", "false");
+      document.body.classList.remove("overflow-hidden")
+    }
+  });
+</script>
+
+<button class="mobile-nav-toggle visible md:hidden"></button>
+
+<div
+    data-visibility="false"
+    id="mobile-nav"
+    class="fixed overscroll-contain overflow-y-auto py-4 inset-0 h-full w-full z-10 bg-white transition-transform translate-x-full data-[visibility=true]:translate-x-0 flex items-start justify-center"
+  >
+    <nav class="mt-9">
+      <ul class="flex flex-col gap-8 text-lg overflow-scroll-y">
+        <li>
+          <a
+          class="text-red-700 visited:text-red-700 font-bold"
+            href="https://www.helloasso.com/associations/defense-des-milieux-aquatiques"
+            >Adhésion / don</a>
+        </li>
+        <li>
+          <label class="block text-blue-700 font-bold" for="cb1">Qui sommes-nous ?</label>
+          <input type="checkbox" class="peer opacity-0 absolute" name="qui-sommes-nous-1" id="cb1">
+          <div class="h-0 overflow-hidden translate-x-full peer-checked:translate-x-0 peer-checked:h-full transition-all">
+            <ul class="list-disc list-inside list-image-[url(arrow.svg)] flex flex-col gap-4 mt-4">
+              <li>
+                <a href="/equipe">Equipe</a>
+              </li>
+              <li>
+                <a href="/objectifs">Objectifs</a>
+              </li>
+              <li>
+                <a href="/histoire">Histoire</a>
+              </li>
+              <li>
+                <a href="/fonctionnement">Fonctionnement</a>
+              </li>
+              <li>
+                <a href="/bilans-comptables">Bilans comptables</a>
+              </li>
+              <li>
+                <a href="/statuts">Statuts</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        
+        <li>
+          <label class="block text-blue-700 font-bold" for="projets">Projets</label>
+          <input type="checkbox" class="peer opacity-0 absolute" name="projet-1" id="projets">
+          <div class="h-0 overflow-hidden translate-x-full peer-checked:translate-x-0 peer-checked:h-full transition-all">
+            <ul class="list-disc list-inside list-image-[url(arrow.svg)] flex flex-col gap-4 mt-4">
+              <li>
+                <a href="/notre-grand-projet">Golden Miles</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        
+        <li>
+          <label class="text-blue-700 font-bold" for="actions">Actions</label>
+          <input type="checkbox" class="peer opacity-0" name="actions-1" id="actions">
+          <div class="h-0 overflow-hidden translate-x-full peer-checked:translate-x-0 peer-checked:h-full transition-all">
+            <ul class="list-disc list-inside list-image-[url(arrow.svg)] flex flex-col gap-4 mt-4">
+              <li>
+                <a href="/historique">Historique</a>
+              </li>
+              <li>
+                <a href="/donnees-environnementales">Données environnementales</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        
+        
+        <li>
+
+          <label class="text-blue-700 font-bold" for="ressources">Ressources</label>
+          <input type="checkbox" class="peer opacity-0" name="ressources-1" id="ressources">
+          <div class="h-0 overflow-hidden translate-x-full peer-checked:translate-x-0 peer-checked:h-full transition-all">
+            <ul class="list-disc list-inside list-image-[url(arrow.svg)] flex flex-col gap-4 mt-4">
+              <li>
+                <a href="/especes-defendues">Espèces défendues</a>
+              </li>
+              <li>
+                <a href="/engins">Engins combattus</a>
+              </li>
+              <li>
+                <a href="/ressources/livres">Livres</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="text-blue-700 font-bold" href="/blog/" data-astro-reload>Actualité</a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
