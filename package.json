@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "dma",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,10 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^1.0.0",
     "@astrojs/sitemap": "^2.0.0",
+    "@astrojs/tailwind": "^5.0.2",
     "@justinribeiro/lite-youtube": "^1.5.0",
-    "astro": "^2.9.6",
+    "astro": "^3.3.3",
     "astro-relative-links": "^0.3.4",
-    "autoprefixer": "^10.4.14"
+    "autoprefixer": "^10.4.14",
+    "tailwindcss": "^3.3.3"
   }
 }
