@@ -33,6 +33,23 @@ const { frontmatter } = Astro.props;
         />
       )
     }
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
+      method="post"
+      target="popupwindow"
+      onsubmit="
+      window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')
+      "
+      class="embeddable-buttondown-form"
+    >
+      <input
+        type="email"
+        name="email"
+        id="bd-email"
+        placeholder="votre adresse email"
+      />
+      <input class="btn-hero" type="submit" value="nous rejoindre" />
+    </form>
   </section>
 </Layout>
 

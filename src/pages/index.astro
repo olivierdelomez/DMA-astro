@@ -11,7 +11,7 @@ import Youtube from "../components/Youtube.astro";
 <Layout title="DEFENSE DES MILIEUX AQUATIQUES">
   <div class="timeline-wrapper">
     <div class="timeline-years">
-      <h2>Nos derniers résultats depuis le 1er janvier 2023</h2>
+      <h2 class="p-4 text-xl font-bold">Nos derniers résultats depuis le 1er janvier 2023</h2>
     </div>
   </div>
   <div class="hero-wrapper">
@@ -145,7 +145,7 @@ import Youtube from "../components/Youtube.astro";
             body="Dons de temps et d'argent, vous pouvez nous aider de plusieurs façons"
           />
           <Card
-            href="/actualité"
+            href="/blog"
             title="Actualités"
             body="Retrouvez nos dernières actualités"
           />
@@ -160,6 +160,18 @@ import Youtube from "../components/Youtube.astro";
         <Youtube videoid="B5v8VxF3uh4" />
       </aside>
     </div>
+    <section class="podcast">
+      <div class="mb-4">
+
+        <h3>Podcast</h3>
+        <p>
+          Guillaume MEURICE fait découvrir le sujet de la pêche maritime à deux adolescents Ilio et Enna. Leur curiosité et leur pertinence transcendent cette géniale émission. 
+          Défense des milieux Aquatiques a eu le privilège de répondre à Ilio et Enna avec une certaine émotion.
+        </p>
+      </div>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2yQRNaXkDjzME12VGOrWpT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <a href="https://www.radiofrance.fr/franceinter/podcasts/mission-poseidon" target="_blank" rel="noopener">👉 Ecoutez la suite sur France Inter 👈</a>
+    </section>
     <section class="newsletter">
       <h3>Restez informé! Je veux recevoir la newsletter</h3>
       <form
@@ -489,6 +501,8 @@ import Youtube from "../components/Youtube.astro";
     margin: auto;
     color: var(--dma-blue);
     padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     padding-bottom: 2rem;
     background-color: white;
   }
@@ -531,5 +545,18 @@ import Youtube from "../components/Youtube.astro";
   .keep-fighting {
     text-align: center;
     margin-top: 2rem;
+  }
+
+  .podcast {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+  }
+  .podcast > a {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    margin: auto;
+    display: block;
+    width: fit-content;
   }
 </style>

@@ -1,7 +1,6 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
-import "../styles/global.css";
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
 const allJugemenents = await getCollection("jugements");
@@ -42,7 +41,7 @@ const jugements = allJugemenents
           ))
         }
       </ul>
-      <ul role="list" class="link-card-grid">
+      <ul role="list" class="link-card-grid mt-4">
         {
           posts.map((post) => (
             <Card
@@ -55,7 +54,7 @@ const jugements = allJugemenents
         }
       </ul>
     </section>
-    <section>
+    <section class="mt-12">
       <h1>Jugements rendus</h1>
       <ul role="list" class="link-card-grid">
         {

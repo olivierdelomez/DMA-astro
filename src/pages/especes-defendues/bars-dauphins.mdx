@@ -2,7 +2,12 @@
 layout: "@layouts/BlogLayout.astro"
 title: Bars et Dauphins
 description: Une grosse partie des bars capturés en France le sont encore pendant les trois mois d'hiver, période de reproduction de l'espéce.
+vignette: assets/dolphins.jpg
 ---
+import { Image } from 'astro:assets';
+import Dolphins from "../../assets/dolphins.jpg"
+
+<Image transition:name="hero" transition:animate="slide" src={Dolphins} alt="Dolphins and seabass"/>
 
 Une grosse partie des bars capturés en France le sont encore pendant les trois mois d'hiver, janvier à mars, au moment où ces poissons deviennent très exposés en se rassemblant au large en bancs très denses pour frayer.
 
