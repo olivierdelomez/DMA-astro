@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  ul {
+    list-style-type: disc;
+    padding-left: 2rem
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
   h1 {
     @apply text-2xl my-2 font-bold;
   }

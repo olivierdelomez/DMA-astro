@@ -4,9 +4,12 @@ title: Notre Grand Projet
 description: Notre Grand Projet
 ---
 
-#### Rejoignez les ONG qui exigent l'EXCLUSION DES FILETS DE PÊCHE de la bande marine littorale des TROIS milles nautiques
+**[Lire le premier chapitre de Golden Miles sur Calameo](https://www.calameo.com/read/00751452419cabfa06623)**
 
-Publié le 23 mai 2022
+
+## Rejoignez les ONG qui exigent l'EXCLUSION DES FILETS DE PÊCHE de la bande marine littorale des TROIS milles nautiques  
+  
+  
 
 Un collectif est en train de s'organiser pour exiger la mise en place d'une bande marine littorale libérée des filets. Votre association est invitée à venir le consolider en adhérant au manifeste. Pour y ajouter votre nom et votre logo par ordre alphabétique, il suffit de vous inscrire sur ce formulaire et de nous adresser votre logo à cette adresse.
 
@@ -16,9 +19,9 @@ Selon un rapport de la Fondation mondiale pour les poissons migrateurs et de l'U
 
 En métropole, nos grands poissons migrateurs sont dans une situation catastrophique (2) :
 
-*   L'esturgeon européen, la grande alose et l'anguille sont « en danger critique d'extinction ».
-*   La lamproie marine est « en danger d'extinction ».
-*   Selon les régions, le saumon varie de « vulnérable » à « en danger critique d'extinction » .
+- L'esturgeon européen, la grande alose et l'anguille sont « en danger critique d'extinction ».
+- La lamproie marine est « en danger d'extinction ».
+- Selon les régions, le saumon varie de « vulnérable » à « en danger critique d'extinction » .
 
 Cet effondrement qui se poursuit sous nos yeux mérite que nous mutualisons nos moyens pour déclencher des actions à la fois efficaces et réalisables.
 
