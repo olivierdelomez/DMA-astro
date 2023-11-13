@@ -18,7 +18,12 @@ Pour ce faire, elle a recours à l’expertise de nombreux halieutes, mathémati
 
 ### Rapports d'Activités
 
+*   [2022](/rapport-activite/2022)
+
+### Historique de nos actions juridiques
+
 *   [2018](/historique/2018)
 *   [2019](/historique/2019)
 *   [2020](/historique/2020)
 *   [2021](/historique/2021)
+*   [2022](/historique/2022)

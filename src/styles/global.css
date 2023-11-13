@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  ul {
+
+  ul,
+  ol {
     list-style-type: disc;
     padding-left: 2rem
   }
