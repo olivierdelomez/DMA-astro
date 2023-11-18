@@ -22,9 +22,11 @@ const { frontmatter } = Astro.props;
       </Hero>
     )
   }
-  <section class="container-md container-white">
+  <section class="md:container-md mx-auto container-white">
     {!frontmatter.vignette && <h1>{frontmatter.title}</h1>}
-    <slot />
+    <article class="prose lg:prose-xl">
+      <slot />
+    </article>
     {
       !!frontmatter.tags && (
         <SimilarPosts

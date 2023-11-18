@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import relativeLinks from "astro-relative-links";
 import mdx from '@astrojs/mdx';
+import remarkToc from 'remark-toc';
 import sitemap from "@astrojs/sitemap";
 
 import tailwind from "@astrojs/tailwind";
@@ -26,6 +27,9 @@ export default defineConfig({
     '/classification-des-rivi%C3%A8res-%C3%A0-saumon': '/blog/classification-des-rivieres-a-saumon'
   },
   base: '/',
+  markdown: {
+    remarkPlugins: [[remarkToc, { heading: 'Table des matières' }]],
+  },
   integrations: [relativeLinks(), sitemap(), mdx(), tailwind({
     applyBaseStyles: false
   })]
