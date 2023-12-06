@@ -160,9 +160,21 @@ import Youtube from "../components/Youtube.astro";
         <Youtube videoid="B5v8VxF3uh4" />
       </aside>
     </div>
+    <section class="video">
+      <div>
+        <div class="video__summary">
+          <h3>La Rivière <span>de Dominique Marchais</span></h3>
+          <p>Entre Pyrénées et Atlantique coulent des rivières puissantes qu’on appelle les gaves.
+            Les champs de maïs les assoiffent, les barrages bloquent la circulation du saumon. L’activité humaine bouleverse le cycle de l’eau et la biodiversité de la rivière.
+            Des hommes et des femmes tendent leur regard curieux et amoureux vers ce monde fascinant fait de beauté et de désastre. 
+            </p>
+            <p>Au cinéma le 22 novembre</p>
+        </div>
+        <Youtube videoid="EtIcELoNdNI" />
+      </div>
+    </section>
     <section class="podcast">
       <div class="mb-4">
-
         <h3>Podcast</h3>
         <p>
           Guillaume MEURICE fait découvrir le sujet de la pêche maritime à deux adolescents Ilio et Enna. Leur curiosité et leur pertinence transcendent cette géniale émission. 
@@ -559,4 +571,39 @@ import Youtube from "../components/Youtube.astro";
     display: block;
     width: fit-content;
   }
+  .video {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+  }
+
+  
+  @media (min-width: 768px) {
+    .video > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video > div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .video__summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .video__summary h3 > span {
+    font-style: italic;
+    text-transform: initial;
+    font-size: 1rem;
+    color: rgb(30, 30, 30);
+  }
+
 </style>
