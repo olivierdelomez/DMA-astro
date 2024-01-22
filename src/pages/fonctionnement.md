@@ -16,6 +16,7 @@ Pour ce faire, elle a recours à l’expertise de nombreux halieutes, mathémati
 
 (anciennement ADRM) (modifiés par l'assemblée générale à distance du 25 septembre 2021)
 
+[Contrat d’engagement républicain](/DMA_ENGAGEMENT_REPUBLICAIN.pdf)
 ### Rapports d'Activités
 
 - [2022](/rapport-activite/2022)
