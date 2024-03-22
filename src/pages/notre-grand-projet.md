@@ -9,19 +9,18 @@ description: Notre Grand Projet
 
 ## Rejoignez les ONG qui exigent l'EXCLUSION DES FILETS DE PÊCHE de la bande marine littorale des TROIS milles nautiques  
   
-  
 
 Un collectif est en train de s'organiser pour exiger la mise en place d'une bande marine littorale libérée des filets. Votre association est invitée à venir le consolider en adhérant au manifeste. Pour y ajouter votre nom et votre logo par ordre alphabétique, il suffit de vous inscrire sur ce formulaire et de nous adresser votre logo à cette adresse.
 
 L'intérêt environnemental est multiple : soulager les migrateurs amphihalins, restaurer les nourriceries, et diminuer les captures accidentelles de mammifères, oiseaux et tortues marines.
 
-Selon un rapport de la Fondation mondiale pour les poissons migrateurs et de l'UICN (1) en juillet 2020, la population de poissons migrateurs a chuté depuis les années 70 de 76% dans le monde et de 93% en Europe.
+Selon un rapport de la Fondation mondiale pour les poissons migrateurs et de l'UICN [^1] en juillet 2020, la population de poissons migrateurs a chuté depuis les années 70 de 76% dans le monde et de 93% en Europe.
 
-En métropole, nos grands poissons migrateurs sont dans une situation catastrophique (2) :
+En métropole, nos grands poissons migrateurs sont dans une situation catastrophique [^2] :
 
-- L'esturgeon européen, la grande alose et l'anguille sont « en danger critique d'extinction ».
+- L'esturgeon européen, la grande alose et l'anguille sont «en danger critique d'extinction».
 - La lamproie marine est « en danger d'extinction ».
-- Selon les régions, le saumon varie de « vulnérable » à « en danger critique d'extinction » .
+- Selon les régions, le saumon varie de « vulnérable » à «en danger critique d'extinction»
 
 Cet effondrement qui se poursuit sous nos yeux mérite que nous mutualisons nos moyens pour déclencher des actions à la fois efficaces et réalisables.
 
@@ -31,9 +30,10 @@ Malgré nos efforts qu'il faut néanmoins poursuivre, les grands facteurs de l'e
 
 Par contre, nous pouvons et nous devons cesser d'exploiter ces espèces et lutter efficacement contre les captures trop facilement baptisées d'accidentelles. C'est une condition nécessaire, mais pas forcément suffisante.
 
-La première action consiste à demander le rachat définitif des licences des pêcheurs professionnels en eau douce puisque les ¾ survivent encore actuellement en tout ou partie sur le dos de ces espèces (3) à l'agonie. Le traitement social honorable d'une profession condamnée suppose une juste indemnisation, légalement prévue par l'article 22 du nouveau Fonds Européen pour les Affaires Maritime et la Pêche.
+La première action consiste à demander le rachat définitif des licences des pêcheurs professionnels en eau douce puisque les ¾ survivent encore actuellement en tout ou partie sur le dos de ces espèces [^3] à l'agonie. Le traitement social honorable d'une profession condamnée suppose une juste indemnisation, légalement prévue par l'article 22 du nouveau Fonds Européen pour les Affaires Maritime et la Pêche.
 
-La deuxième action consiste à libérer la bande marine littorale des trois milles nautiques de tous les filets maillants et des chaluts pour dégager le corridor migratoire des saumons, et l'espace de vie principal des aloses et des esturgeons. C'est là que des milliers de géniteurs saumons et aloses sont capturés chaque printemps en silence.
+La deuxième action consiste à libérer la bande marine littorale des trois milles nautiques de tous les filets maillants et des chaluts pour dégager le corridor migratoire des saumons, et l'espace de vie principal des aloses et des esturgeons. C'est là que des milliers de géniteurs saumons et aloses sont capturés chaque printemps en silence. Deux rapports d'observations embarquées attestent d'une moyenne de 3 salmonidés par marée et par navire [^4] [^5] [^6].
+![saumons par maree et par navire ](/3_SAUMONS_PAR_MAREE_PAR_NAVIRE.jpg)
 
 À l'heure actuelle, aucune aire marine protégée ne prend en compte cette réalité de la circulation des grands migrateurs amphihalins.
 
@@ -57,6 +57,9 @@ Contact : ​ Philippe GARCIA président de DÉFENSE DES MILIEUX AQUATIQUES maig
 
 Notes :
 
-*   (1) IUCN, WFMF, WWF, TNC, ZSL, [The Living Planet Index (LPI) for migratory freshwater fish, 2020](https://wwfeu.awsassets.panda.org/downloads/lpi_migratory_freshwater_fish_low_min.pdf)
-*   (2) IUCN, [La Liste rouge des espèces menacées en France Poissons d'eau douce de France métropolitaine](https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf) 2019
-*   (3) FranceAgrimer, [Étude sur la valorisation économique des espèces invasives d'eau douce en France](https://www.franceagrimer.fr/fam/content/download/59225/document/ETU-MER-ESPECES-INVASIVES-EAU-DOUCE-2017.pdf?version=4) , décembre 2018
+[^1]: IUCN, WFMF, WWF, TNC, ZSL, [The Living Planet Index (LPI) for migratory freshwater fish, 2020](https://wwfeu.awsassets.panda.org/downloads/lpi_migratory_freshwater_fish_low_min.pdf)
+[^2]: IUCN, [La Liste rouge des espèces menacées en France Poissons d'eau douce de France métropolitaine](https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf) 2019
+[^3]: FranceAgrimer, [Étude sur la valorisation économique des espèces invasives d'eau douce en France](https://www.franceagrimer.fr/fam/content/download/59225/document/ETU-MER-ESPECES-INVASIVES-EAU-DOUCE-2017.pdf?version=4) , décembre 2018
+[^4]: [PROUZET P., 2001 - Rapport sur les prises de salmonidés en zone côtière du Pays Basque et du Sud des Landes en 2000. Rapport Ifremer/DRV/RH. Contrat DIREN-CG 64, 46 pages](/1_SAUMON_COTE_64-40_2000_VIERGE.pdf)
+[^5]: [POPOVSKY J., 2002 - Rapport de campagne, prise des salmonidés migrateurs en zone côtière du Pays Basque et du sud des Landes, Institut des Milieux Aquatiques, 2001](/2_RAPPORT_POPOVSKY_captures_2001_REDUIT.pdf)
+[^6]: [GARCIA P., 2021 - Captures accidentelles de saumon le long de la côte basco-landaise LA FABRIQUE DE L'IGNORANCE Analyse critique de deux rapports d'observations embarquées de 2000 et 2001, Défense des Milieux Aquatiques.](/CRITIQUE_RAPPORTS_SAUMON_OBSERVATIONS_EMBARQUEES_2000_2001.pdf)

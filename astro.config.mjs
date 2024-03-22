@@ -29,6 +29,10 @@ export default defineConfig({
   base: '/',
   markdown: {
     remarkPlugins: [[remarkToc, { heading: 'Table des matières' }]],
+    remarkRehype: {
+		  footnoteLabel: 'Notes',
+		  footnoteBackLabel: 'Retour au contenu',
+		},
   },
   integrations: [relativeLinks(), sitemap(), mdx(), tailwind({
     applyBaseStyles: false
