@@ -4,11 +4,13 @@ title: Notre Grand Projet
 description: Notre Grand Projet
 ---
 
+### Rejoignez les ONG qui exigent l'EXCLUSION DES FILETS DE PÊCHE de la bande marine littorale des TROIS milles nautiques  
+
+
 **[Lire le premier chapitre de Golden Miles sur Calameo](https://www.calameo.com/read/00751452419cabfa06623)**
 
+**[Commander votre exemplaire Golden Miles](/golden-miles-commande)**
 
-## Rejoignez les ONG qui exigent l'EXCLUSION DES FILETS DE PÊCHE de la bande marine littorale des TROIS milles nautiques  
-  
 
 Un collectif est en train de s'organiser pour exiger la mise en place d'une bande marine littorale libérée des filets. Votre association est invitée à venir le consolider en adhérant au manifeste. Pour y ajouter votre nom et votre logo par ordre alphabétique, il suffit de vous inscrire sur ce formulaire et de nous adresser votre logo à cette adresse.
 
