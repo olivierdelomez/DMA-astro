@@ -22,7 +22,7 @@ const { frontmatter } = Astro.props;
       </Hero>
     )
   }
-  <section class="md:container-md mx-auto container-white">
+  <section class="container-md mx-auto container-white">
     {!frontmatter.vignette && <h1>{frontmatter.title}</h1>}
     <article class="prose lg:prose-xl">
       <slot />
@@ -44,7 +44,7 @@ const { frontmatter } = Astro.props;
       "
       class="embeddable-buttondown-form mt-8 border-t-2 border-gray-300 pt-8"
     >
-    <label class="block" for="email">Recevez la newsletter de DMA:</label>
+      <label class="block" for="email">Recevez la newsletter de DMA:</label>
       <input
         type="email"
         name="email"
@@ -52,7 +52,11 @@ const { frontmatter } = Astro.props;
         placeholder="votre adresse email"
         class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
       />
-      <input class="btn-hero ml-2 underline" type="submit" value="nous rejoindre" />
+      <input
+        class="btn-hero ml-2 underline"
+        type="submit"
+        value="nous rejoindre"
+      />
     </form>
   </section>
 </Layout>

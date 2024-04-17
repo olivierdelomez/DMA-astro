@@ -4,8 +4,7 @@ title: Jessica Salmon
 description: Jessica Salmon, Membre du conseil d'administration, élève-avocate de l’association
 ---
 
-Jessica Salmon
-Membre du conseil d'administration
+### Membre du conseil d'administration
 
 Élève-avocate de l’association, son implication à l’égard des enjeux de sauvegarde et de préservation des océans s’est cristallisé lors de sa formation supérieure au sein de l’Université Paris I Panthéon-Sorbonne, en droit procédural et matériel interne et international, lorsqu’elle développait parallèlement une spécialisation en droit animalier au sein de l’Université de Limoges.
 

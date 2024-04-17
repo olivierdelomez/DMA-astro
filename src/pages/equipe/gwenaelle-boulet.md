@@ -4,6 +4,5 @@ title: Gwenaëlle Boulet
 description: Gwenaëlle Boulet
 ---
 
-Gwenaëlle Boulet
-Membre du conseil d'administration
+### Membre du conseil d'administration
 

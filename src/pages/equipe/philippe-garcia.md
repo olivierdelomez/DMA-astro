@@ -4,7 +4,6 @@ title: Philippe Garcia
 description: Philippe Garcia
 ---
 
-# Phillipe Garcia
 ### Président
 
 D'abord actif quelques années dans le domaine aérospatial, Philippe à décidé de prendre un autre tournant dans sa vie : il s'engagé dans des études médicales, et exerce une douzaine d'années en tant que médecin-chirurgien en ophtalmologie.
