@@ -30,7 +30,7 @@ contraire. Les captures accidentelles sont une véritable menace pour la
 conservation des espèces de cétacés. Les autorités françaises ne sont
 pas restées totalement inactives sur le sujet et, sous l'impulsion de
 l'Union-Européenne, ont su mettre en place des mesures de protection. À
-titre d'exemple, un arrêté du 1^er^ juillet 2011[^2] interdit la
+titre d'exemple, un arrêté du 1er juillet 2011[^2] interdit la
 destruction ou encore les perturbations intentionnelles des cétacés au
 motif que ce sont des espèces protégées. Depuis lors, il est « censé »
 avoir une obligation de déclaration des captures de cétacés (mais qui
@@ -58,7 +58,7 @@ Paris rend un jugement symbolique en condamnant l'État pour
 méconnaissance de ses obligations en matière de protection des
 mammifères marins et de contrôle des activités de pêche (TA Paris,
 2 juill. 2020, Association Sea Shepherd France,
-n^o^1901535/4-2[^5]). Le tribunal reconnaît que l'état de
+n1901535/4-2[^5]). Le tribunal reconnaît que l'état de
 conservation des cétacés est toujours insuffisant malgré les mesures
 destinées à protéger ces espèces. C'est une première victoire pour les
 associations de protection de l'environnement !
@@ -180,7 +180,7 @@ janvier au 20 février 2024, a permis d'accorder du répit aux cétacés cet
 hiver dans le Golfe de Gascogne. En effet, le bilan des échouages publié
 par l'observatoire Pelagis durant la fermeture dispose que **seulement 2
 individus sur les 50 retrouvés portaient les traces de mort des engins
-de pêche[^17]. Pelagis précise cependant qu'il est
+de pêche**[^17]. Pelagis précise cependant qu'il est
 encore trop tôt avant de conclure à l'efficacité globale de cette
 fermeture à l'échelle de toute la période à risque. Défense des Milieux
 Aquatiques, aux côtés d'autres associations, continuera de mettre l'État

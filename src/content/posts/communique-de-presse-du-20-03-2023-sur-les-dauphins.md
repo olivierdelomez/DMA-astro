@@ -16,7 +16,7 @@ created_at: Fri Mar 20 2023 04:32:22 GMT+0200
 Dès mars 2019, DÉFENSE DES MILIEUX AQUATIQUES avait contesté devant le
 Conseil d'État le principe de la pêche du bar au chalut pélagique sur les frayères et
 dénoncé les hécatombes de dauphins liées à cette pêche. L'association a récidivé en
-2020 avec un second recours n° 449849 , puis est venue soutenir les deux requêtes de
+2020 avec un second recours n° 449849, puis est venue soutenir les deux requêtes de
 France Nature Environnement et celle de Sea shepherd sur ce même sujet.
 
 Toutes les associations réclament des fermetures spatio-temporelles des engins de
