@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/BlogLayout.astro"
-title: Quota de capture de l'anguille d'Europe de moins de 12 cm (civelle)
-description: Quota de capture de l'anguille d'Europe de moins de 12 cm (civelle)
+title: Quota de capture de l'anguille d'Europe de moins de 12 cm (civelles)
+description: Quota de capture de l'anguille d'Europe de moins de 12 cm (civelles)
 tags:
   - anguilles
 created_at: 2024-05-03T15:16:38
