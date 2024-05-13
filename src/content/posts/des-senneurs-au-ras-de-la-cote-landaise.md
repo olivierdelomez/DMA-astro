@@ -4,7 +4,7 @@ title: Des senneurs au ras de la côte landaise
 description: 3 navires à la silhouette imposante qui depuis début janvier flirtent avec la bande littorale landaise
 tags:
   - "landes"
-created_at: 17 01 2021 08:00:00
+created_at: "2021-01-17T00:00:00.000Z"
 ---
 
 Certains ont remarqué ces 3 navires à la silhouette imposante qui depuis début janvier flirtent avec la bande littorale landaise, souvent à moins d'un mile.

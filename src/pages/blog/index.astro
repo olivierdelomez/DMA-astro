@@ -6,7 +6,20 @@ const allPosts = await getCollection("posts");
 const allJugemenents = await getCollection("jugements");
 
 const posts = allPosts
-  .filter((post) => post.data.created_at)
+  .filter((post) => {
+    if (!post.data.created_at) return false;
+    let date;
+    try {
+      date = new Date(post.data.created_at as string);
+    } catch (error) {
+      console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+      console.log("~ fail to parse date for: ", post.data.title);
+      console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    }
+    if (date?.valueOf()) {
+      return true;
+    }
+  })
   .sort((a, b) => {
     const aDate = new Date(a.data.created_at as string).valueOf();
     const bDate = new Date(b.data.created_at as string).valueOf();
