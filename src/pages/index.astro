@@ -225,36 +225,36 @@ import Youtube from "../components/Youtube.astro";
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2yQRNaXkDjzME12VGOrWpT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <a href="https://www.radiofrance.fr/franceinter/podcasts/mission-poseidon" target="_blank" rel="noopener">👉 Ecoutez la suite sur France Inter 👈</a>
     </section>
-    <section class="newsletter">
-      <h3>Restez informé! Je veux recevoir la newsletter</h3>
-      <form
-        action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
-                class="embeddable-buttondown-form"
-      >
-        <input
-          type="email"
-          name="email"
-          id="bd-email"
-          placeholder="votre adresse email"
-        />
-        <input id="formButton" type="submit" value="m'inscrire" />
-      </form>
-      <!-- <ul class="social-media">
-        <li>
-          <img src={youtubeIcon.src} width={36} alt="Youtube Icon" />
-        </li>
-        <li>
-          <img src={instagramIcon.src} width={36} alt="Instagram Icon" />
-        </li>
-        <li>
-          <img src={facebookIcon.src} width={36} alt="Facebook Icon" />
-        </li>
-      </ul> -->
-    </section>
   </main>
+  <section class="newsletter">
+    <h3>Restez informé! Je veux recevoir la newsletter</h3>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
+              class="embeddable-buttondown-form"
+    >
+      <input
+        type="email"
+        name="email"
+        id="bd-email"
+        placeholder="votre adresse email"
+      />
+      <input id="formButton" type="submit" value="m'inscrire" />
+    </form>
+    <!-- <ul class="social-media">
+      <li>
+        <img src={youtubeIcon.src} width={36} alt="Youtube Icon" />
+      </li>
+      <li>
+        <img src={instagramIcon.src} width={36} alt="Instagram Icon" />
+      </li>
+      <li>
+        <img src={facebookIcon.src} width={36} alt="Facebook Icon" />
+      </li>
+    </ul> -->
+  </section>
   <section class="container-lg">
     <div class="description">
       <div>
@@ -392,12 +392,15 @@ import Youtube from "../components/Youtube.astro";
 
   .newsletter {
     position: relative;
+    min-height: 300px;
     color: white;
     text-align: center;
-    padding: 1rem;
-    margin-top: 6rem;
+    padding: 3rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     background-color: #0d4ab2a6;
     background-image: url("/images/newsletter.jpg");

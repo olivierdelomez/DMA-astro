@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import myImage from "../assets/file.jpg"; // Image is 1600x900
+import myImage from "../assets/surfer_cropped.jpg"; // Image is 1600x900
 
 const { title, vignette, asset } = Astro.props;
 ---
@@ -9,8 +9,8 @@ const { title, vignette, asset } = Astro.props;
   section {
     display: grid;
     grid-template-areas: "hero";
-    height: 48vh;
-    max-height: 600px;
+    height: 64vh;
+    max-height: 800px;
     place-items: center;
     background-color: rgba(13, 74, 178, 0.2);
   }
@@ -19,7 +19,7 @@ const { title, vignette, asset } = Astro.props;
   }
   img {
     object-fit: cover;
-    height: min(48vh, 600px);
+    height: min(64vh, 800px);
     width: 100%;
     z-index: -1;
   }

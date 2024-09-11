@@ -8,7 +8,7 @@ const allJugemenents = await getCollection("jugements");
 const posts = allPosts
   .filter((post) => {
     if (!post.data.created_at) return false;
-    let date;
+    let date: Date | undefined;
     try {
       date = new Date(post.data.created_at as string);
     } catch (error) {
