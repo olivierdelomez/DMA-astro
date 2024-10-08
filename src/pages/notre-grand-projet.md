@@ -6,6 +6,10 @@ description: Notre Grand Projet
 
 ### Rejoignez les ONG qui exigent l'EXCLUSION DES FILETS DE PÊCHE de la bande marine littorale des TROIS milles nautiques  
 
+**[🇫🇷 Le projet GOLDEN MILES au secours des saumons, dauphins et marins-pêcheurs (version française)](https://defensedesmilieuxaquatiques.org/2_BMSF_VERSION_ULTRA_COURTE_V2_NOTES_EN_FIN_NON_ANONYMISEE.pdf)**
+
+**[🇬🇧 The GOLDEN MILES project to the rescue of salmons, dolphins and fishermen (english version)](https://defensedesmilieuxaquatiques.org/BMSF_short_en.pdf)**
+
 
 **[Lire le premier chapitre de Golden Miles sur Calameo](https://www.calameo.com/read/00751452419cabfa06623)**
 
