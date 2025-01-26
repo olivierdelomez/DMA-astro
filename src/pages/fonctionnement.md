@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogLayout.astro
-title: Notre Fonctionnement
-description: notre fonctionnement
+title: Nos bilans d'activité
+description: Les bilans d'activité de DMA
 ---
 
 Actuellement, un groupe restreint de membres travaille à temps plein au sein de Défense des Milieux Aquatiques. Ils représentent les convictions et les mérites qui ont édifié l’association, afin d’assurer sa permanence, mais aussi informer, étudier, contrôler, et engager des actions de protection quotidiennement.
@@ -19,8 +19,9 @@ Pour ce faire, elle a recours à l’expertise de nombreux halieutes, mathémati
 [Contrat d’engagement républicain](/DMA_ENGAGEMENT_REPUBLICAIN.pdf)
 ### Rapports d'Activités
 
-- [2022](/rapport-activite/2022)
-- [2021](/RA-DMA-2021.pdf) (pdf)
+- [2023](/RAPPORT_ACTIVITE_DMA_2023.pdf)
+- [2022](/rapport-activite/2022) ou [version pdf](/RAPPORT_ACTIVITE_DMA_2022.pdf)
+- [2021](/RAPPORT_ACTIVITE_ADRM_2021.pdf) (pdf)
 - [2020](/RA-DMA-2020.pdf) (pdf)
 - [2019](/RA-DMA-2019.pdf) (pdf)
 - [2018](/rapport-activite/2018)
