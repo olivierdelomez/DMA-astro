@@ -15,5 +15,5 @@ l'année précédente.
 - [Bilan comptable et résultats 2022](/bilan_et_resultat_association_DMA_2022.pdf)
 - [Bilan comptable et résultats 2021](/BILAN+COMPTE_DE_RESULTAT_2021_DMA.pdf)
 - Bilan comptable de DMA 2020
-- Bilan comptable de l'ADRM 2018 : balance 2018, grand livre 2018.
 - Bilan comptable de l'ADRM 2019
+- Bilan comptable de l'ADRM 2018 : balance 2018, grand livre 2018.

@@ -1,12 +1,16 @@
+---
+layout: ../layouts/BlogLayout.astro
+title: Golden Miles version courte
+description: Golden Miles version courte
+---
 
-
-### Table des matières
+##### Table des matières
 
 Ce petit opuscule est en fait le résumé ultra succinct de l’ouvrage de référence :
 
-#### Golden Miles
+Golden Miles
 
-###### Éloignons des filets de la côte pour que revive la mer
+## Éloignons des filets de la côte pour que revive la mer
 
 (^)
 Édité en 2023, son premier tirage est aujourd’hui épuisé.
@@ -38,9 +42,7 @@ la Nature déjà éprouvée 23
 Le projet GOLDEN MILES, une solution qui devra venir des citoyens 26
 
 
-# L’
-
-effondrement de la biodiversité menace l’humanité au même titre que le réchauffe-
+L’effondrement de la biodiversité menace l’humanité au même titre que le réchauffe-
 ment climatique. Les ressources marines restent majoritairement surexploitées, me-
 nant au déclin de nombreuses espèces comme les saumons et les esturgeons, mais
 aussi à celui des marins-pêcheurs victimes d’une politique ultra libérale qui les asservit plutôt
@@ -57,7 +59,7 @@ nord-américains où elle est totalement validée.
 depuis longtemps des pêches fructueuses plus faciles et assure les bénéfices de la pêche côtière
 et des autres secteurs d’activité.
 
-##### Constater
+## Constater
 
 **L’effondrement de la biodiversité**
 Les activités humaines ont dépassé les limites du raisonnable jusqu’à modifier le climat.
@@ -71,7 +73,7 @@ intérêts. Il faut s'inquiéter de la sécurité de tous les écosystèmes puis
 nous menace directement. Leur restauration fait partie de la solution globale.
 Le projet GOLDEN MILES propose de contribuer significativement à la restauration de la bio-
 diversité marine dont l’effondrement, certes multifactoriel, est d’abord lié à la surexploitation de
-ces ressources vivantes par la pêche^1.
+ces ressources vivantes par la pêche[^1].
 
 Il améliorera significativement la situation des marins-pêcheurs, des saumons
 et d’espèces protégées comme les dauphins, les esturgeons et les oiseaux marins.
@@ -113,7 +115,7 @@ Les deux courbes se croisent et forment un X spectaculaire.
 De la même façon, le nombre de paysans diminue tandis que la surface des exploitations ne
 cesse de s’accroître.
 L’industrialisation de la pêche française, décidée après guerre, en même temps que le remem-
-brement rural et l’arrachage des haies, a détruit les emplois à chaque kilowattheure installé^3.
+brement rural et l’arrachage des haies, a détruit les emplois à chaque kilowattheure installé[^3].
 Les pêcheurs étaient moins de vingt-mille au milieu des années 90^4.
 Selon FranceAgriMer^5 , presque douze-mille emplois à temps plein avaient survécu en 2005. En
 2013, il n’en restait qu’un peu plus de dix-mille.
@@ -185,13 +187,13 @@ L’anguille est en danger critique d’extinction depuis plus de 15 ans, mais i
 question d’en stopper la pêche, ni même celle de ses alevins, les civelles, trop rentable selon le
 Conseil d’État^9.
 Ajoutons à cette liste la multiplication des pollutions côtières d’origine terrestre, qui se traduisent
-par les blooms^10 d’algues vertes en Bretagne ou de _“liga”_ au Pays Basque et des centaines de
+par les blooms[^10]d’algues vertes en Bretagne ou de _“liga”_ au Pays Basque et des centaines de
 
 _“zones mortes”_ littorales partout dans le monde.
-Selon FranceAgriMer^11 , le déficit du commerce extérieur des produits de la pêche ne cesse de
+Selon FranceAgriMer[^11], le déficit du commerce extérieur des produits de la pêche ne cesse de
 
 s’amplifier depuis le début des années 80.
-Selon le Conseil Scientifique, Technique et Économique de la Pêche de l’Union européenne^12 :
+Selon le Conseil Scientifique, Technique et Économique de la Pêche de l’Union européenne[^12]:
 _“le secteur de la pêche français traverse actuellement une crise majeure.”_
 Il est temps d’améliorer radicalement la gestion de la pêche, même si le projet proposé n’écartera
 pas toutes les menaces.
@@ -241,7 +243,7 @@ petits crustacés, le fameux krill naturellement riche en astaxanthine, qui colo
 C’est ainsi qu’il peut prendre beaucoup de poids en si peu de temps, comme peu d’autres espèces
 à sang froid sont capables de le faire.
 C’est à coup sûr une incroyable stratégie de vie, qui paraît beaucoup moins étonnante, grâce à
-Richard SHELTON^13 , qui nous fait remarquer que l’océan Atlantique, bien étroit à l’époque de
+Richard SHELTON[^13], qui nous fait remarquer que l’océan Atlantique, bien étroit à l’époque de
 l’apparition des premiers ancêtres des salmonidés, il y aurait plus de cent millions d’années, ne
 cesse de s’élargir depuis, à la vitesse de la largeur de notre pouce chaque année, de sorte que
 l’Atlantique est aujourd’hui le second océan le plus vaste du monde, après le géant Pacifique.
@@ -266,26 +268,26 @@ de _“sentir”_ cette eau qui l’a vu naître et aussi l’odeur de ses cong�
 amont dans la rivière.
 
 
-```
+
 Mais comment s’y prend-il?
-Depuis une première étude, datant de 1979, la littérature scientifique accumule les preuves^14 que
-```
+Depuis une première étude, datant de 1979, la littérature scientifique accumule les preuves[^14]que
+
 les salmonidés circulent en mer très majoritairement (90%) dans la couche des dix mètres d’eau
 les plus superficiels et encore plus près de la surface la nuit.
 
-L’étude de Godfrey _et al_. (2014)^15 a suivi le comportement de trente-quatre saumons adultes
+L’étude de Godfrey _et al_. (2014)[^15]a suivi le comportement de trente-quatre saumons adultes
 
 équipés de transmetteurs satellitaires dans les eaux côtières écossaises. Tous ces poissons ont
-passé entre 79 et 90% de leur temps dans les dix premiers mètres. Davidsen _et al._ (2013)^16 ont
+passé entre 79 et 90% de leur temps dans les dix premiers mètres. Davidsen _et al._ (2013)[^16]ont
 
 suivi cinquante-six saumons adultes dans le nord de la Norvège, qui ont longé la côte en se dé-
 plaçant sous cinquante centimètres à deux mètres cinquante d’eau.
-Toutes les études convergent également à propos des kelts^17 , ces rares saumons capables de
+Toutes les études convergent également à propos des kelts[^17], ces rares saumons capables de
 frayer une seconde fois dans leur rivière natale, comme le révèlent leurs écailles.
 Ces poissons hors norme sont le plus souvent des femelles. Exceptionnellement, des poissons
 viendraient se reproduire une troisième fois, tandis que, dans la masse des données de 36.
 captures françaises, deux poissons auraient réalisé ce tour de force quatre fois!
-On observe le même comportement de surface pour les truites de mer^18 et les post-smolts^19 , c’est-
+On observe le même comportement de surface pour les truites de mer[^18]et les post-smolts[^19], c’est-
 
 à-dire de jeunes saumons qui viennent de quitter leur rivière natale et d’atteindre la mer.
 
@@ -311,7 +313,7 @@ En réalité, les saumons semblent arriver un peu partout le long de la côte, c
 dissémination des lieux de capture.
 Leur système de navigation, basé sur les microcristaux de magnétite, plus approximatif que nos
 GPS, les amène à accoster parfois à des distances considérables de l’estuaire de leur rivière natale.
-Par exemple, concernant l’Irlande, les études de marquage^20 ont prouvé que les poissons qui at-
+Par exemple, concernant l’Irlande, les études de marquage[^20]ont prouvé que les poissons qui at-
 
 teignent la côte ouest doivent bel et bien contourner l’Île, quand il s’agit de trouver leur estuaire
 natal de la côte est.
@@ -346,19 +348,19 @@ Le saumon atlantique est incontestablement un athlète, mais pas un magicien pou
 Sous les coups répétés et conjugués de la surexploitation et de la dégradation de ses habitats,
 
 
-une riche littérature scientifique^22 rappelle comment il a disparu des plus grandes rivières où il
+une riche littérature scientifique[^22]rappelle comment il a disparu des plus grandes rivières où il
 foisonnait au début du XXème siècle, par exemple du bassin du Rhin.
 
 _“Partout dans le monde, des exemples de la disparition de populations de poissons migrateurs
 ont confirmé que la surexploitation a joué un rôle crucial dans la chute du stock.”_^23
 Le déclin est mondial et concerne toutes les espèces migratrices capables de vivre alternativement
 dans l’eau douce et l’eau salée.
-Selon un rapport de la Fondation mondiale pour les poissons migrateurs de juillet 2020^24 , la po-
+Selon un rapport de la Fondation mondiale pour les poissons migrateurs de juillet 2020[^24], la po-
 pulation de poissons migrateurs a chuté depuis les années 70 de 76% dans le monde et de 93%
 en Europe.
 
 En décembre 2023, l’état de conservation mondial du saumon atlantique est dégradé au stade
-_“quasi menacé”_^25 à l’occasion de la 28ème Conférence des Parties sur les changements clima-
+_“quasi menacé”_[^25]à l’occasion de la 28ème Conférence des Parties sur les changements clima-
 
 tiques (COP28), de nouvelles preuves montrant que la population mondiale a diminué de 23%
 entre 2006 et 2020.
@@ -367,7 +369,7 @@ Le Muséum National d'Histoire Naturelle le classe _“en danger critique d’ex
 et dans le Limousin.
 Il est classé _“en danger d'extinction”_ en Haute-Normandie, dans la région Centre et dans le bas-
 sin de la Loire où sa pêche a été interdite en 1994.
-L’Union Internationale pour la Conservation de la Nature (UICN) confirme ce statut local^26 et
+L’Union Internationale pour la Conservation de la Nature (UICN) confirme ce statut local[^26]et
 
 observe que _“des programmes de restauration sont en cours dans les bassins fluviaux où l’espèce
 avait disparu ou régressé, mais sans réel succès (...).”_
@@ -399,7 +401,7 @@ fessionnelle au filet dérivant. Dans le bassin de la Loire, où l’extinction 
 107 saumons ont été comptés en 2023 par l’Association LOGRAMI, malgré un programme d’ale-
 vinage aussi pharaonique qu’inefficace, inauguré à Chanteuges en 2001 (43300).
 
-L’avis du CIEM de mai 2023^28 conseille de minimiser toutes les mortalités d’origine anthropique,
+L’avis du CIEM de mai 2023[^28]conseille de minimiser toutes les mortalités d’origine anthropique,
 
 de restaurer les habitats des saumons, la continuité écologique et la qualité de l’eau des rivières.
 
@@ -418,15 +420,15 @@ ne maîtrisons pas.
 Mais nous verrons qu’il existe aussi d’autres menaces que l’administration a décidé de ne pas
 réduire, voire d’ignorer purement et simplement.
 
-##### Les mortalités de dauphins et d’oiseaux marins
+## Les mortalités de dauphins et d’oiseaux marins
 
 **Les échouages de dauphins**
 Dès la fin des années 80, des échouages importants de petits cétacés, surtout des dauphins
-communs ( _Delphinus delphis_ ), sont suivis par l’observatoire PELAGIS^30 de La Rochelle, rattaché
+communs ( _Delphinus delphis_ ), sont suivis par l’observatoire PELAGIS[^30]de La Rochelle, rattaché
 
 au Centre National pour la Recherche Scientifique (CNRS), qui collecte et publie ces données
 d'échouages de manière efficace et didactique.
-Le rapport d’échouages de l’observatoire PELAGIS pour 2019^31 rappelle que, dès 1989, près
+Le rapport d’échouages de l’observatoire PELAGIS pour 2019[^31]rappelle que, dès 1989, près
 
 de 700 petits cétacés furent retrouvés échoués, principalement dans les départements des Landes
 et de la Gironde.
@@ -454,10 +456,10 @@ plus élevée que la moyenne annuelle depuis 30 ans.”_
 En 2017 les échouages ont battu tous les records précédents avec deux pics totalement inhabituels
 en février et mars, pendant la fraie du bar, au cours desquels quelque huit-cents spécimens ont
 été dénombrés, 80% d’entre eux porteurs de marques d’engins de pêche.
-Ces événements ont été rapportés par PELAGIS^32 et ses scientifiques^33 , sans qu’il persiste le
+Ces événements ont été rapportés par PELAGIS[^32]et ses scientifiques[^33], sans qu’il persiste le
 
 moindre doute quant à la relation de cause à effet directe entre la pêche et ces hécatombes.
-Le groupe de travail _“Écologie des Mammifères Marins”_ du CIEM^34 conclut, avec la réserve
+Le groupe de travail _“Écologie des Mammifères Marins”_ du CIEM[^34]conclut, avec la réserve
 
 scientifique habituelle : _“Ceci est un rappel pertinent que le phénomène des captures acciden-
 telles du dauphin commun est significatif dans l’Atlantique Nord Est.”_
@@ -470,8 +472,8 @@ vidus.”_
 Les scientifiques estiment à près de 90.000 le nombre de dauphins communs morts dans les
 filets de pêche, en Atlantique nord-est, entre janvier 1990 et avril 2019^35.
 
-Dès 2012, lors du premier état des lieux au titre de la directive Stratégie pour le Milieu Marin^36 ,
-est établi un déclin de la population de dauphins à un rythme soutenu^37 :
+Dès 2012, lors du premier état des lieux au titre de la directive Stratégie pour le Milieu Marin[^36],
+est établi un déclin de la population de dauphins à un rythme soutenu[^37]:
 
 _“En l’absence de perturbations anthropiques la population s’accroîtrait à un taux maximal de
 4,8% par an. Dans la situation actuelle, elle décroît de 5,5% par an.
@@ -479,7 +481,7 @@ Si ce niveau de captures accidentelles est maintenu, la population de dauphin co
 divisée par 5 en 30 ans et proche de l’extinction au bout de 100 ans.”_
 
 À cette époque où l’on estimait que la mortalité par pêche correspondait au minimum à 30-40%
-des échouages, c'est-à-dire la moitié du taux actuellement reconnu, la synthèse établit^38 :
+des échouages, c'est-à-dire la moitié du taux actuellement reconnu, la synthèse établit[^38]:
 
 _“Les captures accidentelles restent une pression majeure pour les populations de mammifères
 marins en France. La mortalité additionnelle par capture chez le marsouin et le dauphin commun
@@ -512,14 +514,14 @@ Les années suivantes sont pires et la médiatisation s’empare du phénomène 
 dentelles”_ de dauphins.
 En réalité ces captures n’ont rien d’accidentel et il faut toutes les considérer comme _“intention-
 nelles”_ , ainsi que la jurisprudence de la Cour de justice de l’Union Européenne l’a reconnu depuis
-longtemps^39 à propos d'une espèce de tortue.
+longtemps[^39]à propos d'une espèce de tortue.
 
 L’opinion publique réagit et prend conscience d’une véritable hécatombe.
 Le grand public découvre que des centaines de cadavres s’échouent sur nos plages, une très
 grande majorité porteurs des traces d’engins de pêche.
 Aujourd’hui, on sait que les pélagiques sont loin d’être les seuls engins de pêche impliqués et
 d’autres sont aussi concernés, comme l’ont suggéré par exemple les corrélations positives pu-
-bliées par PELAGIS avec les filets calés^40 dans les années 2010.
+bliées par PELAGIS avec les filets calés[^40]dans les années 2010.
 
 L’affaire se complique avec les récents échouages estivaux en Bretagne, qui impliquent les filets
 côtiers depuis 2016 :
@@ -561,9 +563,9 @@ cadavres abandonnés sur les plages, livrés aux prédateurs et autres nécropha
 Le samedi 23 septembre 1995, je navigue en kayak le long du littoral, au nord de la commune
 de Moliets, dans les Landes, sur une mer très calme. Je découvre de nombreux cadavres d’oiseaux
 
-```
+
 Échouages de dauphins communs sur la façade atlantique française
-```
+
 
 noirs et blancs, dans une zone très circonscrite. Ce sont tous des guillemots de Troïl ( _Uria aalge_ ).
 Rassemblés dans un mouchoir de poche, leurs cadavres flottent en sortie d’une baïne et fin de
@@ -590,7 +592,7 @@ appelées _“palangres”_ , qui ont démontré leur capacité à retenir des o
 bre, aussi efficacement que des poissons.
 
 Concernant les chaluts, les captures d’oiseaux décrites depuis plus de quinze ans sont tellement
-importantes^43 que les Nations-Unies ont édicté des règles d’atténuation, conçues pour ces cha-
+importantes[^43]que les Nations-Unies ont édicté des règles d’atténuation, conçues pour ces cha-
 
 luts.
 Les oiseaux marins opportunistes virevoltent classiquement en tous sens à l’arrière du navire,
@@ -606,7 +608,7 @@ l’un d’entre eux et s’empalent sur une épissure.
 On observe aussi un _“mouvement d’enroulement de l’aile autour du câble, l’aile est cassée et/ou
 l’oiseau reste empalé sur une épissure. D’autres restent collés à la graisse du câble et sont broyés
 dans les enrouleurs”_^46.
-Dans l’Union européenne, selon une étude bibliographique de 2008^47 à propos des espèces pro-
+Dans l’Union européenne, selon une étude bibliographique de 2008[^47]à propos des espèces pro-
 tégées des aires Natura 2000, les filets maillants font partie des engins de pêche induisant les
 
 
@@ -626,10 +628,10 @@ Dans le cas de la bande marine littorale aquitaine, les engins qui menacent dire
 seaux sont les filets maillants, surtout les filets dits _“droits”_ qui, à la façon d’un mur, barrent
 toute la colonne d’eau, puis les palangres, notamment celles de surface.
 Ces captures d’oiseaux particulièrement importantes ont fait l’objet de plusieurs rapports du
-Centre International pour l’Exploration de la Mer^49 , qui préconisaient voici 25 ans déjà _“l’exclu-
+Centre International pour l’Exploration de la Mer[^49], qui préconisaient voici 25 ans déjà _“l’exclu-
 sion des filets maillants”_ dans les zones abritant les colonies d’oiseaux.
 En 2012, l’évaluation initiale établie dans le cadre de la Directive Cadre _“Stratégie pour le
-Milieu Marin”_^50 confirme que _“les filets calés en zone très côtière sont susceptibles de capturer
+Milieu Marin”_[^50]confirme que _“les filets calés en zone très côtière sont susceptibles de capturer
 des oiseaux plongeurs”_.
 Aucune mesure préventive n’est proposée, au motif abusif _“qu’aucune information n’est dispo-
 nible sur les captures accidentelles d’oiseaux”_.
@@ -654,7 +656,7 @@ infligées par les filets de pêche pour lesquelles aucune mesure réglementaire
 en France.
 
 
-##### Comprendre
+## Comprendre
 
 **Le déclin de la pêche maritime côtière**
 L’objectif de la Politique commune de la pêche est de débarquer le _“Rendement Maximal Du-
@@ -684,7 +686,7 @@ débarquer le même poids.
 La stratégie du RMD est donc aussi très violente pour les hommes. C’est beaucoup plus de travail
 et donc beaucoup de charges en carburant et matériel.
 Certes, si le chiffre d’affaires prévu est atteint, cet effort de pêche coûte très cher et nous
-rapproche d’une surexploitation encore plus grave, la _“surexploitation de recrutement”_^53 dans
+rapproche d’une surexploitation encore plus grave, la _“surexploitation de recrutement”_[^53]dans
 
 le contexte de laquelle, cette fois, ce sont les jeunes poissons eux-mêmes qui deviennent rares.
 Le RMD est synonyme de surexploitation de croissance et flirte avec la dangereuse surexploi-
@@ -693,7 +695,7 @@ La stratégie du RMD est donc aussi très risquée.
 
 La maximisation des tonnages se fait aux dépens de l’optimisation des bénéfices qui commande
 de prélever moins.
-Dès la fin des années 70, des experts, comme le professeur Larkin^54 , ont dénoncé que le RMD
+Dès la fin des années 70, des experts, comme le professeur Larkin[^54], ont dénoncé que le RMD
 dégradait la rentabilité économique des pêches. Les pêcheurs doivent pêcher davantage pour dé-
 barquer les tonnages prévus puisque les poissons sont globalement plus petits, ce qui réduit leurs
 bénéfices.
@@ -714,7 +716,7 @@ La petite pêche côtière est la première victime de ce système, ce qu'elle d
 a aussi sa part de responsabilité dans la surexploitation de croissance car elle s’exerce dans une
 zone très précieuse et fragile.
 Il s’agit de la bande marine littorale et des estuaires qui abritent les nourriceries d’une trentaine
-d’espèces commerciales qui contribuent aux trois quarts des débarquements^55 , ce qui est fonda-
+d’espèces commerciales qui contribuent aux trois quarts des débarquements[^55], ce qui est fonda-
 mental.
 Les juvéniles devraient pouvoir s’y développer sans être menacés par l’homme, puisque ce sont
 eux qui garantissent les pêches de demain.
@@ -738,7 +740,7 @@ Face à la raréfaction des poissons, au lieu de favoriser leur croissance, les 
 systématiquement les moyens de capturer les survivants et aggravent ainsi la situation.
 Les filets sont ainsi de plus en plus longs et de plus en plus hauts.
 Les pêcheurs côtiers sont donc impliqués dans la destruction des poissons juvéniles.
-Le rapport de l’Institut Agro de Rennes d’avril 2024^56 parle d'une _“pratique absurde, dans la-_
+Le rapport de l’Institut Agro de Rennes d’avril 2024[^56]parle d'une _“pratique absurde, dans la-_
 
 _quelle on pêche les poissons jeunes, sans les laisser grandir dans la mer et profiter ainsi de la
 productivité naturelle des écosystèmes marins.”_
@@ -756,7 +758,7 @@ NASCO depuis 1983. Les taux de retours des adultes diminuent et sont souvent inf
 Reste à expliquer cette surmortalité marine.
 Le réchauffement climatique est régulièrement pointé du doigt et plusieurs articles scientifiques
 expliquent comment les saumons ont de plus en plus de difficultés à se nourrir en haute mer.
-L'étude de Utne _et al._ (2021)^58 du régime alimentaire de deux mille cinq-cent-quarante-six jeunes
+L'étude de Utne _et al._ (2021)[^58]du régime alimentaire de deux mille cinq-cent-quarante-six jeunes
 
 saumons (post-smolts) collectés pendant vingt-cinq ans entre l’ouest de l’Irlande et le nord de la
 mer de Norvège établit une nette réduction de la condition physique des jeunes poissons de la
@@ -765,12 +767,12 @@ Les estomacs sont de moins en moins bien remplis quantitativement mais aussi qua
 avec moins de larves de poissons et moins d’amphipodes, qui sont des proies hautement énergé-
 tiques que ne peuvent concurrencer les proies de remplacement comme le zooplancton et les in-
 sectes.
-Tyldesley _et al_. (2024)^59 constatent que l’énergie des proies disponibles pour nourrir les poissons
+Tyldesley _et al_. (2024)[^59]constatent que l’énergie des proies disponibles pour nourrir les poissons
 
 eux-mêmes, proies du saumon au début de sa migration marine a diminué de manière spectacu-
 laire dans une grande partie de l'Atlantique Nord-Est, en particulier dans les zones clés de mi-
 gration du saumon, au cours des 60 dernières années.
-Grâce à une revue de littérature de 350 articles, Dadswell _et al_. (2021)^60 mettent en doute le ca-
+Grâce à une revue de littérature de 350 articles, Dadswell _et al_. (2021)[^60]mettent en doute le ca-
 
 ractère prioritaire qu’auraient les explications liées au réchauffement climatique, aux dégâts de
 l’aquaculture du saumon ou à la prédation marine.
@@ -788,7 +790,7 @@ flotte japonaise et chinoise de 120 unités, qui vient régulièrement s’appro
 capitale de Terre-Neuve.
 Je formule l’hypothèse centrale selon laquelle les marins-pêcheurs ultra-côtiers, à qui l'admi-
 nistration française interdit la capture et la commercialisation du saumon qu’elle réserve aux
-seuls pêcheurs estuariens licenciés^61 , continuent simplement de pêcher comme d’habitude, au ras
+seuls pêcheurs estuariens licenciés[^61], continuent simplement de pêcher comme d’habitude, au ras
 des côtes, avec des filets particulièrement adaptés pour capturer des saumons, en basculant eux
 aussi dans une pêche ni déclarée ni contrôlée, profitant de l’absence de surveillance par une ad-
 ministration bienveillante à laquelle cette tâche est normalement dévolue.
@@ -802,7 +804,7 @@ La pose en série est intentionnellement perpendiculaire au trait de côte et à
 des migrateurs, de la terre vers le large, c’est-à-dire _“Terre-Large”_ en jargon de pêcheur.
 
 
-Il y a déjà 15 ans qu’un comité local des pêcheurs maritimes a expliqué^62 : _“Depuis 2009, une_
+Il y a déjà 15 ans qu’un comité local des pêcheurs maritimes a expliqué[^62]: _“Depuis 2009, une_
 
 _pêche côtière sur le saumon s’est mise en place à un niveau d’effort de pêche et sur une période
 sans commune mesure avec ce qui se pratiquait jusque là, le long de la côte sud des Landes prin-
@@ -815,7 +817,7 @@ Les pêcheurs les appellent à juste titre filets _“pêchent-tout”_.
 Les saumons, aloses et esturgeons sont des captures trop fréquentes de ces filets côtiers pour ne
 pas compromettre les immenses efforts entrepris pour eux en eau douce.
 Dauphins, guillemots et tortue Luth en font aussi les frais.
-Selon deux rapports d’observations embarquées en juin-juillet 2000^63 et 2001^64 , 3 saumons sont
+Selon deux rapports d’observations embarquées en juin-juillet 2000[^63]et 2001[^64], 3 saumons sont
 
 capturés en moyenne par marée et par navire.
 Il a suffi à l’administration de ne jamais les publier pour étouffer l’affaire.
@@ -840,11 +842,11 @@ Les scientifiques vont alors exploiter une seconde source d’information à par
 milliers d’autres observations embarquées.
 En 2017, ils estiment que les captures accidentelles dans le Golfe de Gascogne ont des effets
 néfastes _“avérés”_ sur le saumon et l’esturgeon et _“suspectés”_ pour les aloses^66.
-Fin 2022, un article scientifique pluridisciplinaire français^67 propose de limiter l’accès à la bande
+Fin 2022, un article scientifique pluridisciplinaire français[^67]propose de limiter l’accès à la bande
 
 côtière des engins capables de capturer les migrateurs anadromes.
 
-En 2023, l’Office Français de la Biodiversité confirme^68 un _“impact avéré sans doute élevé”_
+En 2023, l’Office Français de la Biodiversité confirme[^68]un _“impact avéré sans doute élevé”_
 
 sur les saumons au droit des estuaires de la Loire et de la Gironde, _“au vu du nombre important
 de captures observées sur une faible part de l’effort de pêche et des effectifs très bas des popu-
@@ -852,7 +854,7 @@ lations concernées”._
 Sans surprise, ces captures sont concentrées le long des côtes.
 
 
-En 2024, le Rapport MigrenMer^69 déduit de 169.000 observations embarquées depuis les années
+En 2024, le Rapport MigrenMer[^69]déduit de 169.000 observations embarquées depuis les années
 80 que les saumons et les grandes aloses sont capturés dans les eaux côtières, et en très grande
 majorité par les filets fixes.
 
@@ -872,7 +874,7 @@ dérivant, encore autorisées dans l’estuaire de l'Adour et en amont.
 La responsabilité des filets de pêche côtiers dans les captures d’espèces protégées, comme les
 petits cétacés et les oiseaux marins, est clairement établie.
 
-Le rapport de l’Institut Agro de Rennes d’avril 2024^70 caractérise les flottilles de pêche selon
+Le rapport de l’Institut Agro de Rennes d’avril 2024[^70]caractérise les flottilles de pêche selon
 leurs impacts environnementaux (surexploitation, atteinte des fonds marins, captures de mam-
 mifères et d’oiseaux, captures de juvéniles et émission de carbone) et socio-économiques (valeur
 ajoutée, emploi, coût salarial, excédent brut d’exploitation et subventions).
@@ -884,7 +886,7 @@ arts dormants (oiseaux par les lignes, mammifères par les filets), et en partic
 côtiers (70 % du total). Les ligneurs et fileyeurs côtiers seraient responsables de 55% des captures
 accidentelles d’oiseaux et mammifères marins.”_
 
-##### Réagir
+## Réagir
 
 **Vers le rendement économique optimal**
 Plutôt que maximiser les tonnages débarqués au nom de la prétendue _“souveraineté alimentaire”_
@@ -905,7 +907,7 @@ Il est pressenti qu’il aboutira à la capture de poissons moins nombreux mais 
 que les tonnages seront supérieurs, la valorisation sera meilleure et, surtout, les coûts d’exploi-
 tation seront bien plus faibles.
 Il permettra ainsi l’abandon des techniques de pêche non sélectives au bénéfice des pêches sé-
-lectives à la ligne et au casier^71 :
+lectives à la ligne et au casier[^71]:
 
 
 “ _A contrario, la protection effective des juvéniles, et plus généralement celle des jeunes poissons,
@@ -926,7 +928,7 @@ commune de la pêche qu’il conviendrait de modifier.
 Mais, localement, chaque État membre peut légalement mettre en œuvre le projet GOLDEN
 MILES en vertu de l’article 19 du règlement européen^72.
 
-Ce projet consiste à créer une aire marine réservée aux pêches sélectives (hameçon^73 , casier, har-
+Ce projet consiste à créer une aire marine réservée aux pêches sélectives (hameçon[^73], casier, har-
 pon, main), professionnelles et amateurs, sur les 3 premiers milles nautiques (MN).
 
 L’objectif est de lutter contre le déclin constant de la pêche maritime et des poissons migrateurs
@@ -941,16 +943,16 @@ tions biologiques fondamentales dans les eaux très côtières, à savoir :
 commerciales ;
 - les corridors migratoires des poissons anadromes, saumons et esturgeons notamment.
 
-Le projet est éligible à un financement européen LIFE^74 ou FEAMPA^75 pour :
+Le projet est éligible à un financement européen LIFE[^74]ou FEAMPA[^75]pour :
 
 - soutenir les pêcheurs fluviaux et estuariens, éventuellement côtiers ;
 - financer le suivi scientifique par IFREMER / OFB / INRAE / MIGRADOUR / MI-
-GADO^76 ...
+GADO[^76]...
 - et contrôler la pêche amateur en rivière et la pêche maritime dans la bande littorale.
 
-```
+
 Plusieurs espèces et groupes d'espèces menacées profiteront de cette AMP, notamment :
-```
+
 - le Saumon atlantique ( _Salmo salar_ ) et l’Esturgeon d'Europe ( _Acipenser sturio_ ), espèce
 en danger critique d’extinction (UICN), pour lesquels les efforts entrepris restent toujours
 sans résultat, mais aussi les aloses ( _Alosa spp._ ) et la Lamproie marine ( _Petromyzon mari-
@@ -977,14 +979,14 @@ L’évitement des captures de juvéniles par les filets aboutira aux mêmes ré
 mentation effective des tailles minimales de captures.
 Les gains potentiels, fruits du respect de la croissance des poissons, sont un formidable espoir
 pour toutes les pêcheries mondiales.
-De nombreuses études^78 prédisent que les débarquements et les valorisations augmenteront tandis
+De nombreuses études[^78]prédisent que les débarquements et les valorisations augmenteront tandis
 
 que les charges d’exploitation diminueront sensiblement.
 Le projet GOLDEN MILES va permettre d’améliorer à terme la production, conformément aux
 dispositions des articles L1, L2 et L911-2 du Code rural et de la pêche maritime.
 Il implique :
 
-- (1) l’éloignement des filets fixes de la côte^79 ;
+- (1) l’éloignement des filets fixes de la côte[^79];
 - (2) l’indemnisation des pêcheurs estuariens (fin des filets dérivants) et éventuellement
 des marins-pêcheurs côtiers ;
 - (3) un suivi scientifique de la restauration des nourriceries côtières ;
@@ -995,22 +997,22 @@ maritime dans la bande côtière.
 
 Historiquement, plusieurs auteurs ont déjà proposé des mesures pour soulager les nourriceries
 côtières, visant à juste titre l’éloignement du chalutage de fond au-delà des trois milles.
-En 1981, Philippe Fournet, auquel nous devons une histoire du port d’Arcachon^80 , propose que
+En 1981, Philippe Fournet, auquel nous devons une histoire du port d’Arcachon[^80], propose que
 les pêcheurs _“renouent avec la tradition de la pêche au large, qui épargne frayères et nurseries”_.
 
-En 1996, Jean-Claude Quero et Orestes Cendrero^81 documentent l’appauvrissement vertigineux
+En 1996, Jean-Claude Quero et Orestes Cendrero[^81]documentent l’appauvrissement vertigineux
 des eaux d’Arcachon depuis le XVIIIème siècle, désignent le chalutage de fond comme premier
 
 responsable et plaident pour des mises en réserve.
 
-En 2015, l’équipe de Laurence Fauconnet^82 suggère fortement que la pauvreté des eaux d’Arca-
+En 2015, l’équipe de Laurence Fauconnet[^82]suggère fortement que la pauvreté des eaux d’Arca-
 chon serait liée à ce chalutage dérogatoire.
 
-```
-Depuis les années 90, au nom de la protection des poissons juvéniles, Ifremer accumule les avis
-```
 
-très négatifs^83 contre ce même chalutage dans les trois milles partout où l’administration lui de-
+Depuis les années 90, au nom de la protection des poissons juvéniles, Ifremer accumule les avis
+
+
+très négatifs[^83]contre ce même chalutage dans les trois milles partout où l’administration lui de-
 
 mande son avis, mais sans jamais que cette dernière en tienne compte.
 
@@ -1023,7 +1025,7 @@ lande à la suite d’une réunion organisée dans l’ambassade française à D
 reçut le prix Goldman de l’environnement en 2007, elle a réuni tous les ambassadeurs des pays
 côtiers de l’Atlantique nord.
 Son succès démontre qu’il est possible d’aboutir collectivement à la bonne solution^84.
-Aux USA, l’interdiction de la pêche commerciale fluviale date de 1948^85 , tandis que l’éloigne-
+Aux USA, l’interdiction de la pêche commerciale fluviale date de 1948[^85], tandis que l’éloigne-
 ment des filets maritimes de la côte s’est progressivement mis en place entre les années 80 (pour
 le Texas) et 2010 pour les derniers états nord-américains.
 Cette histoire nord-américaine est racontée dans le premier chapitre de l’ouvrage GOLDEN
@@ -1059,8 +1061,8 @@ Enfin, Le saumon est lui-même très exigeant quant à la qualité des eaux.
 Lui permettre de recoloniser nos bassins serait pour nous la meilleure garantie de la restauration
 de la qualité si menacée de nos eaux de surface.
 Si l’Union européenne tente aujourd’hui de faire machine arrière en finançant la création de
-haies et le reméandrage des cours d’eau^86 , si des modes d’exploitation douce des forêts s’opposent
-aux coupes rases en proposant les futaies irrégulières à couvert continu^87 , la correction des erreurs
+haies et le reméandrage des cours d’eau[^86], si des modes d’exploitation douce des forêts s’opposent
+aux coupes rases en proposant les futaies irrégulières à couvert continu[^87], la correction des erreurs
 du passé n’est toujours pas d’actualité en matière de pêche maritime, secteur encore dominé par
 l’extractivisme, l’inertie, l’opacité des données et un contrôle volontairement insuffisant.
 À l’inverse de ce qui est rabâché, la gestion actuelle menace les pêches de demain et grignote
@@ -1076,38 +1078,34 @@ cement du Comité national des pêches pour les constater sur place.
 Ce Comité s’est abstenu de publier le moindre rapport...
 
 C’est donc naturellement, à nous citoyens, que revient aujourd’hui le devoir de donner vie aux
-GOLDEN MILES tant qu’il en est encore temps. n
-
-## ∑
+GOLDEN MILES tant qu’il en est encore temps.
 
 
-(^1) _“Une mer sans poissons”_ , Philippe Cury et Yves Miserey, Éditions Calmann-Lévy, avril 2008, page
-80.
-(^2) _“Une mer sans poissons”_ , Philippe Cury et Yves Miserey, Éditions Calmann-Lévy, avril 2008, page
-198.
-(^3) Le kilowattheure est une unité de puissance des moteurs qui propulsent les navires de pêche.
-(^4) Public-aided crises in the French fishing sector, Benoît Mesnil, Ifremer, Département EMH, Nantes,
+[^1]: _“Une mer sans poissons”_ , Philippe Cury et Yves Miserey, Éditions Calmann-Lévy, avril 2008, page 80.
+[^2]: “Une mer sans poissons”, Philippe Cury et Yves Miserey, Éditions Calmann-Lévy, avril 2008, page 198.
+[^3]: Le kilowattheure est une unité de puissance des moteurs qui propulsent les navires de pêche.
+[^4]: Public-aided crises in the French fishing sector, Benoît Mesnil, Ifremer, Département EMH, Nantes,
 France, Ocan and Coastal Management, Volume 51, issue 10, 2008, Pages 689-700, figure 2^
-(^5) _“Chiffres-clés des filières pêche et aquaculture en France en 2022 Production - Entreprises -
+[^5]: _“Chiffres-clés des filières pêche et aquaculture en France en 2022 Production - Entreprises -
 Échanges - Consommation”_ , FranceAgriMer 2022
-(^6) Rapport n° 2293 d’information déposé par la commission des affaires économiques sur la pêche.
+[^6]: Rapport n° 2293 d’information déposé par la commission des affaires économiques sur la pêche.
 Mme Annaïg Le Meur, Députée, enregistré le 9 octobre 2019^
-(^7) Mesnil, B.(2008). Public-aided crises in the French fishing sector, Ifremer, Département EMH, Nantes,
+[^7]: Mesnil, B.(2008). Public-aided crises in the French fishing sector, Ifremer, Département EMH, Nantes,
 France, Ocan and Coastal Management, Volume 51, issue 10, Pages 689-700^
-(^8) S. Guenette, Didier Gascuel. Shifting baselines in European fisheries : The case of the Celtic Sea
+[^8]: S. Guenette, Didier Gascuel. Shifting baselines in European fisheries : The case of the Celtic Sea
 and Bay of Biscay. Ocean and Coastal Management, Elsevier, 2012, 70 (70), pp.10-21.^
-(^9) Conseil d’État, n°458219, 461744, 461745, 463366, 463367, 26 février 2024
-(^10) Bloom est un anglicisme très fréquemment utilisé pour décrire les explosions d’algues qui survien-
+[^9]: Conseil d’État, n°458219, 461744, 461745, 463366, 463367, 26 février 2024
+[^10]: Bloom est un anglicisme très fréquemment utilisé pour décrire les explosions d’algues qui survien-
 nent avec le réchauffement de la température de l’eau de surface, à la façon d’une floraison.^
-(^11) Commerce extérieur des produits de la pêche et de l’aquaculture 2018 - Données et bilans de Fran-
+[^11]: Commerce extérieur des produits de la pêche et de l’aquaculture 2018 - Données et bilans de Fran-
 ceAgriMer BIL-MER-commerce_extérieur-A18.pdf^
-(^12) Scientific Technical and Economis Committee for Fischeries (STECF)_The 2024 Annual Economic
+[^12]: Scientific Technical and Economis Committee for Fischeries (STECF)_The 2024 Annual Economic
 Report on the EU Fishing Fleet
 JRC Publications Repository - Scientific, Technical and Economic Committee for Fisheries (STECF) -
 The 2024 Annual Economic Report on the EU Fishing Fleet (STECF 24-03 & 24-07)
-(^13) To sea and back, the heroic life of the atlantic salmon, Richard SHELTON, Atlantic books, Londres,
+[^13]: To sea and back, the heroic life of the atlantic salmon, Richard SHELTON, Atlantic books, Londres,
 2009
-(^14) Hawkins, A. D., Urquhart, G. G., & Shearer, W. M. (1979). The coastal movements of returning At-
+[^14]: Hawkins, A. D., Urquhart, G. G., & Shearer, W. M. (1979). The coastal movements of returning At-
 lantic salmon, _Salmo salar (L.)_ (pp. 789-791). Department of Agriculture and Fisheries for Scotland.
 Potter, E. C. E. (1985). Salmonid migrations off the north-east coast of England. Proceedings of the
 Institute of Fisheries Management 16th Anniversary Study Course, 16-19 Sept, York University, pp
@@ -1121,33 +1119,33 @@ the Sea, CM.
 Davidsen, J. G., Rikardsen, A. H., Thorstad, E. B., Halttunen, E., Mitamura, H., Præbel, K., Skardhamar,
 J. & Næsje, T. F. (2013). Homing behaviour of Atlantic salmon ( _Salmo salar_ ) during final phase of ma-
 rine migration and river entry. Canadian Journal of Fisheries and Aquatic Sciences, 70(5), 794-802.^
-(^15) Godfrey, J. D., Stewart, D. C., Middlemas, S. J., & Armstrong, J. D. (2014). Depth use and migratory
+[^15]: Godfrey, J. D., Stewart, D. C., Middlemas, S. J., & Armstrong, J. D. (2014). Depth use and migratory
 behaviour of homing Atlantic salmon ( _Salmo salar_ ) in Scottish coastal waters. ICES Journal of Marine
 Science : Journal du Conseil.^
-(^16) Davidsen, Jan & Rikardsen, Audun & Halttunen, Elina & Mitamura, Hiromichi & Thorstad, Eva &
+[^16]: Davidsen, Jan & Rikardsen, Audun & Halttunen, Elina & Mitamura, Hiromichi & Thorstad, Eva &
 Præbel, Kim & Skardhamar, Jofrid & Næsje, Tor. (2013). Homing behaviour of Atlantic Salmon ( _Salmo
 sala_ r) during final phase of marine migration and river entry. Canadian Journal of Fisheries and Aquatic
 Sciences. 70. 794-802. 10.1139/cjfas-2012-0352.^
-(^17) Hubley, P. B., Amiro, P. G., Gibson, A. J. F., Lacroix, G. L., & Redden, A. M. (2008). Survival and be-
+[^17]: Hubley, P. B., Amiro, P. G., Gibson, A. J. F., Lacroix, G. L., & Redden, A. M. (2008). Survival and be-
 haviour of migrating Atlantic salmon ( _Salmo salar L._ ) kelts in river, estuarine, and coastal habitat. ICES
 Journal of Marine Science : Journal du Conseil, 65(9), 1626-1634.
 Halttunen, E., Rikardsen, A. H., Davidsen, J. G., Thorstad, E. B., & Dempson, J. B. (2009). Survival,
 migration speed and swimming depth of Atlantic salmon kelts during sea entry and fjord migration. In
 Tagging and Tracking of Marine Animals with Electronic Devices (pp. 35-49). Springer Netherlands.
 
-###### Bibliographie/Notes
+## Bibliographie/Notes
 
 
 Reddin, D. G., Downton, P., Fleming, I. A., Hansen, L. P., & Mahon, A. (2011). Behavioural ecology at
 sea of Atlantic salmon ( _Salmo salar L._ ) kelts from a Newfoundland (Canada) river. Fisheries Oceano-
-graphy, 20(3), 174-191^
+graphy, 20(3), 174-191
 
-(^18) Sturlaugsson, J. & Johannsson, M. (1996). Migratory Pattern of Wild Sea Trout ( _Salmo trutta L_ .) in
+[^18]: Sturlaugsson, J. & Johannsson, M. (1996). Migratory Pattern of Wild Sea Trout ( _Salmo trutta L_ .) in
 SE-Iceland Recorded by Data Storage Tags. International Council for the Exploration of the Sea. C.M.
 Rikardsen, A. H., Diserud, O. H., Elliott, J., Dempson, J. B., Sturlaugsson, J., & Jensen, A. J. (2007).
 The marine temperature and depth preferences of Arctic charr ( _Salvelinus alpinus_ ) and sea trout
 ( _Salmo trutta_ ), as recorded by data storage tags. Fisheries Oceanography, 16(5), 436-447.^
-(^19) Holm, M., Holst, J. C., & Hansen, L. P. (2000). Spatial and temporal distribution of post-smolts of At-
+[^19]: Holm, M., Holst, J. C., & Hansen, L. P. (2000). Spatial and temporal distribution of post-smolts of At-
 lantic salmon _(Salmo salar L._ ) in the Norwegian Sea and adjacent areas. ICES Journal of Marine
 Science : Journal du Conseil, 57(4), 955-964.
 Reddin, D. G., Downton, P., & Friedland, K. D. (2006). Diurnal and nocturnal temperatures for Atlantic
@@ -1161,13 +1159,13 @@ of Atlantic salmon postsmolts in Penobscot Bay, Maine. Transactions of the Ameri
 Thorstad, E. B., Whoriskey, F., Uglem, I., Moore, A., Rikardsen, A. H., & Finstad, B. (2012). A critical
 life stage of the Atlantic salmon _Salmo sala_ r : behaviour and survival during the smolt and initial
 post‐smolt migration. Journal of Fish Biology, 81(2), 500542.^
-(^20) Report of the independant Salmon Group established to Examine the Implications of Alignment with
+[^20]: Report of the independant Salmon Group established to Examine the Implications of Alignment with
 the Scientific Advice for the Commercial Salmon Fishing Sector in 2007 and Beyond A Report to Mi-
 nister for State at the Department of Communications, Marine and Natural Resources, John Browne
 T.D. Prof. Tom Collins, Mr John Malone, Mr Padraic White October 2006^
-(^21) Prouzet P., 2001 - Rapport sur les prises de salmonidés en zone côtière du Pays Basque et du Sud
+[^21]: Prouzet P., 2001 - Rapport sur les prises de salmonidés en zone côtière du Pays Basque et du Sud
 des Landes en 2000. Rapport Ifremer/DRV/RH. Contrat DIREN-CG 64, 46 pages.^
-(^22) Diercking, R. & Wehrmann, L. (  1991  ) : Programme de protection des espèces pour les poissons
+[^22]: Diercking, R. & Wehrmann, L. (  1991  ) : Programme de protection des espèces pour les poissons
 et les cyclostomes à Hambourg. Conservation de la nature et gestion du paysage à Hambourg 38,
 126 p.
 Meyer, L. & Brunken, H. (  1997  ) : Présence historique, répartition actuelle et évaluation du dévelop-
@@ -1194,12 +1192,8 @@ Elvira, B. (  1996  ) : Poissons d'eau douce menacés d’Espagne. Dans : Kirc
 Conservation of Endangered Freshwater Fish in Europe : 55-61.
 Witkowski, A. (1992) : Threats and protection of freshwater fishes in Poland. Netherlands Journal of
 Zoology 42 (2/3) : 243-259.
-Maitland, P. S. & Lyle, A. A. (1991) : Conservation of freshwater fish in the British isles : the current
-
-
-status and biology of threatened species. Aquatic Conservation-Marine and Freshwater Ecosystems
-1 (1) : 25-54.
-Garilao, C., Froese, R. & Narberhaus, I. (  2012  ): Profils d’espèces de poissons. Dans : Narberhaus,
+Maitland, P. S. & Lyle, A. A. (1991) : Conservation of freshwater fish in the British isles : the current status and biology of threatened species. Aquatic Conservation-Marine and Freshwater Ecosystems (1) : 25-54.
+Garilao, C., Froese, R. & Narberhaus, I. (2012): Profils d’espèces de poissons. Dans : Narberhaus,
 I., Krause, J. & Bernitt, U. (Edit) : Biodiversité menacée dans la mer du Nord allemande et la mer Bal-
 tique. Sensibilité aux usages anthropiques et aux effets du changement climatique. Conservation et
 biodiversité 116 : 265-485.
@@ -1208,69 +1202,68 @@ Linne_ , 1758) dans le golfe de Gascogne. Revue des Travaux de l’Institut des 
 253-261. Open Access version : _https://archimer.ifremer.fr/doc/00000/4255/_
 Taverny, C. (  1990  ) : Essai d’estimation de la mortalité juvénile d’ _Alosa alosa_ et d’ _Alosa fallax_ causée
 par trois types d’activités humaines dans l’estuaire de la Gironde, 1985-1986. Dans : Densen, WLT van,
-Steinmetz, B. & Hughes, RH (eds.) : Management of Freshwater Fisheries. - Pudoc, Wageningue : 215-
-229.
+Steinmetz, B. & Hughes, RH (eds.) : Management of Freshwater Fisheries. - Pudoc, Wageningue : 215-229.
 Keith, P. & Allardi, J. (1996) : Endangered freshwater fish : the situation in France. In : Kirchhofer, A. &
 Hefti, D. (eds.) : Conservation of endangered freshwater fish in Europe. - Birkhauser Verlag, Basel :
-35-54^
+35-54
 
-(^23) Clave D., Verdeyroux P., Scharbert A. La Grande alose dans le bassin Gironde-Garonne-Dordogne
+[^23]: Clave D., Verdeyroux P., Scharbert A. La Grande alose dans le bassin Gironde-Garonne-Dordogne
 Raisons du déclin et actions à mettre en œuvre pour la conservation. Life, Décembre 2015^
-(^24) Deinet, S., Scott-Gatty, K., Rotton, H., Twardek, W. M., Marconi, V., McRae, L., Baumgartner, L. J.,
+[^24]: Deinet, S., Scott-Gatty, K., Rotton, H., Twardek, W. M., Marconi, V., McRae, L., Baumgartner, L. J.,
 Brink, K., Claussen, J. E., Cooke, S. J., Darwall, W., Eriksson, B. K., Garcia de Leaniz, C., Hogan, Z.,
 Royte, J., Silva, L. G. M., Thieme, M. L., Tickner, D., Waldman, J., Wanningen, H., Weyl, O. L. F., Ber-
 khuysen, A. (2020) The Living Planet Index (LPI) for migratory freshwater fish - Technical Report. World
 Fish Migration Foundation, The Netherlands.^
-(^25) Liste rouge mondiale des espèces menacées : les poissons d'eau douce illustrent l’escalade des
-impacts climatiques sur les espèces - communiqué de l’UICN du 11 décembre 2023.^
-(^26) Evanno, G., Legrand, M., Nevoux, M., Prévost, E. & Phillips, K. 2023. _Salmo salar_ (Allier subpopu-
+[^25]: Liste rouge mondiale des espèces menacées : les poissons d'eau douce illustrent l’escalade des
+impacts climatiques sur les espèces - communiqué de l’UICN du 11 décembre 2023.
+[^26]: Evanno, G., Legrand, M., Nevoux, M., Prévost, E. & Phillips, K. 2023. _Salmo salar_ (Allier subpopu-
 lation). The IUCN Red List of Threatened Species 2023 : e.T229537556A229549238
 _https://dx.doi.org/10.2305/IUCN.UK.2023-1.RLTS.T229537556A229549238.en._
-(^27) Guirec André, Noémie Guillerme, Maud Charles, Yohann Clermont-Ledez, Marion Legrand, _et al_ ..
+[^27]: Guirec André, Noémie Guillerme, Maud Charles, Yohann Clermont-Ledez, Marion Legrand, _et al_ ..
 Synthèse sur l’état des populations, des pressions et des modalités de gestion du Saumon Atlantique
 en France. [Rapport de recherche] Fiche synthèse, OFB; INRAE; Institut Agro; UPPA. 2021.
-ffhal03699089^
-(^28) ICES Advice on fishing opportunities, catch, and effort Northeast Atlantic ecoregions Published 4
-May 2023 Atlantic salmon from the Northeast Atlantic^
-(^29) Arrêté n°64-2024-07-09-00002 portant interdiction de la pêche du saumon atlantique en eau douce
+ffhal03699089
+[^28]: ICES Advice on fishing opportunities, catch, and effort Northeast Atlantic ecoregions Published 4
+May 2023 Atlantic salmon from the Northeast Atlantic
+[^29]: Arrêté n°64-2024-07-09-00002 portant interdiction de la pêche du saumon atlantique en eau douce
 dans le département des Pyrénées-Atlantiques pour l’année 2024.
 Arrêté DDTM/SPEMA/2024 n°0905 portant interdiction de la pêche du Saumon Atlantique dans le dé-
-partement des Landes pour l’année 2024.^
-(^30) PELAGIS (cnrs.fr)
-(^31) Peltier H., Authier M., Caurant F., Dabin W., Dars C., Demaret F., Meheust E., Ridoux V., Van Can-
+partement des Landes pour l’année 2024.
+[^30]: PELAGIS (cnrs.fr)
+[^31]: Peltier H., Authier M., Caurant F., Dabin W., Dars C., Demaret F., Meheust E., Ridoux V., Van Can-
 neyt, O., Spitz J., 2019. État des connaissances sur les captures accidentelles de dauphins communs
 dans le golfe de Gascogne - Synthèse 2019. Rapport scientifique dans le cadre de la convention avec
 le MTES. Observatoire PELAGIS - UMS 3462, La Rochelle Université / CNRS, 23 pages.^
-(^32) Situation préoccupante pour les dauphins communs du Golfe de Gascogne, PELAGIS, communiqué
-du 22 mars 2017^
-(^33) Peltier, H., van Canney, O., Dabin, W., Dars, C., Demaret, F. and Ridoux V. 2017. New fishery related
+[^32]: Situation préoccupante pour les dauphins communs du Golfe de Gascogne, PELAGIS, communiqué
+du 22 mars 2017
+[^33]: Peltier, H., van Canney, O., Dabin, W., Dars, C., Demaret, F. and Ridoux V. 2017. New fishery related
 unusual mortality and stranding events of common dolphins in the Bay of Biscay, February–March
 2017, France. Document to the IWC Scientific Committee 2017 (HIMWP8). 6 pp.^
-(^34) Report of the Working Group on Marine Mammal Ecology (WGMME) 19–22 February 2018 La Ro-
-chelle, pages 28 à 30 du rapport France^
-(^35) Peltier H., Auhtier M., Caurant F., Dabin W., Dars C., Demaret F., Meheust E., Ridoux V., Van Can-
+[^34]: Report of the Working Group on Marine Mammal Ecology (WGMME) 19–22 February 2018 La Ro-
+chelle, pages 28 à 30 du rapport France
+[^35]: Peltier H., Auhtier M., Caurant F., Dabin W., Dars C., Demaret F., Meheust E., Ridoux V., Van Can-
 neyt, O., Spitz J., 2019. État des connaissances sur les captures accidentelles de dauphins communs
 dans le Golfe de Gascogne - Synthèse 2019. Rapport scientifique dans le cadre de la convention avec
-le MTES. Observatoire PELAGIS - UMS 3462, La Rochelle Université / CNRS^
-(^36) Directive 2008/56/CE du Parlement européen et du conseil du 17 juin 2008 établissant un cadre
-d’action communautaire dans le domaine de la politique pour le milieu marin^
+le MTES. Observatoire PELAGIS - UMS 3462, La Rochelle Université / CNRS
+[^36]: Directive 2008/56/CE du Parlement européen et du conseil du 17 juin 2008 établissant un cadre
+d’action communautaire dans le domaine de la politique pour le milieu marin
 
 
-(^37) Caractéristiques biologiques - biocénoses, Mammifères marins, Marinez _et al_ ., Golfe de Gascogne
+[^37]: Caractéristiques biologiques - biocénoses, Mammifères marins, Marinez _et al_ ., Golfe de Gascogne
 2012
-(^38) Impacts cumulatifs et synergiques : l’exemple des mammifères marins, Marinez _et al_ ., Golfe de
-Gascogne 2012^
-(^39) Arrêt de la Cour du 30 janvier 2002. Commission des Communautés européennes contre Répu-
+[^38]: Impacts cumulatifs et synergiques : l’exemple des mammifères marins, Marinez _et al_ ., Golfe de
+Gascogne 2012
+[^39]: Arrêt de la Cour du 30 janvier 2002. Commission des Communautés européennes contre Répu-
 blique hellénique. Manquement d’État - Directive 92/43/CEE - Conservation des habitats naturels ainsi
 que de la faune et de la flore sauvages - Protection des espèces. Affaire C-103/00, ECLI:EU:C:2002:60
 Arrêt de la Cour du 18 mai 2006. Manquement d’État - Directive 92/43/CEE, C-221/04,
-ECLI:EU:C:2006:329^
-(^40) Les filets calés ou filets fixes sont des filets statiques dont la partie inférieure repose au fond de
+ECLI:EU:C:2006:329
+[^40]: Les filets calés ou filets fixes sont des filets statiques dont la partie inférieure repose au fond de
 l’eau à l’aide de poids et/ou d’ancres.
-(^41) CE, 22 décembre 2023, n°489926, 489932, 489949.
-(^42) Baker, G. B., Gales, R., Hamilton, S. and Wilkinson, V. 2002. Albatrosses and petrels in Australia :
-a review of their conservation and management. Emu 102, 71–97.^
-(^43) Baker, G. B., Gales, R., Hamilton, S. and Wilkinson, V. 2002. Albatrosses and petrels in Australia :
+[^41]: CE, 22 décembre 2023, n°489926, 489932, 489949.
+[^42]: Baker, G. B., Gales, R., Hamilton, S. and Wilkinson, V. 2002. Albatrosses and petrels in Australia :
+a review of their conservation and management. Emu 102, 71–97.
+[^43]: Baker, G. B., Gales, R., Hamilton, S. and Wilkinson, V. 2002. Albatrosses and petrels in Australia :
 a review of their conservation and management. Emu 102, 71–97
 BirdLife International 2013b. Seabird mortality estimate for the Namibian demersal Hake trawl fishery.
 ACAP SBWG5 Doc.41.
@@ -1291,135 +1284,126 @@ Organisation des Nations Unies pour l’alimentation et l’agriculture (Food an
 of the United Nations) Meilleures pratiques pour réduire les captures accidentelles d’oiseaux de mer
 dans les pêches de capture, FAO Directives techniques pour une pêche responsable, 2010
 2004/05. WG-FSA-06/41, SC-CAMLR XXV, CCAMLR, Hobart, Australie. Baker, G.B., Double, M.C.,
-Gales, R., Tuck, G.N., Abbott, C.L., Ryan, P.G., Petersen, S.L., Robertson, C.J.R. & Alderman, R.
-
-2007. A global assessment of the impact of fisheries-related mortality on shy and White-capped alba-
+Gales, R., Tuck, G.N., Abbott, C.L., Ryan, P.G., Petersen, S.L., Robertson, C.J.R. & Alderman, R. 2007. A global assessment of the impact of fisheries-related mortality on shy and White-capped alba-
 trosses : Conservation implications. Biological Conservation, 137 : 319333.
 Report of the Workshop to Review and Advise on Seabird Bycatch (WKBYCS), 14–18 October 2013
-Copenhagen, Denmark, ICES CM 2013/ACOM:77^
+Copenhagen, Denmark, ICES CM 2013/ACOM:77
 
-(^44) Wienecke, B. and Robertson, G., 2002. Seabird and seal-fisheries interactions in the Australian Pa-
+[^44]: Wienecke, B. and Robertson, G., 2002. Seabird and seal-fisheries interactions in the Australian Pa-
 tagonian toothfish _Dissostichus eleginoides_ trawl fishery. Fisheries Research, 54: 253–265. Gonza-
 lez-Zevallos, D., and Yorio, P., 2006. Seabird use of discards and incidental captures at the Argentine
 hake trawl fishery in the Golfo San Jorge, Argentina. Marine Ecology Progress Series, 316 : 175–183.
 Gonzalez-Zevallos, D., Yorio, P. and Caille, G. 2007. Seabird mortality at trawler warp cables and a
 proposed mitigation measure : A case of study in Golfo San Jorge, Patagonia, Argentina. Biological
-Conservation, 136 : 108–116.^
-(^45) Sullivan, B.J., Reid, T.A., and Bugoni, L. 2006b. Seabird mortality on factory trawlers in the Falkland
-Islands and beyond. Biological Conservation, 131 : 495–504.^
-(^46) Wienecke, B. and Robertson, G., 2002. Seabird and seal-fisheries interactions in the Australian Pa-
+Conservation, 136 : 108–116.
+[^45]: Sullivan, B.J., Reid, T.A., and Bugoni, L. 2006b. Seabird mortality on factory trawlers in the Falkland
+Islands and beyond. Biological Conservation, 131 : 495–504.
+[^46]: Wienecke, B. and Robertson, G., 2002. Seabird and seal-fisheries interactions in the Australian Pa-
 tagonian toothfish Dissostichus eleginoides trawl fishery. Fisheries Research, 54 : 253–265. Wanless
-unpublished.^
-(^47) Drogou Mickael, Laurans Martial, Fritsch Manon (2008). Analyse de l’impact des engins de pêche
+unpublished.
+[^47]: Drogou Mickael, Laurans Martial, Fritsch Manon (2008). Analyse de l’impact des engins de pêche
 sur les habitats et espèces listes dans les directives _“Habitats_ ” et _“Oiseaux”_ (Natura 2000). DPMA, Di-
 rection des Pêches Maritimes et de l’Aquaculture, Paris, Ref. 08-1014, 2p., 88p.
 _[http://archimer.Ifremer.fr/doc/00004/11541/](http://archimer.Ifremer.fr/doc/00004/11541/)_^
 
 
-(^48) Gaston A.J. & Jones I.L 1998 - The auks. Oxford University Press, Oxford, 232 p. Monat J.-Y.,
+[^48]: Gaston A.J. & Jones I.L 1998 - The auks. Oxford University Press, Oxford, 232 p. Monat J.-Y.,
 Cadiou B. & Pasquet E. 2004b - Guillemot de Troïl ( _Uria aalge_ ) in Cadiou B., Pons J.-M et Yésou P.
 (Coords), Oiseaux marins nicheurs de France métropolitaine, (1960-2000). Éditions Biotope, Mèze :
-175-180 (collection Parthénope)^
-(^49) Tasker, M.L., Kees-Camphuysen, M.C., Cooper, J., Garthe, S., Montevecchi, W.A., and Blaber,
+175-180 (collection Parthénope)
+[^49]: Tasker, M.L., Kees-Camphuysen, M.C., Cooper, J., Garthe, S., Montevecchi, W.A., and Blaber,
 S.J.M. 2000. The impacts of fishing on marine birds. ICES Journal of Marine Science, 57(3) : p. 531-
 547
-(^50) Morizur Yvon, Valéry Loïc, Claro Françoise, Van Canneyt Olivier (2012). Captures accidentelles.
+[^50]: Morizur Yvon, Valéry Loïc, Claro Françoise, Van Canneyt Olivier (2012). Captures accidentelles.
 Sous-région marine Golfe de Gascogne. Évaluation initiale DCSMM.MEDDE, AAMP, Ifremer, Ref.^
-(^51) Règlement (UE) n°1380/2013 du Parlement européen et du Conseil du 11 décembre 2013 relatif à
-la politique commune de la pêche.^
-(^52) _“Pour une révolution dans la mer, de la surpêche à la résilience”_ Didier Gascuel, Éditions Domaine
-du Possible, Actes Sud, dépôt légal avril 2019, page 343.^
-(^53) La surexploitation de recrutement est si intense que les géniteurs ne sont même plus assez nom-
+[^51]: Règlement (UE) n°1380/2013 du Parlement européen et du Conseil du 11 décembre 2013 relatif à
+la politique commune de la pêche.
+[^52]: _“Pour une révolution dans la mer, de la surpêche à la résilience”_ Didier Gascuel, Éditions Domaine
+du Possible, Actes Sud, dépôt légal avril 2019, page 343.
+[^53]: La surexploitation de recrutement est si intense que les géniteurs ne sont même plus assez nom-
 breux pour engendrer suffisamment de juvéniles : même les jeunes poissons deviennent rares. Elle
-mène à l’effondrement brutal.^
-(^54) Larkin, P. A. (1977). An epitaph for the concept of maximum sustained yield. Transactions of the
-American fisheries society, 106(1):1–11^
-(^55) Seitz, R.D., Wennhage, H., Bergström, U., Lipcius, R.N., Ysebaert, T., 2014. Ecological value of co-
+mène à l’effondrement brutal.
+[^54]: Larkin, P. A. (1977). An epitaph for the concept of maximum sustained yield. Transactions of the
+American fisheries society, 106(1):1–11
+[^55]: Seitz, R.D., Wennhage, H., Bergström, U., Lipcius, R.N., Ysebaert, T., 2014. Ecological value of co-
 astal habitats for commercially and ecologically important species. ICES J. Mar. Sci. J. Cons. 71, 648–
 665
-(^56) Quemper, F., Levrel, H., Le Bras, Q., Mouillard, R. & Gascuel, D. (2024) Évaluation des perfor-
+[^56]: Quemper, F., Levrel, H., Le Bras, Q., Mouillard, R. & Gascuel, D. (2024) Évaluation des perfor-
 mances environnementales, économiques et sociales des flottilles de pêche francaises opȩ ́rant dans
 l’Atlantique Nord-Est - Rapport du programme TransiPêche : Scénarios de transition écologique et
 sociale des pêches françaises, Les publications du Pôle halieutique, mer et littoral de L’Institut Agro n°
 55,^
-(^57) Guirec André, Noémie Guillerme, Maud Charles, Yohann Clermont-Ledez, Marion Legrand, _et al_ ..
+[^57]: Guirec André, Noémie Guillerme, Maud Charles, Yohann Clermont-Ledez, Marion Legrand, _et al_ ..
 Synthèse sur l’état des populations, des pressions et des modalités de gestion du Saumon Atlantique
 en France. [Rapport de recherche] pôle OFB-INRAE - Agrocampus Ouest - UPPA pour la gestion des
 migrateurs amphihalins dans leur environnement. 2021, 348 p. ⟨hal-03222495⟩
-(^58) Utne, K. R., Pauli, B. D., Haugland, M., Jacobsen, J. A., Maoileidigh, N., Melle, W., Broms, C. T.,
+[^58]: Utne, K. R., Pauli, B. D., Haugland, M., Jacobsen, J. A., Maoileidigh, N., Melle, W., Broms, C. T.,
 Nøttestad, L., Holm, M., Thomas, K., and Wennevik, V. Poor feeding opportunities and reduced condi-
 tion factor for salmon post-smolts in the Northeast Atlantic Ocean. - ICES Journal of Marine Science,
-78, november 2021; pages 2844-2857.^
-(^59) Emma Tyldesley, Neil S Banas, Graeme Diack, Richard Kennedy, Jonathan Gillson, David G Johns,
+78, november 2021; pages 2844-2857.
+[^59]: Emma Tyldesley, Neil S Banas, Graeme Diack, Richard Kennedy, Jonathan Gillson, David G Johns,
 Colin Bull, Patterns of declining zooplankton energy in the northeast Atlantic as an indicator for marine
 survival of Atlantic salmon, ICES Journal of Marine Science, 2024,
 fsae077, _https://doi.org/10.1093/icesjms/fsae077_
-(^60) Dadswell, Michael & Spares, Aaron & Reader, J & McLean, Montana & McDermott, Tom & Sam-
+[^60]: Dadswell, Michael & Spares, Aaron & Reader, J & McLean, Montana & McDermott, Tom & Sam-
 ways, Kurt & Lilly, Jessie. (2021). The decline and impending collapse of the Atlantic salmon _Salmo
-salar_ population in the North Atlantic Ocean : a review of possible causes^
-(^61) Il s’agit de la licence CMEA délivrée par la Commission des Milieux Estuariens et des poissons
+salar_ population in the North Atlantic Ocean : a review of possible causes
+[^61]: Il s’agit de la licence CMEA délivrée par la Commission des Milieux Estuariens et des poissons
 Amphihalins assortie d’un droit spécifique _“filet”_ autorisant la commercialisation des salmonidés mi-
 grateurs. Par exemple, 17 telles licences sont délivrées pour l'estuaire de l’Adour et 21 pour l’estuaire
-de la Vilaine.^
-(^62) Compte rendu du groupe technique saumon du COGEPOMI Adour du 28 octobre 2010
-(^63) Prouzet P., 2001 - Rapport sur les prises de salmonidés en zone côtière du Pays Basque et du Sud
-des Landes en 2000. Rapport Ifremer/DRV/RH. Contrat DIREN-CG 64, 46 pages.^
-(^64) Rapport de campagne, prise des salmonidés migrateurs en zone côtière du Pays Basque et du
-sud des Landes, Institut des Milieux Aquatiques, 2001^
-(^65) Lettre de D. JCL du 1er août 2013 adressée à monsieur l’administrateur des Affaires maritimes de
-Bayonne et cautionnée par huit autres navires.^
-(^66) Pierre Thiriet, Anthony Acou, Céline Artero, Eric Feunteun. Evaluation DCSMM 2018 de l’état éco-
+de la Vilaine.
+[^62]: Compte rendu du groupe technique saumon du COGEPOMI Adour du 28 octobre 2010
+[^63]: Prouzet P., 2001 - Rapport sur les prises de salmonidés en zone côtière du Pays Basque et du Sud
+des Landes en 2000. Rapport Ifremer/DRV/RH. Contrat DIREN-CG 64, 46 pages.
+[^64]: Rapport de campagne, prise des salmonidés migrateurs en zone côtière du Pays Basque et du
+sud des Landes, Institut des Milieux Aquatiques, 2001
+[^65]: Lettre de D. JCL du 1er août 2013 adressée à monsieur l’administrateur des Affaires maritimes de
+Bayonne et cautionnée par huit autres navires.
+[^66]: Pierre Thiriet, Anthony Acou, Céline Artero, Eric Feunteun. Evaluation DCSMM 2018 de l’état éco-
 logique des poissons et céphalopodes de France métropolitaine : Rapport scientifique du co-pilotage
-MNHN D1-PC. PatriNat (AFB-CNRS-MNHN). 2017, pp.160. ⟨mnhn-04283294⟩^
-(^67) Elliott, S. A. M., Acou, A., Beaulaton, L., Guitton, J., Réveillacc, E., & Rivot, E. (2022). Modelling the
-
-
-distribution of rare and data-poor diadromous fish at sea for protected area management. Progress in
+MNHN D1-PC. PatriNat (AFB-CNRS-MNHN). 2017, pp.160. ⟨mnhn-04283294⟩
+[^67]: Elliott, S. A. M., Acou, A., Beaulaton, L., Guitton, J., Réveillacc, E., & Rivot, E. (2022). Modelling the distribution of rare and data-poor diadromous fish at sea for protected area management. Progress in
 Oceanography, 210, 102924, _https://doi.org/10.1016/j.pocean.2022.102924_^
 
-(^68) OFB, 2023. Analyse biogéographique des risques de porter atteinte aux objectifs de conservation
+[^68]: OFB, 2023. Analyse biogéographique des risques de porter atteinte aux objectifs de conservation
 des espèces d’intérêts communautaires liés aux captures accidentelles par les activités de pêche pro-
 fessionnelle. Rapport intermédiaire. Analyse bibliographique et spatiale du risque de capture acciden-
-telle et identification des secteurs à risque (Étapes 1.1 et 1.2). 30 pp.^
-(^69) Gaspard Dubost, Sophie A M Elliott, Noémie Deleys, Elodie Réveillac, Etienne Rivot, _et al._. Rapport
+telle et identification des secteurs à risque (Étapes 1.1 et 1.2). 30 pp.
+[^69]: Gaspard Dubost, Sophie A M Elliott, Noémie Deleys, Elodie Réveillac, Etienne Rivot, _et al._. Rapport
 du projet _“MigrenMer”_ : Synthèse et valorisation des connaissances disponibles sur les migrateurs
 amphihalins en mer Rapport final. Office Français de la Biodiversité. 2024, 81 p. + annexes. ⟨hal-
 04449323v1⟩
-(^70) Quemper, F., Levrel, H., Le Bras, Q., Mouillard, R. & Gascuel, D. (2024) Évaluation des perfor-
+[^70]: Quemper, F., Levrel, H., Le Bras, Q., Mouillard, R. & Gascuel, D. (2024) Évaluation des perfor-
 mances environnementales, économiques et sociales des flottilles de pêche francaises opȩ ́rant dans
 l’Atlantique Nord-Est - Rapport du programme TransiPêche : Scénarios de transition écologique et
-sociale des pêches françaises, Les publications du Pôle halieutique, mer et littoral de L’Institut Agro n°
+sociale des pêches françaises, Les publications du Pôle halieutique, mer et littoral de L’Institut Agro n°55
 
-55.^
-
-(^71) Quemper, F., Levrel, H., Le Bras, Q., Mouillard, R. & Gascuel, D. (2024) Évaluation des perfor-
+[^71]: Quemper, F., Levrel, H., Le Bras, Q., Mouillard, R. & Gascuel, D. (2024) Évaluation des perfor-
 mances environnementales, économiques et sociales des flottilles de pêche francaises opȩ ́rant dans
 l’Atlantique Nord-Est - Rapport du programme TransiPêche : Scénarios de transition écologique et
-sociale des pêches françaises, Les publications du Pôle halieutique, mer et littoral de L’Institut Agro n°
+sociale des pêches françaises, Les publications du Pôle halieutique, mer et littoral de L’Institut Agro n°55
 
-55.^
-
-(^72) Règlement (UE) n°1380/2013 du Parlement européen et du Conseil du 11 décembre 2013 relatif à
-la politique commune de la pêche.^
-(^73) Hameçon simple pour les amateurs, mesures de réduction des captures d’oiseaux pour les profes-
+[^72]: Règlement (UE) n°1380/2013 du Parlement européen et du Conseil du 11 décembre 2013 relatif à
+la politique commune de la pêche.
+[^73]: Hameçon simple pour les amateurs, mesures de réduction des captures d’oiseaux pour les profes-
 sionnels (ligneurs et palangriers ) et hameçons circle hook pour toutes les palangres afin d’améliorer
-la survie des poissons relâchés.^
-(^74) LIFE est un programme de l’Union Européenne qui a pour objectif de financer des projets à vocation
-environnementale.^
-(^75) Règlement (UE) 2021/1139 du Parlement européen et du Conseil du 7 juillet 2021 instituant le
+la survie des poissons relâchés.
+[^74]: LIFE est un programme de l’Union Européenne qui a pour objectif de financer des projets à vocation
+environnementale.
+[^75]: Règlement (UE) 2021/1139 du Parlement européen et du Conseil du 7 juillet 2021 instituant le
 Fonds européen pour les affaires maritimes, la pêche et l’aquaculture et modifiant le règlement
-(UE) 2017/1004^
-(^76) IFREMER ou Institut Français de Recherche pour l’Exploitation de la Mer
+(UE) 2017/1004
+[^76]: IFREMER ou Institut Français de Recherche pour l’Exploitation de la Mer
 OFB pour Office Français de la Biodiversité
 INRAE pour Institut national de recherche pour l’agriculture, l’alimentation et l’environnement
 MIGRADOUR, association dédiée aux poissons migrateurs du bassin de l’Adour, de la Nivelle et des
 courants côtiers,
-MIGADO, association dédiée aux poissons migrateurs du bassin Garonne-Dordogne^
-(^77) Rapport d’analyse bibliographique et spatiale du risque de capture accidentelle et identification des
+MIGADO, association dédiée aux poissons migrateurs du bassin Garonne-Dordogne
+[^77]: Rapport d’analyse bibliographique et spatiale du risque de capture accidentelle et identification des
 secteurs à risque, Annexe 6 : synthèse des stratégies étrangères de gestion des captures accidentelles
 (analyse de risque et prise de mesures. Analyse de risque Natura 2000 - pêche professionnelle - Na-
-tura 2000.^
-(^78) World bank group _“The sunken billions revisited : progress and challenges in global marin fisheries”_ ,
+tura 2000.
+[^78]: World bank group _“The sunken billions revisited : progress and challenges in global marin fisheries”_ ,
 World Bank Environment and Sustainable Development Series,
 _https://openknowledge.worldbank.org/bitstream/handle/10986/24056/9781464809194.pdf_
 Costello, C., _et al._ , _”Global fishery prospect under contrasting management regimes”_ , PNAS, 113,
@@ -1429,23 +1413,23 @@ logical applications, 25, 2015, p.1390-1396
 Annual Scientific Conference ICES, Riga, 19-23 September 2016 Theme Session Q _“Harvest control
 rules: beyond FMSY for an ecosystem approach to fisheries?_ ” ICES CM 2016/Q:495
 New harvest control rules for minimizing the impact of fishing en Europe
-Didier Gascuel, Rainer Froese^
-(^79) Le projet GOLDEN MILES est inscrit à la charte _“Mission Restaurer nos Océans et nos Eaux”_ de
-la Commission européenne. Voir le lien GOLDEN MILES - European Commission (europa.eu)^
-(^80) Fournet Philippe. L’évolution récente de la pêche à Arcachon (1945-1982). In : Revue géographique
-des Pyrénées et du Sud-Ouest, tome 54, fascicule 3, 1983. Production. pp. 359-371.^
-(^81) Quero Jean-Claude, Cendrero O. (1996). Incidence de la pêche sur la biodiversité ichtyologique
+Didier Gascuel, Rainer Froese
+[^79]: Le projet GOLDEN MILES est inscrit à la charte _“Mission Restaurer nos Océans et nos Eaux”_ de
+la Commission européenne. Voir le lien GOLDEN MILES - European Commission (europa.eu)
+[^80]: Fournet Philippe. L’évolution récente de la pêche à Arcachon (1945-1982). In : Revue géographique
+des Pyrénées et du Sud-Ouest, tome 54, fascicule 3, 1983. Production. pp. 359-371.
+[^81]: Quero Jean-Claude, Cendrero O. (1996). Incidence de la pêche sur la biodiversité ichtyologique
 
 
 marine : le bassin d’Arcachon et le plateau continental sud Gascogne. Cybium, 20(4), 323-356. Open
-Access version : _https://archimer.Ifremer.fr/doc/00000/3793/_^
+Access version : _https://archimer.Ifremer.fr/doc/00000/3793/_
 
-(^82) Fauconnet Laurence, Trenkel Verena M., Morandeau Gilles, Caill-Milly Nathalie, Rochet Marie-
+[^82]: Fauconnet Laurence, Trenkel Verena M., Morandeau Gilles, Caill-Milly Nathalie, Rochet Marie-
 Joëlle (2015). Characterizing catches taken by different gears as a step towards evaluating fishing
 pressure on fish communities. Fisheries Research, 164, 238-248. Publisher’s official version :
 _[http://doi.org/10.1016/j.fishres](http://doi.org/10.1016/j.fishres)_ .2014.11.019 ,
-Open Access version : _[http://archimer.Ifremer.fr/doc/00248/35882/](http://archimer.Ifremer.fr/doc/00248/35882/)_^
-(^83) Étude de l’impact des engins de pêche traînants en zone côtière. Cas particulier du chalutage en
+Open Access version : _[http://archimer.Ifremer.fr/doc/00248/35882/](http://archimer.Ifremer.fr/doc/00248/35882/)_
+[^83]: Étude de l’impact des engins de pêche traînants en zone côtière. Cas particulier du chalutage en
 baie de Saint-Brieuc (Manche ouest). Hamon Dominique. Bert Sole, Hou Patrick et Fifas Spyros Ifre-
 mer Centre de Brest - B.P. 70 - 29280 Plouzané - France – ICES CM 1991.
 Quero Jean-Claude, Cendrero O (1996). Incidence de la pêche sur la biodiversité ichtyologique marine :
@@ -1467,8 +1451,8 @@ Mer Sud-Atlantique, Service de l’action économique et de l’emploi maritime,
 JB/SF 18.59 - 488/RDAE, 3p., 28p
 Conférence Ifremer Nantes 13 mars 2008
 Goulletquer Philippe (2008). Les enjeux de la biodiversité marine et côtière... Conférence Ifremer
-Nantes. _https://archimer.ifremer.fr/doc/00000/3838/_^
-(^84) En 2007, en Irlande, le rachat négocié des licences a été jugé la solution la plus efficace et la plus
+Nantes. _https://archimer.ifremer.fr/doc/00000/3838/
+[^84]: En 2007, en Irlande, le rachat négocié des licences a été jugé la solution la plus efficace et la plus
 respectueuse pour l’environnement, le droit communautaire et les pêcheurs impliqués : une pêcherie
 de près de 900 fileyeurs dérivants en mer qui prenait des dizaines de milliers de saumons a été fermée
 d’une saison à l’autre, au nom de la directive Habitats et sous la pression de la Commission euro-
@@ -1482,38 +1466,28 @@ tait.
 Source : Salmon Group Established to Examine the Implications of Alignment with the Scientifi c Advice
 for the Commercial Salmon Fishing Sector in 2007 and Beyond, A Report to Minister for State at the
 Department of Communications, Marine and Natural Resources, John Browne T.D. Prof. Tom Collins,
-Mr John Malone, Mr Padraic White OCTOBER 2006^
-(^85) Dadswell, Michael & Spares, Aaron & Reader, J & McLean, Montana & McDermott, Tom & Sam-
+Mr John Malone, Mr Padraic White OCTOBER 2006
+[^85]: Dadswell, Michael & Spares, Aaron & Reader, J & McLean, Montana & McDermott, Tom & Sam-
 ways, Kurt & Lilly, Jessie. (2021). The decline and impending collapse of the Atlantic salmon _Salmo
-sala_ r population in the North Atlantic Ocean: a review of possible causes^
-(^86) Règlement du Parlement européen et du Conseil relatif à la restauration de la Nature et modifiant
-le règlement (UE) 2022/869^
-(^87) Des forêts en bataille, Gaspard d’Allens, Édition Seuil Libelle
-
-## ∑
+sala_ r population in the North Atlantic Ocean: a review of possible causes
+[^86]: Règlement du Parlement européen et du Conseil relatif à la restauration de la Nature et modifiant
+le règlement (UE) 2022/869
+[^87]: Des forêts en bataille, Gaspard d’Allens, Édition Seuil Libelle
 
 
-```
 Achevé d’imprimer
 par :
-```
 Dépôt légal : mars 2025
 
 
-#### Soutenez -
+## Soutenez - Rejoignez - Adhérez à :
 
-#### Rejoignez - Adhérez à :
-
-```
 Maison de la Nature et de l'Environnement 2 quai de Brazza 33100 BORDEAUX
-```
-Courriel : _maigre42@gmail.com_
-Site internet : _https://defensedesmilieuxaquatiques.org/_
-Page Facebook : _https://www.facebook.com/maigre40/_
-Instagram : _https://www.instagram.com/defensedesmilieuxaquatiques/_
+- Courriel : _maigre42@gmail.com_
+- Site internet : _https://defensedesmilieuxaquatiques.org/_
+- Page Facebook : _https://www.facebook.com/maigre40/_
+- Instagram : _https://www.instagram.com/defensedesmilieuxaquatiques/_
 
-```
 Pour nous soutenir sans dépenser un centime sur LILO
 https://www.lilo.org/defense-des-milieux-aquatiques/
-```
 
