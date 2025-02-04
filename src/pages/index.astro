@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Hero from "../components/Hero.astro";
 import Youtube from "../components/Youtube.astro";
+import PatagoniaLogo from "../assets/patagonia.png"
+import SalmonWatch from "../assets/salmonwatchireland.jpg"
 ---
 
 <Layout title="DEFENSE DES MILIEUX AQUATIQUES">
@@ -378,6 +380,19 @@ import Youtube from "../components/Youtube.astro";
       </div>
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2yQRNaXkDjzME12VGOrWpT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <a href="https://www.radiofrance.fr/franceinter/podcasts/mission-poseidon" target="_blank" rel="noopener">👉 Ecoutez la suite sur France Inter 👈</a>
+    </section>
+    <section class="podcast">
+      <div class="mb-4">
+        <h3>Partenaires</h3>
+        <div class="flex justify-center items-center gap-4">
+          <a href="https://www.patagoniaworks.com/#index">
+            <img alt={"Patagonia"} width={280} src={PatagoniaLogo.src} />
+          </a>
+          <a href="https://salmonwatchireland.ie">
+            <img alt={"SalmonWatch"} width={336} src={SalmonWatch.src} />
+          </a>
+        </div>
+      </div>
     </section>
   </main>
   <section class="newsletter">
