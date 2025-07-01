@@ -10,10 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/alpinejs": "^0.4.8",
     "@astrojs/mdx": "^2.0.5",
     "@astrojs/sitemap": "^3.0.5",
     "@astrojs/tailwind": "^5.1.0",
     "@justinribeiro/lite-youtube": "^1.5.0",
+    "@types/alpinejs": "^3.13.11",
+    "alpinejs": "^3.14.9",
     "astro": "^4.2.1",
     "astro-relative-links": "^0.3.4",
     "autoprefixer": "^10.4.14",

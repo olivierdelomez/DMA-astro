@@ -3,8 +3,9 @@ import relativeLinks from "astro-relative-links";
 import mdx from '@astrojs/mdx';
 import remarkToc from 'remark-toc';
 import sitemap from "@astrojs/sitemap";
-
 import tailwind from "@astrojs/tailwind";
+
+import alpinejs from "@astrojs/alpinejs";
 
 // https://astro.build/config
 export default defineConfig({
@@ -28,13 +29,15 @@ export default defineConfig({
   },
   base: '/',
   markdown: {
-    remarkPlugins: [[remarkToc, { heading: 'Table des matières' }]],
+    remarkPlugins: [[remarkToc, {
+      heading: 'Table des matières'
+    }]],
     remarkRehype: {
-		  footnoteLabel: 'Notes',
-		  footnoteBackLabel: 'Retour au contenu',
-		},
+      footnoteLabel: 'Notes',
+      footnoteBackLabel: 'Retour au contenu'
+    }
   },
   integrations: [relativeLinks(), sitemap(), mdx(), tailwind({
     applyBaseStyles: false
-  })]
+  }), alpinejs()]
 });
