@@ -1,0 +1,555 @@
+---
+import Layout from "@layouts/Layout.astro";
+import myImage from "../../assets/surfer_cropped.jpg";
+
+---
+
+<script>
+const hero = document.querySelector(".hero");
+const nav = document.querySelector(".nav");
+const items = [...document.querySelectorAll(".item")];
+const sections = document.querySelectorAll(".section");
+const firstSection = document.querySelector(".intro a");
+
+const scrollOptions = {
+  rootMargin: "50% 0px 0px 0px"
+};
+
+const listOptions = {
+  rootMargin: "0px 0px -90% 0px"
+};
+
+const sectionObserver = new IntersectionObserver(function (
+  entries,
+  sectionObserver
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      nav?.classList.add("show");
+    } else {
+      nav?.classList.remove("show");
+    }
+  });
+},
+scrollOptions);
+
+const listObserver = new IntersectionObserver(function (entries, listObserver) {
+  entries.forEach((e) => {
+    if (e.isIntersecting) {
+      if (e.target.id === "") return;
+
+      items.forEach((link) => {
+        if (e.target.id === link.dataset.nav) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    }
+  });
+}, listOptions);
+
+sectionObserver.observe(hero);
+
+sections.forEach((item) => {
+  listObserver.observe(item);
+});
+
+</script>
+
+<Layout title="equipe">
+  <article>
+  
+    <ul class="nav">
+      <li class="item" data-nav="section-1"><a href="#section-1">01</a></li>
+      <li class="item" data-nav="section-2"><a href="#section-2">02</a></li>
+      <li class="item" data-nav="section-3"><a href="#section-3">03</a></li>
+      <li class="item" data-nav="section-4"><a href="#section-4">04</a></li>
+    </ul>
+  
+    <div class="hero">
+      <div>
+        <h1>2024 Rapport d'Activités</h1>
+        <h2><strong>Défense des Milieux Aquatiques</strong></h2>
+        <div class="summary">
+      <ol>
+        <li>
+          <a href="#section-1">
+            Recours administratifs
+          </a>
+        </li>
+        <li>
+          <a href="#section-2">
+            Plaintes à la Commission européenne
+          </a>
+        </li>
+        <li>
+          Plaintes pénales
+        </li>
+        <li>Consultations publiques</li>
+        <li> Médiatisation</li>
+        <li>
+           Actions sur le terrain
+        </li>
+        <li>
+          Résultats acquis
+        </li>
+      </ol>
+    </div>
+      </div>
+      <img src='https://images.unsplash.com/photo-1582032878202-cdcc551be123?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='a red cardinal perched on a bare tree branch.'>
+    </div>
+
+    <section style="max-width: 80ch; padding: 2rem 0;">
+      <h2 style="font-family: serif; font-weight: 600; font-size: 1.5rem;">
+        Résumé
+        </h2>
+        <p>
+
+          En 2024, l'Association engage quelques 39 requêtes administratives, et plusieurs plaintes pénales. Il s'agit d'une nouvelle année riche en résultats avec plus d'une quinzaine de décisions juridiques favorables, avec notamment l'interdiction du filet dérivant en Adour et Garonne-Dordogne. L'Association obtient l'agrément national début mars.
+        </p>
+<p>
+
+  En eau douce, a été obtenue fin février la suspension de l'arrêté inter-préfectoral du 22 janvier 2024 autorisant la translocation de 21 000 lamproies marines en Gironde, vite remplacé par un nouvel arrêté aussitôt contesté. En mars, suppression de 6 licences de marins-pêcheurs indûment délivrées en amont du pont de pierre de Libourne. Le 9 avril 2024, en réformant trois jugements du tribunal de Bordeaux, la Cour administrative de Bordeaux confirme qu'un arrêté de pêche ciblant les espèces migratrices doit être soumis à évaluation de ses incidences NATURA 2000. 
+</p>
+<p>
+
+  Au printemps, l'Association obtient l'interdiction de l'usage des filets dérivants (et des nasses à lamproies) en Gironde et en Dordogne, puis, quelques mois plus tard, un résultat analogue dans l'Adour fluvial, sonnant le glas de la pêche professionnelle. Début novembre, c'est la pêche maritime des saumons, aloses et lamproies dans l'estuaire de l'Adour qui est annulée. Ce sont autant de résultats majeurs qui seront contestés par l'État, même si celui-ci annonce lui-même la fermeture de la pêche du saumon de l'Adour en 2025. L'annulation du plan de gestion modifié des poissons migrateurs de la Garonne-Dordogne est prononcée fin mai. Sous la pression de l'Association, l'interdiction de la chasse de sept espèces d'oiseaux migrateurs sur le bassin d'Arcachon est consacrée par un arrêté de la préfecture de la Gironde du 23 janvier 2024, avec 4 mois 1⁄2 de retard par rapport à l'injonction de la justice...
+</p>
+ <p>
+
+   En mer, l'année 2024 commence idéalement avec la publication de l'arrêté du 12 février abrogeant la pêche aux filets fixes dans la zone de balancement des marées sur la côte landaise. La même pêche sur l'estran girondin est annulée par la Cour d'appel de Bordeaux début novembre. L'État se voit enjoint de communiquer à l'Association les quantités de poissons migrateurs (saumons, aloses et lamproies) déclarées par les pêcheurs maritimes de l’estuaire de l'Adour pour chacune des deux années 2020 et 2021. Cette pêche maritime professionnelle des saumons, aloses et lamproies dans l'estuaire de l'Adour est annulée en fin d'année. L'annulation des dates de pêche 2023 de la civelle et de l'anguille jaune confirme la suspension obtenue en avril 2023. En annulant partiellement l’arrêté du 24 octobre 2023 établissant des mesures spatio-temporelles visant la réduction des captures accidentelles de petits cétacés dans le golfe de Gascogne pour les années 2024, 2025, et 2026, le Conseil d'État confirme la suspension un an plus tôt. En 2025 et pour la seconde fois consécutive, l'exploitation du Golfe de Gascogne devrait connaître un répit significatif d'un mois. Faute d'être parvenues à stopper les travaux de l'interconnexion électrique France-Espagne par la mer, les associations requérantes dont fait partie DMA réussissent à suspendre quelques jours les travaux de l'interconnexion électrique France-Espagne par voie pénale au nom de la protection des cétacés.
+ </p>
+    </section>
+     
+  
+    <div class="section intro" id="section-1">
+      <div>
+        <h2>Recours administratifs en 2024</h2>
+        <ul class="section-list" style="padding-top: 5rem; list-style-type: disc; padding-left: 0;">
+          <li>Saumons, aloses et lamproies, poissons migrateurs anadromes (24 recours)</li>
+          <li>Informations environnementales (6 recours)</li>
+          <li>Interconnexion électrique France-Espagne (3 actions)</li>
+          <li>Chalut de fond (2 recours)</li>
+          <li>Maigre (1 recours)</li>
+          <li>L'anguille, migrateur catadrome (1 recours)</li>
+          <li>Silure (1 requête)</li>
+          <li>Réglementation de la pêche (1 requête)</li>
+        </ul>
+        </ul>
+      </div>
+      <div>
+        
+        <h3>
+          11. Saumons, Aloses et lamproies, poissons migrateurs anadromes (24 recours)
+        </h3>
+        <p>
+
+          Dans le bassin de la Garonne-Dordogne, une première autorisation de pêche « scientifique » à fin de repeuplement par translocation de géniteurs est accordée en 2024, sans que ces opérations ne soient ni scientifiquement justifiées ni contrôlables. L'Association obtient sa suspension, mais ne peut contester que sur le fond la seconde qui sera donc menée à son terme. La pêche de la lamproie étant interdite, il s'agit de payer des pêcheurs professionnels pour capturer des lamproies en aval du bassin et les relâcher en amont.
+        </p>
+        <p>
+
+          Concernant les saumons et les aloses du bassin de l'Adour, le tribunal administratif de Pau en début d'année rejette une nouvelle fois notre demande de moratoire de la pêche. Quelques mois plus tard, devant l'effondrement des captures, les pêcheurs comprennent enfin ce que nous annonçons depuis plusieurs années et demandent l'arrêt de la pêche. Celle-ci est fermée début juillet, c'est-à-dire sans aucune effet utile pour la saison 2024 qui est consommée à 83%. Que pensent les juges du bien fondé de leur décision en début d'année ? Se sont-ils seulement interrogés sur cette question ?
+        </p>
+        <p>
+
+          L'Association étend sa contestation à la pêche professionnelle des aloses et des lamproies dans la Loire et à la pêche professionnelle et amateur du saumon dans les cours d'eau bretons.
+        </p>
+        <p>
+Détail des 24 recours 2024 en faveur des poissons migrateurs anadromes : 
+<ol>
+  <li>
+    Arrêté de pêche maritime (4 recours) :
+    <ul>
+      <li>Requêtes 2400156 et 2400157 contre l'arrêté feinte.</li>
+      <li>Requêtes 2301648 en annulation et 2301662 en référé contre l'arrêté préfectoral du 28 mars 2023 portant réglementation permanente de la police de la pêche en eau douce dans le département de la Gironde.</li>
+    </ul>
+  </li>
+  <li>
+    Arrêtés de pêche en eau douce (20 recours) :
+    <ul class="!list-disc [&>li]:pb-4">
+      <li>
+        Requêtes 2400825 en annulation et 2400891 en référé contre l'arrêté interpréfectoral du 22 janvier 2024 portant autorisation d'introduire des lamproies marine qui est suspendu, requête 2402379 contre l'arrêté inter-préfectoral du 15 mars 2024 portant autorisation de capture et de transport de lamproies marines en application de l'article R432-6 du code de l'environnement,
+      </li>
+      <li>
+        Requêtes 2400540 et 2400568; 2400542 et 2400567 en annulation et en référé-suspension contre les arrêtés n° 64-2024-01-19-00010 du 19 janvier 2024 fixant les périodes d'ouverture de la pêche en eau douce pour les espèces migratrices pour l'année 2024 dans les Pyrénées-Atlantiques et n° DDTM/SPEMA/2023/n° 1550 du 15 décembre 2023 fixant les périodes d'ouverture de la pêche des poissons migrateurs en eau douce pour 2024 dans les Landes. Requêtes 493069 et 493079 pour contester les deux ordonnances 2400567 et 2400568 devant le Conseil d'État.
+      </li>
+      <li>
+        Réglementation de la pêche maritime dans l'estuaire de la Gironde et à son embouchure et l'arrêté du 4 janvier 2022 n°8 modifiant l'arrêté préfectoral du 6 mai 2009 portant réglementation de la pêche maritime de la grande alose et de l'alose.
+      </li>
+      <li>
+        Requêtes 2403161 et 2404710 en annulation contre l'arrêté n°2023/SEE/0285 en date du 22/12/2023 réglementant l'exercice de la pêche en eau douce pour l'année 2024 dans le département de La Loire Atlantique.
+      </li>
+      <li>
+        Requête 2400862 en annulation contre l'arrêté relatif à la pêche fluviale dans le département d'Indre-et-Loire au titre de l'année 2024.
+      </li>
+      <li>
+        Requêtes 2400863 et 2401371 en annulation contre l'arrêté relatif à l'exercice de la pêche en eau douce dans le département de Loir-et-Cher pour l'année 2024.
+      </li>
+      <li>
+        Requête 2404709 en annulation contre l'arrêté SEEB - PECHE 2023 n° 51 du 19/12/2023 par lequel le préfet de Maine-et-Loire a autorisé la pêche de la grande alose, de l'alose feinte, de la lamproie marine et de la lamproie fluviale en 2024 dans le Maine-et-Loire.
+      </li>
+      <li>
+        Requêtes 2402108 et 2402115 en annulation contre l'article 3 de l'arrêté du 12 février 2024 du préfet de la Région Bretagne encadrant la pêche de loisir du saumon atlantique sur les cours d'eau du COGEPOMI des cours d'eau breton pour l'année 2024 et Plan de gestion des poissons migrateurs des cours d'eau bretons 2024-2027.
+      </li>
+      <li>
+        Requête 2300676 contre les arrêtés préfectoraux n° 2023-DDTM-2023-SE-032 du 9 mars 2023, réglementaire permanent relatif à l’exercice de la pêche en eau douce dans le département de la Manche et n° 2023-DDTM-2023-SE-033 du 9 mars 2023, relatif à l’exercice de la pêche en eau douce des poissons migrateurs pour l’année 2023 dans le département de la Manche.
+      </li>
+    </ul>
+  </li>
+</ol>
+<h3>
+          12. Informations environnementales (6 recours)
+        </h3>  
+        <p>
+
+La détermination de l'Association commence être connue, mais malgré sa réputation de ne pas lâcher prise, certaines administrations continuent malgré tout à lui opposer des refus de transmission de données environnementales. La stratégie est malheureusement payante. Obligée de saisir la justice, l'Association finit par obtenir les informations, mais au prix d'une dépense d'énergie et de temps préjudiciable qui ne peut être dévolue à d'autres actions bien plus utiles. C'est le but recherché. En constatant que l'administration a fini par transmettre les informations demandées, systématiquement dans les jours ... ou les minutes qui précèdent la clôture de l'instruction, la justice administrative qui se contente de prononcer des non lieux à statuer manque son but et devrait s'interroger sur son rôle. DMA déplore que ces non lieux sans sanction financière de ces pratiques honteuses sont un puissant signal à destination de l'administration pour que les choses continuent ainsi. Son message est entendu par le jugement 2322055 (documents IFAP) où le non lieu est assorti d'une indemnisation de 800 € en faveur de l'Association.
+          </p>    
+          <p>
+            Détail des trois recours 2024 visant à récupérer des informations environnementales :
+          </p>
+</div>
+    </div>
+  
+
+  
+    <div class="section middle" id="section-2">
+      <h2>Flapping Around, Flying All Over</h2>
+      <div>
+        <p>Donec imperdiet efficitur risus in venenatis. Aenean ornare iaculis orci a condimentum. Praesent tincidunt, purus ac placerat posuere, lacus risus suscipit lacus, et sollicitudin turpis metus in enim. Vestibulum at imperdiet magna, ac vehicula magna. Praesent placerat sapien bibendum, faucibus lectus at, euismod elit. Nunc velit est, faucibus et faucibus eu, tempus non nisi.</p>
+  
+        <p>Donec eu eros augue. Fusce blandit sed lacus ut pretium. Vivamus lacus ligula, fringilla sit amet nibh non, bibendum auctor nisi. In quis mollis mauris. Aliquam eget arcu ut arcu rhoncus posuere nec sit amet mauris. Integer consequat felis vitae quam ultricies, eu ultrices mi finibus. Cras eget nunc at nisl venenatis lacinia. Duis non tempus purus. Donec ut tristique turpis. Nunc non lacinia lectus, in ullamcorper erat.</p>
+  
+        <img src="https://images.unsplash.com/photo-1574068468668-a05a11f871da?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODkzOTc5OA&ixlib=rb-1.2.1&q=85" alt="A hummingbird flying among yellow flowers. " title="Photo by Deepak Nautiyal for Unsplash" class="editorial-image-left">
+  
+        <p>Donec eu eros augue. Fusce blandit sed lacus ut pretium. Vivamus lacus ligula, fringilla sit amet nibh non, bibendum auctor nisi. In quis mollis mauris. Aliquam eget arcu ut arcu rhoncus posuere nec sit amet mauris. Integer consequat felis vitae quam ultricies, eu ultrices mi finibus. Cras eget nunc at nisl venenatis lacinia. Duis non tempus purus. Donec ut tristique turpis. Nunc non lacinia lectus, in ullamcorper erat.</p>
+  
+        <p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+      </div>
+    </div>
+  
+    <div class="section epilogue" id="section-3">
+      <h2>Building Nests, Eating Bugs</h2>
+      <div>
+        <p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+  
+        <blockquote>
+          Be like the bird who, pausing in her flight awhile on boughs too slight, feels them give way beneath her, and yet sings, knowing she hath wings.
+          <span>&mdash; Victor Hugo</span>
+        </blockquote>
+  
+        <p>Donec eu eros augue. Fusce blandit sed lacus ut pretium. Vivamus lacus ligula, fringilla sit amet nibh non, bibendum auctor nisi. In quis mollis mauris. Aliquam eget arcu ut arcu rhoncus posuere nec sit amet mauris. Integer consequat felis vitae quam ultricies, eu ultrices mi finibus. Cras eget nunc at nisl venenatis lacinia. Duis non tempus purus. Donec ut tristique turpis. Nunc non lacinia lectus, in ullamcorper erat.</p>
+  
+        <p>Nunc nisi justo, lobortis venenatis consectetur vel, porttitor in felis. Praesent tincidunt, mi non tincidunt egestas, libero risus finibus ex, volutpat facilisis nulla libero ut arcu. Proin consequat ligula non libero viverra, ut semper sem rhoncus. Morbi at viverra nisl, in convallis lorem. Proin ut dapibus ex, eu hendrerit mi. Donec tempus arcu quis purus consequat, sed congue nulla consequat. Donec tempor posuere lacus eget placerat. Maecenas euismod congue ornare. Vestibulum tincidunt eros ut faucibus blandit.</p>
+      </div>
+    </div>
+  
+    <div class="section blank">
+      <img src='https://images.unsplash.com/photo-1517518147372-abb920d1e23a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY1MDk1NzUxMQ&ixlib=rb-1.2.1&q=85' alt=''>
+    </div>
+  
+    <div class="section final" id="section-4">
+      <h2>Singing Little Songs, Looking Fancy</h2>
+      <div>
+        <p>Donec eu eros augue. Fusce blandit sed lacus ut pretium. Vivamus lacus ligula, fringilla sit amet nibh non, bibendum auctor nisi. In quis mollis mauris. Aliquam eget arcu ut arcu rhoncus posuere nec sit amet mauris. Integer consequat felis vitae quam ultricies, eu ultrices mi finibus. Cras eget nunc at nisl venenatis lacinia. Duis non tempus purus. Donec ut tristique turpis. Nunc non lacinia lectus, in ullamcorper erat.</p>
+  
+        <p>Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero pellentesque interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula ut aliquam aliquet. Vivamus vel elementum lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vel erat leo. Donec rhoncus nec orci eget rutrum.</p>
+  
+        <blockquote>
+          I'd rather learn from one bird how to sing than teach ten thousand stars how not to dance
+          <span>&mdash; E.E. Cummings</span>
+        </blockquote>
+  
+        <p>Nullam mollis, enim sed pretium pellentesque, urna dolor faucibus nisi, interdum luctus neque eros blandit justo. Morbi non urna scelerisque, condimentum ex nec, bibendum sem. Pellentesque ullamcorper quis dui non condimentum. Ut aliquam neque metus, in suscipit lorem volutpat eget. Mauris ac dictum nulla, eu suscipit justo.In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus orbi non urna scelerisque, condimentum.</p>
+  
+        <img src='https://images.unsplash.com/photo-1619366865729-a81509fc68e5?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY1MDk1NzU2Mw&ixlib=rb-1.2.1&q=85' alt=''>
+      </div>
+    </div>
+  
+  </article>
+
+</Layout>
+
+<style>
+
+* {
+
+  --black: #1a1a1a;
+  --white: #f3fdfd;
+  --dark-blue: #025c85;
+
+  --size-h1: 5rem;
+  --size-h2: 1.2rem;
+  --size-p: 1rem;
+  --size-quote: 1.4rem;
+
+  --serif-font: serif;
+  --step-1: clamp(1.35rem, calc(1.18rem + 0.55vw), 1.56rem);
+	--step-2: clamp(2.8rem, calc(1.98rem + 2.62vw), 3.82rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--white);
+  background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+  font-family: sans-serif;
+  font-size: 16px;
+  color: var(--black);
+  counter-reset: num;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: var(--serif-font);
+  font-size: var(--size-h1);
+  color: var(--dark-blue);
+  text-transform: capitalize;
+}
+h2 {
+  height: min-content;
+  font-size: var(--size-h2);
+  font-weight: normal;
+}
+p {
+  font-size: var(--size-p);
+  line-height: 1.5rem;
+  opacity: 0.8;
+}
+ul {
+  list-style: none;
+}
+ol {
+  list-style: decimal;
+}
+a {
+  text-decoration: none;
+}
+
+article {
+  margin: 4em 0;
+  width: 100%;
+  max-width: 1080px;
+  padding: 1em;
+  position: relative;
+}
+
+blockquote {
+  padding: 1em 0 1em 1em;
+  font-size: var(--size-quote);
+  font-family: var(--serif-font);
+  position: relative;
+}
+blockquote span {
+  display: block;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+}
+blockquote::before {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  content: "\201C";
+  font-size: 8em;
+  color: var(--dark-blue);
+  opacity: 0.2;
+}
+
+.nav {
+  position: sticky;
+  width: min-content;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  padding: 3px;
+  justify-items: center;
+  align-items: center;
+  z-index: 10;
+  background-color: var(--dark-blue);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.nav.show {
+  opacity: 1;
+}
+
+.item a {
+  display: block;
+  font-weight: bold;
+  color: var(--white);
+  opacity: 0.3;
+}
+
+.active a {
+  opacity: 1;
+}
+
+.intro,
+.middle,
+.epilogue,
+.final {
+  margin-top: 6em;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  column-gap: 1em;
+  position: relative;
+  counter-increment: num;
+}
+.section h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+.section:not(div.blank)::before {
+  position: absolute;
+  content: "0" counter(num);
+  left: 0;
+  top: 2%;
+  font-size: 4rem;
+  color: var(--dark-blue);
+  opacity: 0.2;
+}
+
+.section-list > li::marker {
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+.blank {
+  counter-reset: num;
+}
+.blank img {
+  grid-column: 2/3;
+  margin: 1em 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  column-gap: 1em;
+  align-items: center;
+  position: relative;
+}
+.hero div {
+  height: min-content;
+  padding: 1em 2em 1em 0;
+}
+.hero .summary {
+  padding-left: 1em;
+}
+.hero h1 {
+  font-size: var(--size-h1);
+  line-height: calc(var(--size-h1) + 0.5rem);
+}
+.hero h2 {
+  margin: 2em 0 0.3em 0;
+  font-size: calc(var(--size-p) + 0.2rem);
+}
+
+
+figure {
+	object-fit: cover;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	line-height: 1.8rem;
+	padding-bottom: 1em;
+}
+
+
+.intro p {
+  margin: 2em 0;
+  column-count: 1;
+  column-gap: 2em;
+}
+.middle p,
+.epilogue p,
+.final p {
+  margin-bottom: 2em;
+}
+
+.middle img {
+  width: 50%;
+  float: left;
+  padding-right: 2em;
+}
+
+.final p:last-of-type {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+@media (max-width: 700px) {
+  article {
+    margin: 1em 0;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero div {
+    margin-bottom: 2em;
+  }
+  .hero h1 {
+    font-size: calc(var(--size-h1) - 1rem);
+  }
+
+  .section:not(div.blank)::before {
+    top: 3%;
+    font-size: 4rem;
+  }
+
+  .intro p {
+    margin: 1em 0;
+    column-count: 1;
+  }
+  .final p:last-of-type {
+    column-count: 1;
+    column-gap: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: calc(var(--size-h1) - 2rem);
+  }
+  .section {
+    grid-template-columns: 1fr;
+  }
+  blockquote::before {
+    top: -30px;
+    font-size: 6em;
+  }
+  .section h2 {
+    margin-bottom: 1em;
+  }
+  .section:not(div.blank)::before {
+    top: -1.5em;
+    font-size: 2rem;
+  }
+
+  html {
+    scroll-padding-top: 5em;
+  }
+}
+
+</style>

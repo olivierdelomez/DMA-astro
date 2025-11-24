@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogLayout.astro
-title: Nos bilans d'activité
-description: Les bilans d'activité de DMA
+title: Nos rapports d'activités
+description: Nos rapports d'activités de DMA
 ---
 
 Actuellement, un groupe restreint de membres travaille à temps plein au sein de Défense des Milieux Aquatiques. Ils représentent les convictions et les mérites qui ont édifié l’association, afin d’assurer sa permanence, mais aussi informer, étudier, contrôler, et engager des actions de protection quotidiennement.

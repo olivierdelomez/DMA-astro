@@ -1,5 +1,5 @@
 ---
-import Logo from "@assets/dma-logo.png";
+import Logo from "@assets/DMA-LOGO2BLACK.png";
 import { Image } from "astro:assets";
 import MobileMenu from "./MobileMenu.astro";
 ---
@@ -56,7 +56,8 @@ import MobileMenu from "./MobileMenu.astro";
     text-align: center;
     display: inline-block;
     color: var(--dma-blue);
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
     font-size: 1rem;
   }
 
@@ -128,12 +129,12 @@ import MobileMenu from "./MobileMenu.astro";
 
   header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     max-width: 1200px;
     margin: auto;
     width: stretch;
+    padding-bottom: 2rem;
   }
 
   @media (max-width: 1200px) {
@@ -157,9 +158,9 @@ import MobileMenu from "./MobileMenu.astro";
 
 
 <header>
-  <h1 class="p-4">
-    <Image src={Logo} alt="logo dma" />
-    <a href="/" class="font-bold text-xl"> DÉFENSE DES <br /> MILIEUX AQUATIQUES</a>
+  <a href="/">
+    <Image src={Logo} width={150} alt="logo dma" />
+    <a href="/" class="font-bold text-xl sr-only"> DÉFENSE DES <br /> MILIEUX AQUATIQUES</a>
   </h1>
   <div class="hidden md:block z-10">
     <nav aria-label="navigation principale">
@@ -184,7 +185,7 @@ import MobileMenu from "./MobileMenu.astro";
               <a href="/histoire">Histoire</a>
             </li>
             <li>
-              <a href="/fonctionnement">Fonctionnement</a>
+              <a href="/rapports-activites">Rapports d'activités</a>
             </li>
             <li>
               <a href="/bilans-comptables">Bilans comptables</a>
@@ -251,12 +252,12 @@ import MobileMenu from "./MobileMenu.astro";
             </li>
           </ul>
         </li>
-        <li class="dropdown">
-          <a href="/blog/" data-astro-reload>Actualité</a>
+        <li class="dropdown" >
+          <a href="/blog/" class="dropdown__title !font-semibold" data-astro-reload>Actualité</a>
         </li>
         <li class="dropdown highlighted">
           <a
-          class="text-red-700 visited:text-red-700"
+          class="text-red-700 visited:text-red-700 !font-semibold dropdown__title"
             href="https://www.helloasso.com/associations/defense-des-milieux-aquatiques"
             >Adhésion / don</a
           >
