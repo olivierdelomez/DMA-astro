@@ -22,7 +22,7 @@ const { frontmatter } = Astro.props;
       </Hero>
     )
   }
-  <section class="container-md mx-auto container-white">
+  <section class="container-md lg:max-w-5xl mx-auto container-white">
     {!frontmatter.vignette && <h1>{frontmatter.title}</h1>}
     <article class="prose lg:prose-xl">
       <slot />
