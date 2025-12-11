@@ -17,6 +17,7 @@ import instagramIcon from "../assets/instagram.svg";
     background-origin: border-box;
     height: 253px; /* magic number from image height */
     color: black;
+    place-self: normal;
   }
   footer > div {
     max-width: 1200px;
@@ -46,7 +47,7 @@ import instagramIcon from "../assets/instagram.svg";
 <footer>
   <div>
     <div>
-      <ul class="icon-list">
+      <ul class="icon-list flex items-center">
         <li>
           <a href="https://www.facebook.com/maigre40">
             <img alt={"facebook"} width={24} src={facebookIcon.src} />
