@@ -5,6 +5,7 @@ import Hero from "../components/Hero.astro";
 import Youtube from "../components/Youtube.astro";
 import PatagoniaLogo from "../assets/patagonia.png"
 import SalmonWatch from "../assets/salmonwatchireland.jpg"
+import Onepercent from "../assets/1ftp_blue.png"
 ---
 
 <Layout title="DEFENSE DES MILIEUX AQUATIQUES">
@@ -378,7 +379,22 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
     </div>
   </div>
 </div>
-  <Hero title="DEFENSE DES MILIEUX AQUATIQUES">
+  <Hero>
+    <div class="text-white mb-12 text-left text-6xl uppercase">
+      <div class="font-bold">Protéger</div>
+      <div class="text-4xl">
+les rivières
+      </div>
+      <div class="text-4xl">
+ les estuaires
+      </div>
+      <div class="text-4xl">
+        et les océans
+      </div>
+      <div class="font-bold">
+        par le droit
+      </div>
+    </div>
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
       method="post"
@@ -468,6 +484,9 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
           </a>
           <a href="https://salmonwatchireland.ie">
             <img alt={"SalmonWatch"} width={336} src={SalmonWatch.src} />
+          </a>
+          <a href="https://onepercentfortheplanet.org/">
+            <img alt={"One Percent For The Planet"} width={200} src={Onepercent.src} />
           </a>
         </div>
       </div>
@@ -695,7 +714,7 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
     text-transform: uppercase;
     margin: 0.5rem;
   }
-  form > input {
+  form > input:not([type="submit"]) {
     height: 42px;
     padding-left: 1rem;
     border-radius: 3px;
