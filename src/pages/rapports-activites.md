@@ -22,9 +22,6 @@ Pour ce faire, elle a recours à l’expertise de nombreux halieutes, mathémati
 - [2023](/RAPPORT_ACTIVITE_DMA_2023.pdf)
 - [2022](/rapport-activite/2022) ou [version pdf](/RAPPORT_ACTIVITE_DMA_2022.pdf)
 - [2021](/RAPPORT_ACTIVITE_ADRM_2021.pdf) (pdf)
-- [2020](/RA-DMA-2020.pdf) (pdf)
-- [2019](/RA-DMA-2019.pdf) (pdf)
-- [2018](/rapport-activite/2018)
 
 ### Historique de nos actions juridiques
 
