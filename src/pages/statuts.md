@@ -1,338 +1,440 @@
 ---
 layout: ../layouts/BlogLayout.astro
 title: NOUVEAUX STATUTS de L'ASSOCIATION DÉFENSE DES MILIEUX AQUATIQUES (DMA)
-description: Les statuts de l'association Défense des milieux aquatiques (modifiés par l'assemblée générale du 11 mars 2023)
+description: Les statuts de l'association Défense des milieux aquatiques (modifiés par l'assemblée générale du 1er mars 2025)
 ---
+<br>
 
 **Article 1: dénomination**
 
-L'association dénommée (ADRM) :"Association pour la Défense des Ressources Marines" est une
-association créée le 8 mars 2017 sous le régime de la loi du 1er juillet 1901 et de son décret
-d'application du 16 août 1901. Elle a été régulièrement inscrite au registre national des associations
-le 10 mai 2017. Elle a été rebaptisée (DMA) : « Défense des Milieux Aquatiques » (ci-après
-l'association) par le vote de l'assemblée générale de 2020.
+L\'association dénommée (ADRM) :\"Association pour la Défense des
+Ressources Marines\" est une association créée le 8 mars 2017 sous le
+régime de la loi du 1er juillet 1901 et de son décret d\'application du
+16 août 1901 . Elle a été régulièrement inscrite au registre national
+des associations le 10 mai 2017. Elle a été rebaptisée (DMA) : « Défense
+des Milieux Aquatiques » (ci-après l\'association) par le vote de
+l\'assemblée générale de 2020.
 
 **Article 2 - objet**
 
-I. L'association a pour vocation exclusive d'agir pour la défense, la protection et la conservation de
-l'intégralité du milieu aquatique naturel en général, quelque soit sa salinité, et des sols dont il
-dépend, par exemple les forêts, les prairies et les dunes littorales, et de toutes les espèces
-dépendantes de ces différents milieux tels que par exemple les poissons, tous les organismes connus
-ou à découvrir sans exception, y compris les mammifères marins et terrestres, les reptiles, les
-oiseaux, mais aussi les habitats concernés.
+I. L\'association a pour vocation exclusive de contribuer directement et
+indirectement à la défense, la protection et la conservation, le cas
+échéant la restauration des milieux aquatiques naturels en général,
+quelque soit leur salinité ou non, et des autres entités dont ses
+caractères dépendent comme les sols, l\'atmosphère, les divers
+écosystèmes en rapport, par exemple les forêts, les prairies et les
+dunes littorales, de toutes les espèces animales, végétales, organiques
+dépendantes de ces différents milieux, par exemple les poissons, les
+amphibiens, les arbres, etc, tous les organismes connus ou à découvrir
+sans exception, y compris les mammifères marins et terrestres, les
+reptiles, les oiseaux, et les habitats naturels et d\'espèces
+concernés. 
 
-Toutes les masses d'eau au sens large et les espèces qui les fréquentent étant par nature mobiles et
-interconnectées, l'association a intérêt à agir au niveau de n'importe quelle zone géographique
-française, quelque soit sa localisation et sa taille, y compris en Corse et dans les départements et
-territoires d'outre-mer, et indépendamment des limites administratives que les éléments qu'elle se
-propose de défendre ne connaissent pas. L'association contestera donc des textes de toute portée qui
-pourraient soulever des questions nationales, régionales, départementales, locales ou intéressant
-plusieurs zones quelconques puisque toute atteinte à la conservation de l'environnement participe à
-la dégradation générale, quelque soit sa localisation et son intensité.
+Toutes les masses d\'eau au sens large et les espèces qui les
+fréquentent étant par nature mobiles et interconnectées, l\'association
+exerce son action sur l\'ensemble du territoire national ainsi que dans
+les espaces internationaux, indépendamment des limites administratives
+que les éléments qu\'elle se propose de défendre ne connaissent pas.
 
-Dans ce but, elle peut agir à plusieurs niveaux:
+A cet effet, elle peut mettre en œuvre tous les moyens légaux utiles à
+son objet social, et notamment:
 
-1. défendre toutes les espèces et les écosystèmes dépendants du milieu aquatique et leurs
-habitats respectifs, sans discrimination concernant leur état de conservation ou leur statut
-juridique,
-2. œuvrer pour faire appliquer strictement les lois et règlements relatifs à ces situations
-3. participer à l'amélioration constante de toutes les dispositions juridiques qui bénéficient aux
-milieux aquatiques
-4. sensibiliser les citoyens par la publication numérique des actions et des motivations de
-l'association (site internet, réseaux sociaux)
-5. la lutte de toutes discriminations, dans le cadre de son objet
+\(1\) défendre toutes les espèces et les écosystèmes dépendants du
+milieu aquatique et leurs habitats respectifs, sans discrimination
+concernant leur état de conservation ou leur statut juridique,
 
-II. L'association aura recours à tous les moyens légaux pouvant contribuer directement ou
-indirectement à la réalisation de son objectif.
+\(2\) œuvrer pour faire appliquer strictement les lois et règlements
+relatifs à ces situations
 
-III. L'association ne poursuit aucun but lucratif, ni politique ni religieux.
+\(3\) participer à l\'amélioration constante de toutes les dispositions
+juridiques qui bénéficient directement et indirectement aux milieux
+aquatiques
 
+\(4\) sensibiliser les citoyens par la publication numérique des actions
+et des motivations de l\'association (site internet, réseaux sociaux)
 
-IV. Toutes les fonctions, y compris celles des membres du conseil d’administration et du bureau,
-sont gratuites et bénévoles.
+\(5\) lutte contre toutes discriminations, envers le monde vivant et
+l'avènement d\'une société écologiquement viable, dans le cadre de son
+objet
+
+\(6\) assurer la défense de l\'intérêt collectif et individuel de ses
+membres, dans le cadre des actions qu\'ils entreprennent au soutien de
+l\'objet social.
+
+II\. L\'association ne poursuit aucun but lucratif, ni politique ni
+religieux.
+
+III\. Toutes les fonctions, y compris celles des membres du conseil
+d'administration et du bureau, sont gratuites et bénévoles.
 
 **Article 3 - siège social**
 
-Le siège social est fixé et peut être transféré en tout lieu sur simple décision du conseil
-d'administration. Sa localisation précise ne sera plus publiée dans les statuts.
+Le siège social est fixé et peut être transféré en tout lieu sur simple
+décision du conseil d\'administration. Sa localisation précise ne sera
+plus publiée dans les statuts. 
 
 **Article 4 - durée et ressources**
 
-I. La durée de l'association est illimitée.
+I. La durée de l\'association est illimitée.
 
-II. Les ressources de l'association sont constituées des cotisations annuelles des membres (le
-montant des cotisations est fixé par l'assemblée générale) des apports, et participations
-exceptionnelles, des aides publiques et privées, et de toutes ressources autorisées par la loi.
+II\. Les ressources de l\'association sont constituées des cotisations
+annuelles des membres (le montant des cotisations est fixé par
+l\'assemblée générale) des apports, et participations exceptionnelles,
+des aides publiques et privées, et de toutes ressources autorisées par
+la loi.
 
-Un reçu fiscal conforme à la réglementation sera remis à chaque membre qui en fait la demande.
+Un reçu fiscal conforme à la réglementation sera remis à chaque membre
+qui en fait la demande .
 
-III. L'association n'exercera pas d'activités commerciales.
+III\. L\'association n\'exercera pas d\'activités commerciales.
 
 **Article 5 - composition - cotisations**
 
-I. L'association se compose de personnes physiques ou morales qui sont autant d'adhérents. Tous les
-adhérents sont membres de l'assemblée générale à part égale.
-II.Tous les membres paient une cotisation annuelle dont le montant est fixé chaque année par
-l'assemblée générale, payable en une seule fois, sans proratisation et valable pour le délai restant à
-courir jusqu'au terme de l'année calendaire. Sauf mention contraire de l'adhérent, les cotisations
-versées à partir du 1er novembre de l'année en cours valent adhésion pour l'année suivante. Les
-sommes versées excédant la cotisation annuelle en cours sont comptablement considérées comme
-des dons.
-III. La cotisation ne donne lieu à aucune contrepartie directe ou indirecte sous forme d'un bien ou
-d'une prestation de services au profit de la personne qui la verse.
+I. L\'association se compose de personnes physiques ou morales qui
+sont autant d\'adhérents. Tous les adhérents sont membres de
+l\'assemblée générale à part égale.
+
+II.Tous les membres paient une cotisation annuelle dont le montant est
+fixé chaque année par l\'assemblée générale, payable en une seule fois,
+sans proratisation et valable pour le délai restant à courir jusqu\'au
+terme de l\'année calendaire. Sauf mention contraire de l\'adhérent, les
+cotisations versées à partir du 1er novembre de l\'année en cours valent
+adhésion pour l\'année suivante. Les sommes versées excédant la
+cotisation annuelle en cours sont comptablement considérées comme des
+dons. 
+
+III\. La cotisation ne donne lieu à aucune contrepartie directe ou
+indirecte sous forme d\'un bien ou d\'une prestation de services au
+profit de la personne qui la verse.
 
 **Article 6 - adhésion**
 
-I. Peut devenir membre toute personne physique ou morale approuvant et adhérant à l'objet de
-l'association et qui s'acquitte de la cotisation annuelle.
-II. La demande se fait par une motivation écrite sur un support durable, confirmant l'adhésion aux
-présents statuts et notamment l'objet de l'association, accompagné du paiement effectif de la
-cotisation et adressée au bureau qui prononce l'admission dans un délai maximum de trois mois,
-après encaissement de la cotisation.
-III. Le conseil d’administration pourra refuser des adhésions avec avis motivé aux intéressés et
-remboursera la cotisation correspondante quand elle aura été encaissée.
+1. Peut devenir membre toute personne physique ou morale approuvant et
+adhérant à l\'objet de l\'association et qui s\'acquitte de la
+cotisation annuelle.
+
+2. La demande se fait par une motivation écrite sur un support
+durable, confirmant l\'adhésion aux présents statuts et notamment
+l\'objet de l\'association, accompagné du paiement effectif de la
+cotisation et adressée au bureau qui prononce l\'admission dans un délai
+maximum de trois mois, après encaissement de la cotisation.
+
+3. Le conseil d'administration pourra refuser des adhésions avec avis
+motivé aux intéressés et remboursera la cotisation correspondante quand
+elle aura été encaissée.
 
 **Article 7 - perte de la qualité de membre**
 
-
 I. La qualité de membre se perd :
+- par décès, ou, pour les personnes morales, par dissolution ;
+- par démission adressée au président de l\'association ;
+- par non paiement de la cotisation pour l\'année en cours qui entraîne automatiquement la démission,
+-  par exclusion prononcée par le conseil d\'administration, qui statue
+    souverainement, pour faute grave, comportement portant préjudice
+    matériel ou moral à l\'association ou de nature à nuire à la bonne
+    réputation de l\'association, infraction aux statuts ou au règlement
+    intérieur. Le membre exclu peut faire appel par écrit de cette
+    décision devant le conseil d\'administration dans le délai d\'un
+    mois à noter de la notification de l\'exclusion qui est faite dans
+    la délibération du conseil d\'administration.
 
-1. par décès, ou, pour les personnes morales, par dissolution ;
-2. par démission adressée au président de l'association ;
-3. par non paiement de la cotisation pour l'année en cours qui entraîne automatiquement la
-    démission,
-4. par exclusion prononcée par le conseil d'administration, qui statue souverainement, pour
-    faute grave, comportement portant préjudice matériel ou moral à l'association ou de nature à
-    nuire à la bonne réputation de l'association, infraction aux statuts ou au règlement intérieur.
-    Le membre exclu peut faire appel par écrit de cette décision devant le conseil
-    d'administration dans le délai d'un mois à noter de la notification de l'exclusion qui est faite
-    dans la délibération du conseil d'administration.
+Les membres du conseil d\'administration sont appelés à se prononcer à
+l\'initiative du Président de l\'association. La décision d\'exclusion
+est prise par décision collective des membres du conseil
+d\'administration statuant à la majorité simple. La décision
+d\'exclusion ne peut intervenir sans que les griefs invoqués à
+l\'encontre de l\'adhérent susceptible d\'être exclu et la date de
+réunion du conseil d\'administration devant statuer sur l\'exclusion lui
+aient été préalablement communiqués au moyen d\'une adresse électronique
+qu\'il aura fournie, afin qu\'il puisse, dans un délai maximal d\'un
+mois, présenter ses observations et faire valoir ses arguments en
+défense. La décision d\'exclusion prend effet à compter de son prononcé
+; elle est notifiée à l'adhérent exclu au moyen d\'un courrier
+électronique à l\'initiative du Président de l\'association. Elle est
+non contestable.
 
+II\. Dans tous les cas, la ou les sommes déjà payées, à titre de
+cotisation et de don, reste(nt) acquise(s) à l\'association.
 
-Les membres du conseil d'administration sont appelés à se prononcer à l'initiative du
-Président de l'association. La décision d'exclusion est prise par décision collective des
-membres du conseil d'administration statuant à la majorité simple. La décision d'exclusion
-ne peut intervenir sans que les griefs invoqués à l'encontre de l'adhérent susceptible d'être
-exclu et la date de réunion du conseil d'administration devant statuer sur l'exclusion lui aient
-été préalablement communiqués au moyen d'une adresse électronique qu'il aura fournie, afin
-qu'il puisse, dans un délai maximal d'un mois, présenter ses observations et faire valoir ses
-arguments en défense. La décision d'exclusion prend effet à compter de son prononcé ; elle
-est notifiée à l’adhérent exclu au moyen d'un courrier électronique à l'initiative du Président
-de l'association. Elle est non contestable.
-
-II. Dans tous les cas, la ou les sommes déjà payées, à titre de cotisation et de don, reste(nt)
-acquise(s) à l'association.
-III. Le décès, la démission, l'exclusion ou la radiation d'un ou de plusieurs membre(s) ne met pas fin
-à l'association.
+III\. Le décès, la démission, l\'exclusion ou la radiation d\'un ou de
+plusieurs membre(s) ne met pas fin à l\'association.
 
 **Article 8 - assemblée générale**
 
-I. L'assemblée générale est composée des membres à jour de leurs cotisations à la date de la
-convocation.
+I. L\'assemblée générale est composée des membres à jour de leurs
+cotisations à la date de la convocation.
 
-II. Il est possible de s'y faire représenter par un membre mandataire de son choix, muni d'un pouvoir
-renseigné de façon manuscrite sur support papier. Un mandataire ne peut détenir que trois pouvoirs
-au maximum.
+II\. Il est possible de s\'y faire représenter par un membre mandataire
+de son choix, muni d\'un pouvoir renseigné de façon manuscrite sur
+support papier. Un mandataire ne peut détenir que trois pouvoirs au
+maximum.
 
-III. En raison de l'éloignement des membres et en cas d'urgence, le vote à distance par
-correspondance ou par voie électronique peut être exceptionnellement organisé pour une résolution
-particulière qui l'exigerait et qui serait alors valablement adoptée ou rejetée en dehors de toute
-assemblée physique des membres en prenant en compte tous les votes reçus dans le délai d'un mois
-suivant la consultation.
+III\. En raison de l\'éloignement des membres et en cas d\'urgence, le
+vote à distance par correspondance ou par voie électronique peut être
+exceptionnellement organisé pour une résolution particulière qui
+l\'exigerait et qui serait alors valablement adoptée ou rejetée en
+dehors de toute assemblée physique des membres en prenant en compte tous
+les votes reçus dans le délai d\'un mois suivant la consultation.
 
-III bis. De façon systématique, la possibilité de voter par correspondance dans les sept jours qui
-précèdent l'assemblée générale sera possible, par voie électronique ou postale, le cachet de la poste
+III bis. De façon systématique, la possibilité de voter par
+correspondance dans les sept jours qui précèdent l\'assemblée générale
+sera possible, par voie électronique ou postale, le cachet de la poste
 faisant foi.
 
-IV. L'assemblée générale se réunit 1 fois par an, dans un lieu défini par le conseil d'administration,
-ou chaque fois qu'elle est convoquée par le conseil d'administration ou sur la demande du tiers au moins des adhérents à jour de leur cotisation.
+IV\. L\'assemblée générale se réunit 1 fois par an, dans un lieu défini
+par le** **conseil d\'administration, ou chaque fois qu\'elle est
+convoquée par le conseil d\'administration ou sur la demande du tiers au
+moins des adhérents à jour de leur cotisation.
 
-V. La date de l'assemblée générale doit être signalée aux adhérents par voie de presse, et/ou par
-courriel et/ou par voie postale et/ou par tout autre moyen permettant de s'assurer que chaque
-adhérent aura bien été prévenu un mois avant la tenue de celle-ci. La validité des coordonnées
-électroniques, postales, téléphoniques ou autre est de l'entière responsabilité du membre qui assume
-toutes les conséquences en cas de coordonnées erronées ou périmées.
+V. La date de l\'assemblée générale doit être signalée aux adhérents par
+voie de presse, et/ou par courriel et/ou par voie postale et/ou par tout
+autre moyen permettant de s\'assurer que chaque adhérent aura bien été
+prévenu un mois avant la tenue de celle-ci. La validité des coordonnées
+électroniques, postales, téléphoniques ou autre est de l\'entière
+responsabilité du membre qui assume toutes les conséquences en cas de
+coordonnées erronées ou périmées.
 
-VI. Tout membre de l'association peut faire inscrire une question à l'ordre du jour de l'assemblée
-générale et/ou proposer sa candidature au conseil d'administration, en envoyant sa demande par
-courriel ou courrier qui doit arriver au plus tard dix jours avant la date de tenue de cette assemblée.
+VI\. Tout membre de l\'association peut faire inscrire une question à
+l\'ordre du jour de l\'assemblée générale et/ou proposer sa candidature
+au conseil d\'administration, en envoyant sa demande par courriel ou
+courrier qui doit arriver au plus tard dix jours avant la date de tenue
+de cette assemblée.
 
-VII. Le président, assisté des membres du conseil, préside l'assemblée et expose la situation morale
-ou l’activité de l'association dans son « rapport ». Le trésorier rend compte de sa gestion et soumet
-les comptes annuels (bilan, compte de résultat et annexe) à l'approbation de l'assemblée.
+VII\. Le président, assisté des membres du conseil, préside l\'assemblée
+et expose la situation morale ou l'activité de l\'association dans son
+« rapport ». Le trésorier rend compte de sa gestion et soumet les
+comptes annuels (bilan, compte de résultat et annexe) à l\'approbation
+de l\'assemblée.
 
-VIII.L'assemblée délibère valablement sans quorum, quelque soit le nombre de membres présents,
-ou représentés, ou en cas de vote à distance de membres ayant répondu dans un délai d'un mois,
-lorsque cette procédure particulière a été mise en œuvre. Ses décisions sont prises à la majorité
-simple y compris pour une modification des statuts ou des buts de l'association.
+  
+VIII.L\'assemblée délibère valablement sans quorum, quelque soit le
+nombre de membres présents, ou représentés, ou en cas de vote à distance
+de membres ayant répondu dans un délai d\'un mois, lorsque cette
+procédure particulière a été mise en œuvre. Ses décisions sont prises à
+la majorité simple y compris pour une modification des statuts ou des
+buts de l\'association.
 
 Toutes les délibérations sont prises à main levée.
 
-L'assemblée procède à l'élection des membres du conseil d'administration lorsqu'il est mis en place
-pour la première fois puis valide les cooptations, se prononce sur les comptes de l'association, peut
-modifier les statuts et dissoudre l’association sur proposition du conseil d'administration, et fixe le
-montant des cotisations annuelles à verser par les membres.
+L\'assemblée procède à l\'élection des membres du conseil
+d\'administration lorsqu\'il est mis en place pour la première fois puis
+valide les cooptations, se prononce sur les comptes de l\'association,
+peut modifier les statuts et dissoudre l'association sur proposition du
+conseil d\'administration, et fixe le montant des cotisations annuelles
+à verser par les membres.
 
-IX. Il est tenu un registre des résolutions de l'assemblée authentifiées et signées par deux
-administrateurs.
-X. Les décisions des assemblées générales s’imposent à tous les membres, y compris absents ou
-représentés.
+IX\. Il est tenu un registre des résolutions de l\'assemblée
+authentifiées et signées par deux administrateurs.
+
+X. Les décisions des assemblées générales s'imposent à tous les membres,
+y compris absents ou représentés.
 
 **Article 9 - règlement intérieur**
 
-I. L 'assemblée pourra, si elle le juge nécessaire établir et modifier le règlement intérieur, qui
-déterminera les détails d'exécution des présents statuts. Le bureau veille à son respect.
-II. Le règlement intérieur ne prévoira aucun remboursement de cotisation pour quelque motif que ce
-soit.
+I. L \'assemblée pourra, si elle le juge nécessaire établir et modifier
+le règlement intérieur, qui déterminera les détails d\'exécution des
+présents statuts. Le bureau veille à son respect.
 
-**Article 10 – Conseil d'administration**
+II\. Le règlement intérieur ne prévoira aucun remboursement de
+cotisation pour quelque motif que ce soit.
 
-I. L'association est dirigée par un conseil d'administration qui est investi de manière générale de
-tous les pouvoirs importants qui ne sont pas de la responsabilité d'un autre organe de l'association.
+**Article 10 -- Conseil d\'administration**
 
-II. C'est pourquoi le conseil d'administration dispose de tous les pouvoirs pour décider d'agir en
-justice et représenter l'association dans le cadre d'action en Justice tant en défense, en demande qu'en intervention volontaire devant toutes les juridictions nationales (et notamment civiles, pénales
-et administratives), européennes et internationales.
+I. L\'association est dirigée par un conseil d\'administration qui est
+investi de manière générale de tous les pouvoirs importants qui ne sont
+pas de la responsabilité d\'un autre organe de l\'association.
 
-III. Le conseil d'administration peut déléguer en priorité et de façon permanente ce pouvoir d'agir en
-justice et de représentation en justice au président, ce qui est le cas sauf délibération contraire.
+II\. C\'est pourquoi le conseil d\'administration dispose de tous les
+pouvoirs pour décider d\'agir en justice et représenter l\'association
+dans le cadre d\'action en Justice tant en défense, en demande qu\'en
+intervention volontaire devant toutes les juridictions nationales (et
+notamment civiles, pénales et administratives), européennes et
+internationales.
 
-Mais il peut aussi, de façon ponctuelle ou permanente le déléguer au bureau, à un ou plusieurs
-administrateurs, à tout membre de l'association et à tout représentant spécial, même non membre de
-l'association à partir du moment où il est dûment mandaté pour cela. Le délégataire peut à son tour
-déléguer tout ou partie de ses attributions sauf s'il est non membre de l'association. Ce pouvoir est
-révocable sur simple délibération du conseil d'administration.
+III\. Le conseil d\'administration peut déléguer en priorité et de façon
+permanente ce pouvoir d\'agir en justice et de représentation en justice
+au président, ce qui est le cas sauf délibération contraire.
 
-IV. Les fonctions d'administrateurs ne font l'objet d'aucune rémunération et sont strictement
-bénévoles.
+Mais il peut aussi, de façon ponctuelle ou permanente le déléguer au
+bureau, à un ou plusieurs administrateurs, à tout membre de
+l\'association et à tout représentant spécial, même non membre de
+l\'association à partir du moment où il est dûment mandaté pour cela. Le
+délégataire peut à son tour déléguer tout ou partie de ses attributions
+sauf s\'il est non membre de l\'association. Ce pouvoir est révocable
+sur simple délibération du conseil d\'administration.
 
-V. Le conseil d'administration est composé de 5 membres, élus pour la 1ère fois par l'assemblée
-générale. L'élection de nouveaux administrateurs se fait par cooptations, lesquelles sont validées
-lors de la prochaine réunion. Ses membres sont rééligibles. Le conseil d'administration se
-renouvelle tous les trois ans en assemblée générale.
+IV\. Les fonctions d\'administrateurs ne font l\'objet d\'aucune
+rémunération et sont strictement bénévoles.
 
-VI. Le conseil d'administration choisit parmi ses membres un bureau conformément à l'article 11.
+V. Le conseil d\'administration est composé de 5 membres, élus pour la
+1ère fois par l\'assemblée générale. L\'élection de nouveaux
+administrateurs se fait par cooptations, lesquelles sont validées lors
+de la prochaine réunion. Ses membres sont rééligibles. Le conseil
+d\'administration se renouvelle tous les trois ans en assemblée
+générale.
 
-VII. Est considéré comme démissionnaire tout administrateur régulièrement convoqué mais absent
-sans motif recevable ni sérieux à au moins trois réunions.
-En cas de vacances, et si besoin est, le conseil pourvoit provisoirement au remplacement de ses
-membres. Il est procédé à leur remplacement définitif par la plus prochaine assemblée générale. Les
-pouvoirs des membres ainsi élus prennent fin à l'époque où devrait normalement expirer le mandat
-des membres remplacés.
+VI\. Le conseil d\'administration choisit parmi ses membres un bureau
+conformément à l\'article 11.
 
-VIII. Le conseil d'administration se réunit sur convocation d'un membre du bureau qui fixe
-librement le lieu de la réunion, chaque fois que cela est jugé nécessaire mais au moins deux fois par
-an. Cette réunion peut se faire à distance par téléconférence. Le délai de convocation peut être aussi
-réduit que nécessaire et l'ordre du jour définitif est arrêté lors de l'ouverture de la séance.
+VII\. Est considéré comme démissionnaire tout administrateur
+régulièrement convoqué mais absent sans motif recevable ni sérieux à au
+moins trois réunions .
 
-IX. L'ordre du jour est fixé par le bureau. Les décisions sont prises à la majorité simple. En cas de
-partage des voix, la voix du président compte double. Il est tenu procès-verbal des délibérations
-signées par deux membres du conseil d’administration.
+En cas de vacances, et si besoin est, le conseil pourvoit provisoirement
+au remplacement de ses membres. Il est procédé à leur remplacement
+définitif par la plus prochaine assemblée générale. Les pouvoirs des
+membres ainsi élus prennent fin à l\'époque où devrait normalement
+expirer le mandat des membres remplacés.
 
-**Article 11 - bureau du conseil d'administration**
+VIII\. Le conseil d\'administration se réunit sur convocation d\'un
+membre du bureau qui fixe librement le lieu de la réunion, chaque fois
+que cela est jugé nécessaire mais au moins deux fois par an. Cette
+réunion peut se faire à distance par téléconférence. Le délai de
+convocation peut être aussi réduit que nécessaire et l\'ordre du jour
+définitif est arrêté lors de l\'ouverture de la séance.
 
-I. Chaque année, le conseil d'administration élit en son sein à la majorité simple des présents un
-bureau composé d'un président, d’un vice-président , d'un secrétaire et d'un trésorier responsable de
-la tenue d'une comptabilité contrôlée par le conseil d'administration.
+IX\. L\'ordre du jour est fixé par le bureau. Les décisions sont prises
+à la majorité simple. En cas de partage des voix, la voix du président
+compte double. Il est tenu procès-verbal des délibérations signées par
+deux membres du conseil d'administration.
 
-II. Les deux fonctions de président et de trésorier ne sont pas cumulables.
+**Article 11 - bureau du conseil d\'administration**
 
-III. Sauf en cas de décision différente du conseil d'administration, le président a le pouvoir de
-représentation et de signature au nom de l'association et représente l'association dans tous les actes
-de la vie civile, administrative, et en justice, s'il y a lieu.
+I. Chaque année, le conseil d\'administration élit en son sein à la
+majorité simple des présents un bureau composé d\'un président, d'un
+vice-président , d\'un secrétaire et d\'un trésorier responsable de la
+tenue d\'une comptabilité contrôlée par le conseil d\'administration.
 
+II\. Les deux fonctions de président et de trésorier ne sont pas
+cumulables.
 
-Il peut faire toute délégation de pouvoirs et de signature totale ou partielle à un autre membre du
-bureau et, pour une question déterminée et un temps limité, à un autre membre du conseil
-d'administration. En cas d'empêchement, le président est remplacé temporairement par le vice-
-président, le trésorier, ou le secrétaire, qui dispose alors des mêmes pouvoirs.
+III\. Sauf en cas de décision différente du conseil d\'administration,
+le président a le pouvoir de représentation et de signature au nom de
+l\'association et représente l\'association dans tous les actes de la
+vie civile, administrative, et en justice, s\'il y a lieu.
 
-IV. Les fonctions du bureau sont définies par le conseil d'administration. Il veille à la sauvegarde
-des intérêts de l'association, au respect des statuts et du règlement intérieur qu'il créé et modifie. Il
-se réunit autant de fois que nécessaire. Il délibère à la majorité des présents et des représentés.
+Il peut faire toute délégation de pouvoirs et de signature totale ou
+partielle à un autre membre du bureau et, pour une question déterminée
+et un temps limité, à un autre membre du conseil d\'administration. En
+cas d\'empêchement, le président est remplacé temporairement par le
+vice-président, le trésorier, ou le secrétaire, qui dispose alors des
+mêmes pouvoirs.
 
-V. Le bureau peut donner délégation à un ou plusieurs administrateurs, au président, à tout membre
-de l'association ou à tout représentant spécial de l'association, même non membre de l'association
-pour l'exercice d'une partie de ses propres fonctions ou de celles reçues par délégation de la part du
-conseil d’administration. Ces délégations peuvent être données de façon ponctuelle ou de façon
-générale et permanente et sont révocables sur simple décision du bureau.
+IV\. Les fonctions du bureau sont définies par le conseil
+d\'administration. Il veille à la sauvegarde des intérêts de
+l\'association, au respect des statuts et du règlement intérieur qu\'il
+créé et modifie. Il se réunit autant de fois que nécessaire. Il délibère
+à la majorité des présents et des représentés.
 
-**Article 12 - bureau et conseil d'administration**
+V. Le bureau peut donner délégation à un ou plusieurs administrateurs,
+au président, à tout membre de l\'association ou à tout représentant
+spécial de l\'association, même non membre de l\'association pour
+l\'exercice d\'une partie de ses propres fonctions ou de celles reçues
+par délégation de la part du conseil d'administration. Ces délégations
+peuvent être données de façon ponctuelle ou de façon générale et
+permanente et sont révocables sur simple décision du bureau.
 
-I. Le bureau, ou le conseil d'administration, se réunit chaque fois que l'intérêt de l'association l'exige
-ou sur la demande de trois au moins de ses membres. Les délibérations sont prises à la majorité des
-membres présents, physiquement ou en liaison avec les participants (téléconférence, par exemple).
+**Article 12 - bureau et conseil d\'administration**
+
+I. Le bureau, ou le conseil d\'administration, se réunit chaque fois que
+l\'intérêt de l\'association l\'exige ou sur la demande de trois au
+moins de ses membres. Les délibérations sont prises à la majorité des
+membres présents, physiquement ou en liaison avec les participants
+(téléconférence, par exemple).
+
 En cas de partage, la voix du président est prépondérante.
 
-II. Il est tenu un procès-verbal des séances (qui sera communiqué aux membres de l'assemblée
-générale).
+II\. Il est tenu un procès-verbal des séances (qui sera communiqué aux
+membres de l\'assemblée générale).
 
-III. Le conseil d'administration gère toutes les affaires et le patrimoine de l'association, dans le
-respect des présents statuts et dans les termes et limites de la loi. Le bureau est l'organe exécutif du
-conseil d'administration.
+III\. Le conseil d\'administration gère toutes les affaires et le
+patrimoine de l\'association, dans le respect des présents statuts et
+dans les termes et limites de la loi. Le bureau est l\'organe exécutif
+du conseil d\'administration.
 
 **Article 13 - modification des statuts**
 
-Les statuts peuvent être modifiés par l'assemblée générale par un vote à la majorité des membres
-présents.
-L'association s'engage à faire connaître dans les trois mois auprès du préfet de département tous les
-changements survenus dans l'administration et de présenter sans déplacement les registres et pièces
-de comptabilité, sur toute réquisition du préfet de département.
+Les statuts peuvent être modifiés par l\'assemblée générale par un vote
+à la majorité des membres présents.
+
+L\'association s\'engage à faire connaître dans les trois mois auprès du
+préfet de département tous les changements survenus dans
+l\'administration et de présenter sans déplacement les registres et
+pièces de comptabilité, sur toute réquisition du préfet de département.
 
 **Article 14 - dissolution**
 
-I. L'association sera réputée dissoute par un vote dans ce sens à la majorité des membres présents de
-l'assemblée générale.
+I. L\'association sera réputée dissoute par un vote dans ce sens à la
+majorité des membres présents de l\'assemblée générale.
 
-II. Il en sera de même en cas de projet de fusion, de scission ou d'apport partiel d'actif. Dans ces
-trois derniers cas, le projet correspondant est arrêté par chacun des conseils d'administration des
-associations participant à l'opération au moins deux mois avant la date des délibérations.
-
+II\. Il en sera de même en cas de projet de fusion, de scission ou
+d\'apport partiel d\'actif. Dans ces trois derniers cas, le projet
+correspondant est arrêté par chacun des conseils d\'administration des
+associations participant à l\'opération au moins deux mois avant la date
+des délibérations.
 
 **Article 15 - liquidation - dévolution des biens**
 
-I. En cas de dissolution, les biens de l'association sont confiés à des liquidateurs nommés par
-l'assemblée générale qui en étudieront et en effectueront la dévolution, conformément à la loi.
+I. En cas de dissolution, les biens de l\'association sont confiés à des
+liquidateurs nommés par l\'assemblée générale qui en étudieront et en
+effectueront la dévolution, conformément à la loi.
 
-II. L'actif de l'association sera dévolu à une ou plusieurs associations de protection du milieu
-aquatique en général, marin en particulier, fondation ou tout autre organisme public ou privé dont
-l'objet offre les meilleures garanties de conformité à celui de l'association, et dont le choix
-appartiendra à l'assemblée générale.
+II\. L\'actif de l\'association sera dévolu à une ou plusieurs
+associations de protection du milieu aquatique en général, marin en
+particulier, fondation ou tout autre organisme public ou privé dont
+l\'objet offre les meilleures garanties de conformité à celui de
+l\'association, et dont le choix appartiendra à l\'assemblée générale.
 
 **Article 16 - formalités administratives**
 
-Le président, ou son représentant, est mandaté pour accomplir toutes les formalités de déclaration et
-de publication prévues par la loi du 1er juillet 1901 et par le décret du 16 août
-1901, tant au moment de la création de l'association qu'au cours de son existence ultérieure.
+Le président, ou son représentant, est mandaté pour accomplir toutes les
+formalités de déclaration et de publication prévues par la loi du 1er
+juillet 1901 et par le décret du 16 août
+
+1901, tant au moment de la création de l\'association qu\'au cours de
+son existence ultérieure.
 
 **Article 17 - Libéralités**
 
-Le rapport et les comptes annuels, tels que définis à l’article 8 sont adressés chaque année au Préfet
-du département.
-L’association s’engage à présenter ses registres et pièces de comptabilité sur toute réquisition des
-autorités administratives en ce qui concerne l’emploi des libéralités qu’elle serait autorisée à
-recevoir, à laisser visiter ses établissements par les représentants de ces autorités compétents et à
-leur rendre compte du fonctionnement desdits établissements.
+Le rapport et les comptes annuels, tels que définis à l'article 8 sont
+adressés chaque année au Préfet du département.
 
-Statuts du 8 mars 2017
-modifiés le 22 juin 2018 par l'assemblée générale à BORDEAUX,
-modifiés le 16 juillet 2020 par l'assemblée générale de l'ADRM devenue DMA ,
-modifiés le 31 janvier 2021 par le conseil d'administration (changement de siège social)
-modifiés le 25 septembre 2021 par l'assemblée générale de DMA
-modifiés le 11 mars 2023 par l'assemblée générale de DMA
+L'association s'engage à présenter ses registres et pièces de
+comptabilité sur toute réquisition des autorités administratives en ce
+qui concerne l'emploi des libéralités qu'elle serait autorisée à
+recevoir, à laisser visiter ses établissements par les représentants de
+ces autorités compétents et à leur rendre compte du fonctionnement
+desdits établissements.
 
-_Signatures de deux représentants (nom, prénom et fonction) au minimum, nécessaires pour la
-formalité de déclaration de l’association._
+***Statuts du 8 mars 2017***
 
-Le 13 mars 2023,
+modifiés le 22 juin 2018 par l\'assemblée générale à BORDEAUX,
 
-**Philippe GARCIA**
-Membre du conseil d'administration
+modifiés le 16 juillet 2020 par l\'assemblée générale de l\'ADRM devenue
+DMA ,
+
+modifiés le 31 janvier 2021 par le conseil d\'administration (changement
+de siège social)
+
+modifiés le 25 septembre 2021 par l\'assemblée générale de DMA
+
+modifiés le 11 mars 2023 par l\'assemblée générale de DMA
+
+modifiés le 1er mars 2025 par l\'assemblée générale de DMA
+
+*Signatures de deux représentants (nom, prénom et fonction) au minimum,
+nécessaires pour la formalité de déclaration de l'association.*
+
+
+
+Le 7 mars 2025,
+
+**Philippe GARCIA**\
+Membre du conseil d\'administration
 Président de DMA
 
-**Augustin MIGNERET**
-Membre du conseil d'administration
-Trésorier
+**Muriel HARGUINDEGUY**\
+Membre du conseil d\'administration
 
-**Dylan MILLAC**
-Membre du conseil d'administration
+**Dylan MILLAC**\
+Membre du conseil d\'administration
