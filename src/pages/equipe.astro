@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import PhilippeGarcia from "../assets/philippe-garcia.jpeg";
 import JessicaSalmon from "../assets/jessicasalmon.webp";
+import GerardGomez from "../assets/GERARD_GOMEZ.webp";
+import Muriel from "../assets/Muriel_HARGUINDEGUY.webp";
 import quisommesnous from "../assets/quisommesnous.webp";
 import Gwen from "../assets/gwen.jpg";
 import Hero from "@components/Hero.astro";
@@ -71,6 +73,30 @@ import Youtube from "@components/Youtube.astro";
             <em>Membre du CA</em>
           </span>
         </a>
+      </li>
+      <li>
+          <Image
+            src={Muriel}
+            width={282}
+            height={286}
+            alt={"Portrait Muriel Harguindeguy"}
+          />
+          <span>
+            <h3>Muriel Harguindeguy</h3>
+            <em>Membre du CA</em>
+          </span>
+      </li>
+      <li>
+          <Image
+            src={GerardGomez}
+            width={282}
+            height={282}
+            alt={"Portrait Gérard Gomez"}
+          />
+          <span>
+            <h3>Gérard Gomez</h3>
+            <em>Membre du CA</em>
+          </span>
       </li>
     </ul>
     <Youtube videoid="DE2kvrQQVWQ" />
