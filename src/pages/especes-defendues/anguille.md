@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: L'anguille, grand migrateur catadrome
 description: l'anguille passe la majeure partie de sa vie d'adulte en rivière ou en bord de mer alors qu'elle est née quelque part au milieu de l'océan Atlantique où elle reviendra pour s'y reproduire et mourir
 ---

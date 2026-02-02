@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Jessica Salmon
 description: Jessica Salmon, Membre du conseil d'administration, élève-avocate de l’association
 ---

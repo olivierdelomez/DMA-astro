@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Maigre
 description: Le maigre est un poisson bien mal nommé tant il est grand, puissant et magnifique. À peu de choses près, la seule frayère européenne est située dans l'estuaire de la Gironde.
 ---

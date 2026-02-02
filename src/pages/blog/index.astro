@@ -1,9 +1,8 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import Card from "../../components/Card.astro";
-import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
-const allJugemenents = await getCollection("jugements");
 
 const posts = allPosts
   .filter((post) => {
@@ -31,14 +30,6 @@ const tags = allPosts
   .filter((tag) => tag !== undefined);
 
 const uniqueTags = [...new Set(tags)];
-
-const jugements = allJugemenents
-  .filter((post) => post.data.created_at)
-  .sort(
-    (a, b) =>
-      new Date(b.data.created_at as string).valueOf() -
-      new Date(a.data.created_at as string).valueOf()
-  );
 ---
 
 <Layout title="Les dernières actualités de Defense des Milieux Aquatiques.">
@@ -58,24 +49,10 @@ const jugements = allJugemenents
         {
           posts.map((post) => (
             <Card
-              href={`/blog/${post.slug}`}
+              href={`/blog/${post.id}`}
               title={post.data.title}
               body={post.data.description}
               tags={post.data.tags}
-            />
-          ))
-        }
-      </ul>
-    </section>
-    <section class="mt-12">
-      <h1>Jugements rendus</h1>
-      <ul role="list" class="link-card-grid">
-        {
-          jugements.map((post) => (
-            <Card
-              href={`/blog/${post.slug}`}
-              title={post.data.title}
-              body={post.data.description}
             />
           ))
         }

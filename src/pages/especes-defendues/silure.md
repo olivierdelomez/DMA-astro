@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Le silure glane
 description: Le silure est un poisson d'eau douce, ce n'est pas une espèce invasive et son comportement est celui d'un super prédateur opportuniste qui se nourrit surtout par eaux chaudes
 ---

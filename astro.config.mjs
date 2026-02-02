@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import relativeLinks from "astro-relative-links";
 import mdx from '@astrojs/mdx';
 import remarkToc from 'remark-toc';
 import sitemap from "@astrojs/sitemap";
@@ -37,7 +36,7 @@ export default defineConfig({
       footnoteBackLabel: 'Retour au contenu'
     }
   },
-  integrations: [relativeLinks(), sitemap(), mdx(), tailwind({
+  integrations: [sitemap(), mdx(), tailwind({
     applyBaseStyles: false
   }), alpinejs()]
 });

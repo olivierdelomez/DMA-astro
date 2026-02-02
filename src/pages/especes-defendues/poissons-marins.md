@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Poissons marins
 description: Les différents poissons marins exploités par l'Homme
 ---

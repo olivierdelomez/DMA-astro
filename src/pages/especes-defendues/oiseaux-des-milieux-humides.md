@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Oiseaux des milieux humides
 description: L'administration autorise la chasse d'oiseaux migrateurs dans les aires NATURA 2000 dédiées à leur protection, L'association souhaite que cette violation manifeste cesse
 ---
