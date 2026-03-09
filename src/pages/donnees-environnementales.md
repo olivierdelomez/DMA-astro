@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Données environnementales
 description: Données environnementales
 ---

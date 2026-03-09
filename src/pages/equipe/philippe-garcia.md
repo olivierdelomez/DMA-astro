@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Philippe Garcia
 description: Philippe Garcia
 ---

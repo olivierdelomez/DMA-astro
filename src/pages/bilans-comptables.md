@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Bilan comptable
 description: Bilan comptable
 ---

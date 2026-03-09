@@ -14,6 +14,7 @@ import ERB from "../assets/ERB.png"
   <div class="timeline-wrapper">
     <div @keydown.right.prevent="$focus.wrap().next()" @keydown.left.prevent="$focus.wrap().previous()" class="timeline-years overflow-x-auto" role="tablist" aria-label="tab options">
       <h2 class="p-4 text-xl font-bold">Nos résultats:</h2>
+    <button @click="selectedTab = '2026'" :aria-selected="selectedTab === '2026'" :tabindex="selectedTab === '2026' ? '0' : '-1'" :class="selectedTab === '2026' ? 'text-white font-bold  border-b-2 border-white' : 'text-blue-200 font-medium  dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800 '" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2026</button>
 		<button @click="selectedTab = '2025'" :aria-selected="selectedTab === '2025'" :tabindex="selectedTab === '2025' ? '0' : '-1'" :class="selectedTab === '2025' ? 'text-white font-bold  border-b-2 border-white' : 'text-blue-200 font-medium  dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800 '" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2025</button>
 		<button @click="selectedTab = '2024'" :aria-selected="selectedTab === '2024'" :tabindex="selectedTab === '2024' ? '0' : '-1'" :class="selectedTab === '2024' ? 'text-white font-bold border-b-2 border-white' : 'text-blue-200 font-medium dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800'" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2024</button>
 		<button @click="selectedTab = '2023'" :aria-selected="selectedTab === '2023'" :tabindex="selectedTab === '2023' ? '0' : '-1'" :class="selectedTab === '2023' ? 'text-white font-bold border-b-2 border-white' : 'text-blue-200 font-medium dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800'" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2023</button>
@@ -21,7 +22,25 @@ import ERB from "../assets/ERB.png"
   </div>
   <div class="hero-wrapper">
     <div class="hero-timeline">
-        
+        <ul x-show="selectedTab === '2026'" id="tabpanelGroups" role="tabpanel" aria-label="2026" class="jugements-list">
+          <li>
+            <a href="https://www.landes.gouv.fr/contenu/telechargement/38451/313896/file/recueil-40-2026-011-recueil-des-actes-administratifs.pdf" target="_blank" rel="noopener">
+              Publication de l'arrêté supprimant les filets dans l'Adour fluvial
+            </a>
+             <span class="tag">12 janvier</span>
+          </li>
+          <li>
+            Annulation de l’arrêté de pêche des poissons migrateurs en 2023 dans les Landes et dans les Pyrénées-Atlantiques: 
+            <a href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2300920_20260219" target="_blank" rel="noopener">
+            jugement 2300920 AP PÊCHE POMI 40
+            </a> et 
+            <a href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2300882_20260219" target="_blank" rel="noopener">
+            jugement 2300882 AP PÊCHE POMI 64
+            </a>
+             <span class="tag">19 janvier</span>
+          </li>
+          
+        </ul>
       <ul x-show="selectedTab === '2025'" id="tabpanelGroups" role="tabpanel" aria-label="2025" class="jugements-list">
         
         <li>

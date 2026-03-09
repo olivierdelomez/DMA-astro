@@ -1,0 +1,26 @@
+---
+import BlogLayout from "@layouts/BlogLayout.astro";
+import { getCollection, render } from "astro:content";
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("posts");
+  const jugements = await getCollection("jugements");
+
+  return blogEntries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+// 2. When it's time to render, you can get the entry directly from the prop
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BlogLayout
+  frontmatter={{
+    title: entry.data.title,
+    description: entry.data.description,
+  }}
+>
+  <Content />
+</BlogLayout>

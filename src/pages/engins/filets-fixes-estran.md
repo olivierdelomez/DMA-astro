@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Filets fixes sur l'estran
 description: Les pêcheurs ont depuis très longtemps appris à fixer des filets à marée basse, ces filets seront vérifiés à la marée basse suivante.
 ---

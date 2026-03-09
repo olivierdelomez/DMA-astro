@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Le tamis à civelle
 description: La civelle est le fruit de la métamorphose de la larve d'anguille. La pêche au tamis utilise des mailles plus petites au niveau de la "chaussette", si petites qu'elles sont difficiles à voir à l'œil nu (0,8 à 1,2 mm)
 ---

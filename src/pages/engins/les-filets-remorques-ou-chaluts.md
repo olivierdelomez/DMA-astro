@@ -1,5 +1,5 @@
 ---
-layout: "@layouts/BlogLayout.astro"
+
 title: Les filets remorqués ou chaluts
 description: Le chalut de fond est un immense filet en forme d'entonnoir tracté sur les fonds marins. Il avale indistinctement tous les organismes surpris par l'avancement inexorable de sa gueule béante
 ---
