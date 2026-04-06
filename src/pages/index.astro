@@ -3,271 +3,505 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Hero from "../components/Hero.astro";
 import Youtube from "../components/Youtube.astro";
-import PatagoniaLogo from "../assets/patagonia.png"
-import SalmonWatch from "../assets/salmonwatchireland.jpg"
-import Onepercent from "../assets/1ftp_blue.png"
-import ERB from "../assets/ERB.png"
+import PatagoniaLogo from "../assets/patagonia.png";
+import SalmonWatch from "../assets/salmonwatchireland.jpg";
+import Onepercent from "../assets/1ftp_blue.png";
+import ERB from "../assets/ERB.png";
 ---
 
 <Layout title="DEFENSE DES MILIEUX AQUATIQUES">
-  <div x-data="{ selectedTab: '2025' }" class="w-full">	
-  <div class="timeline-wrapper">
-    <div @keydown.right.prevent="$focus.wrap().next()" @keydown.left.prevent="$focus.wrap().previous()" class="timeline-years overflow-x-auto" role="tablist" aria-label="tab options">
-      <h2 class="p-4 text-xl font-bold">Nos résultats:</h2>
-    <button @click="selectedTab = '2026'" :aria-selected="selectedTab === '2026'" :tabindex="selectedTab === '2026' ? '0' : '-1'" :class="selectedTab === '2026' ? 'text-white font-bold  border-b-2 border-white' : 'text-blue-200 font-medium  dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800 '" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2026</button>
-		<button @click="selectedTab = '2025'" :aria-selected="selectedTab === '2025'" :tabindex="selectedTab === '2025' ? '0' : '-1'" :class="selectedTab === '2025' ? 'text-white font-bold  border-b-2 border-white' : 'text-blue-200 font-medium  dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800 '" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2025</button>
-		<button @click="selectedTab = '2024'" :aria-selected="selectedTab === '2024'" :tabindex="selectedTab === '2024' ? '0' : '-1'" :class="selectedTab === '2024' ? 'text-white font-bold border-b-2 border-white' : 'text-blue-200 font-medium dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800'" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2024</button>
-		<button @click="selectedTab = '2023'" :aria-selected="selectedTab === '2023'" :tabindex="selectedTab === '2023' ? '0' : '-1'" :class="selectedTab === '2023' ? 'text-white font-bold border-b-2 border-white' : 'text-blue-200 font-medium dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800'" class="h-min text-sm" type="button" role="tab" aria-controls="tabpanelGroups" >2023</button>
+  <div x-data="{ selectedTab: '2026' }" class="w-full">
+    <div class="timeline-wrapper">
+      <div
+        @keydown.right.prevent="$focus.wrap().next()"
+        @keydown.left.prevent="$focus.wrap().previous()"
+        class="timeline-years overflow-x-auto"
+        role="tablist"
+        aria-label="tab options"
+      >
+        <h2 class="p-4 text-xl font-bold">Nos résultats:</h2>
+        <button
+          @click="selectedTab = '2026'"
+          :aria-selected="selectedTab === '2026'"
+          :tabindex="selectedTab === '2026' ? '0' : '-1'"
+          :class="selectedTab === '2026' ? 'text-white font-bold  border-b-2 border-white' : 'text-blue-200 font-medium  dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800 '"
+          class="h-min text-sm"
+          type="button"
+          role="tab"
+          aria-controls="tabpanelGroups">2026</button
+        >
+        <button
+          @click="selectedTab = '2025'"
+          :aria-selected="selectedTab === '2025'"
+          :tabindex="selectedTab === '2025' ? '0' : '-1'"
+          :class="selectedTab === '2025' ? 'text-white font-bold  border-b-2 border-white' : 'text-blue-200 font-medium  dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800 '"
+          class="h-min text-sm"
+          type="button"
+          role="tab"
+          aria-controls="tabpanelGroups">2025</button
+        >
+        <button
+          @click="selectedTab = '2024'"
+          :aria-selected="selectedTab === '2024'"
+          :tabindex="selectedTab === '2024' ? '0' : '-1'"
+          :class="selectedTab === '2024' ? 'text-white font-bold border-b-2 border-white' : 'text-blue-200 font-medium dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800'"
+          class="h-min text-sm"
+          type="button"
+          role="tab"
+          aria-controls="tabpanelGroups">2024</button
+        >
+        <button
+          @click="selectedTab = '2023'"
+          :aria-selected="selectedTab === '2023'"
+          :tabindex="selectedTab === '2023' ? '0' : '-1'"
+          :class="selectedTab === '2023' ? 'text-white font-bold border-b-2 border-white' : 'text-blue-200 font-medium dark:hover:border-b-neutral-300  hover:border-b-2 hover:border-b-neutral-800'"
+          class="h-min text-sm"
+          type="button"
+          role="tab"
+          aria-controls="tabpanelGroups">2023</button
+        >
+      </div>
     </div>
-  </div>
-  <div class="hero-wrapper">
-    <div class="hero-timeline">
-        <ul x-show="selectedTab === '2026'" id="tabpanelGroups" role="tabpanel" aria-label="2026" class="jugements-list">
+    <div class="hero-wrapper">
+      <div class="hero-timeline">
+        <ul
+          x-show="selectedTab === '2026'"
+          id="tabpanelGroups"
+          role="tabpanel"
+          aria-label="2026"
+          class="jugements-list"
+        >
           <li>
-            <a href="https://www.landes.gouv.fr/contenu/telechargement/38451/313896/file/recueil-40-2026-011-recueil-des-actes-administratifs.pdf" target="_blank" rel="noopener">
-              Publication de l'arrêté supprimant les filets dans l'Adour fluvial
-            </a>
-             <span class="tag">12 janvier</span>
-          </li>
-          <li>
-            Annulation de l’arrêté de pêche des poissons migrateurs en 2023 dans les Landes et dans les Pyrénées-Atlantiques: 
-            <a href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2300920_20260219" target="_blank" rel="noopener">
-            jugement 2300920 AP PÊCHE POMI 40
-            </a> et 
-            <a href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2300882_20260219" target="_blank" rel="noopener">
-            jugement 2300882 AP PÊCHE POMI 64
-            </a>
-             <span class="tag">19 janvier</span>
-          </li>
-          
-        </ul>
-      <ul x-show="selectedTab === '2025'" id="tabpanelGroups" role="tabpanel" aria-label="2025" class="jugements-list">
-        
-        <li>
-          Confirmation en appel de la suspension des travaux de bathymétrie pour l'interconnexion électrique France-Espagne.
-          <a href="https://www.liberation.fr/environnement/biodiversite/chantier-du-projet-golfe-de-gascogne-la-justice-confirme-en-appel-les-nuisances-des-sondages-sur-les-mammiferes-marins-20250130_LH3Y4WCYQVC2BL7Q753WZQZTQU/">
-          
-            Chantier du projet «golfe de Gascogne» : la justice confirme en appel les nuisances des sondages sur les mammifères marins – Libération
-          <svg class="inline" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 2C2.44772 2 2 2.44772 2 3V12C2 12.5523 2.44772 13 3 13H12C12.5523 13 13 12.5523 13 12V8.5C13 8.22386 12.7761 8 12.5 8C12.2239 8 12 8.22386 12 8.5V12H3V3L6.5 3C6.77614 3 7 2.77614 7 2.5C7 2.22386 6.77614 2 6.5 2H3ZM12.8536 2.14645C12.9015 2.19439 12.9377 2.24964 12.9621 2.30861C12.9861 2.36669 12.9996 2.4303 13 2.497L13 2.5V2.50049V5.5C13 5.77614 12.7761 6 12.5 6C12.2239 6 12 5.77614 12 5.5V3.70711L6.85355 8.85355C6.65829 9.04882 6.34171 9.04882 6.14645 8.85355C5.95118 8.65829 5.95118 8.34171 6.14645 8.14645L11.2929 3H9.5C9.22386 3 9 2.77614 9 2.5C9 2.22386 9.22386 2 9.5 2H12.4999H12.5C12.5678 2 12.6324 2.01349 12.6914 2.03794C12.7504 2.06234 12.8056 2.09851 12.8536 2.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/DTA_2500154_20250131">
-            Suspension partielle de l'arrêté du 6 janvier 2025 autorisant la translocation de 17 945 lamproies, aboutissant à l'interdiction de l'usage du filet dérivant en mars 2025 et à l'obligation de remettre vivantes à l'eau les lamproies fluviatiles.
-          </a>
-          <span class="tag">31 janvier</span>
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/ORTA_2502188_20250410">
-            Suspension de l'arrêté du 31 mars 2025 complétant l’arrêté inter préfectoral du 6 janvier 2025 portant autorisation de capture et de transport de lamproies marines, interdisant la reprise de l'usage du filet dérivant.
-          </a>
-        <span class="tag">10 avril</span>
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/DTA_2303717_20250505">
-            Annulation de l'arrêté du préfet de la région Nouvelle-Aquitaine du 6 juillet 2023 portant réglementation de l’usage des filets remorqués à moins de trois milles de la laisse de basse-mer du littoral du département de la Gironde.
-          </a>
-          <span class="tag">5 mai</span>
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX01514_20250507">
-            Aggravation en appel de l'annulation de l'arrêté n°64-2020-11-23-011 fixant les périodes d'ouverture de la pêche en eau douce pour l'année 2021 dans le département des Pyrénées-Atlantiques.
-          </a>
-        <span class="tag">7 mai</span>
-        </li>  
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX01518_20250507">
-            Aggravation en appel de l'annulation de l'arrêté n°2020-1674 fixant les conditions d'exercice de la pêche en eau douce pour l'année 2021 dans le département des Landes. 
-          </a>
-          
-          <span class="tag">7 mai</span>
-
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX02848_20250507">
-            Aggravation en appel de l'annulation de l'arrêté préfectoral n°64-2021-03-11-0000631 du 11 mars 2022 fixant les périodes d'ouverture de la pêche en eau douce pour les espèces migratrices pour l'année 2022 dans le département des Pyrénées-Atlantiques.
-          
-          </a>  
-          <span class="tag">7 mai</span>
-        </li>
-        <li>
-          <a href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX02884_20250507" target="_blank">
-            Aggravation en appel de l'annulation de l'arrêté DDTM/SPEMA/2022/n°1058 du 29 juin 2022 fixant les conditions d'exercice de la pêche en eau douce en 2022 pour les espèces migratrices dans le département des Landes.
-          </a>
-          <span class="tag">7 mai</span>
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/DTA_2301077_20250515">
-            Annulation des arrêtés de la préfecture de la région Nouvelle-Aquitaine du 28 décembre 2021 et du 18 janvier 2023 approuvant et modifiant le plan de gestion des poissons migrateurs.
-          </a>
-          <span class="tag">15 mai</span>
-          
-        </li>
-        <li>
-          <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/CE/DCE_459110_20250724">
-            Abrogation de l’article 5 de l’arrêté ministériel du 12 décembre 1983 fixant les conditions d’exercice de chalutage dans le pertuis breton, le pertuis d’Antioche et le courreau d’Oléron, relatives au maillage minimal autorisé pour la pêche du poisson de courreaux et de l’anguille <span class="tag">24 juillet</span>
-          </a>
-        </li>
-        <li>
-Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martinique adopte les définitions correctes des cours d'eau pour définir les zones de non traitement chimique, par un arrêté modificatif publié le 21 août 2025. <span class="tag">4 septembre</span>
-        </li>
-        <li>
-          Rejet de l'appel du ministère de la transition écologique contre le jugement n° 2200433, 2201152 du 9 novembre 2023 annulant le plan de gestion des poissons migrateurs du bassin Garonne-Dorodgne <span class="tag">30 septembre</span>
-        </li>
-
-      </ul>
-      <ul x-show="selectedTab === '2024'" id="tabpanelGroups" role="tabpanel" aria-label="2024" class="jugements-list">
-        <li>
-          <div>
             <a
-            target="_blank"
-              href="https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-12-30/489906"
-            >
-            Annulation partielle de l’arrêté du 24 octobre 2023 du secrétaire d’État auprès de la Première ministre, chargé de la mer établissant des mesures spatio-temporelles visant la réduction des captures accidentelles de petits cétacés dans le golfe de Gascogne pour les années 2024, 2025, et 2026
-            </a>
-            <span class="tag">30 décembre</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
-            target="_blank"
-              href="https://opendata.justice-administrative.fr/recherche/shareFile/DCE_472199_20241218"
-            >
-            Annulation des dates de pêche 2023 de la civelle et de l'anguille jaune
-            </a>
-            <span class="tag">18 décembre</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
-            target="_blank"
-              href="https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2202040_20241108"
-            >
-            Annulation de la pêche maritime professionnelle des saumons, aloses et lamproies dans l'estuaire de l'Adour             </a>
-            <span class="tag">8 novembre</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
-            target="_blank"
-              href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_23BX00353_20241107"
-            >
-            Annulation de la pêche amateur au filet fixe sur l'estran girondin  
-          </a>
-            <span class="tag">7 novembre</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
-              href="/2201689.pdf"
-            >
-            Exclusion des filets dérivants de l'Adour fluvial par le tribunal administratif de Pau
-          </a>
-            <span class="tag">28 octobre</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
-              href="/ORDO_REFERE_PENAL_ENVIRONNEMENTAL_INTERCONNEXION_ELECTRIQUE.pdf"
-            >
-            Suspension des travaux de l'interconnexion électrique France-Espagne pour garantir la protection des cétacés
-            </a>
-            <span class="tag">14 août</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
+              href="https://www.landes.gouv.fr/contenu/telechargement/38451/313896/file/recueil-40-2026-011-recueil-des-actes-administratifs.pdf"
               target="_blank"
               rel="noopener"
-              href="https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2206185_20240723"
             >
-            Injonction à l'État de communiquer à l'Association les quantités de poissons migrateurs (saumons, aloses et lamproies) déclarées par les pêcheurs maritimes de l’estuaire de l’Adour, sous forme des cumuls mensuels pour chacune des trois espèces et pour chacune des deux années 2020 et 2021 
+              Publication de l'arrêté supprimant les filets dans l'Adour fluvial
             </a>
-            <span class="tag">23 Juillet</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="/blog/jugement-2300308-plagepomi-garonne"
-              >
-              Annulation des articles 49 et 50 du cahier des charges pour l'exploitation du droit de pêche de l'État dans le département de la Dordogne et injonction au préfet de réviser l’article 49 afin qu’il précise que les filets de type araignée ou trémail autorisés par le code de l'environnement sont tous des filets nécessairement fixes, et l’article 50 pour qu’il mentionne expressément l’interdiction d’emploi des nasses à lamproies, dans le délai de deux mois à compter de la notification du présent jugement.
-              </a
-            >
-            <span class="tag">19 juin</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2300301_20240530">
-              Annulation de l'arrêté du 18 janvier 2023 modifiant le plan de gestion des poissons migrateurs de Garonne-Dordogne
-            </a>
-            <span class="tag">30 mai </span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a target="_blank" href="/2_JUGEMENT_2204106_16-5-2024_CCCTP_2023-2027_33_FILETS_DERIVANTS_NASSES_A_LAMPROIE.pdf">
-              Interdiction des filets dérivants et des nasses à lamproies en Gironde
-            </a>
-            <span class="tag">16 mai</span>
-          </div>
-        </li>
-        <li>
-          <div>
+            <span class="tag">12 janvier</span>
+          </li>
+          <li>
+            Annulation de l’arrêté de pêche des poissons migrateurs en 2023 dans
+            les Landes et dans les Pyrénées-Atlantiques:
             <a
-            target="_blank"
-              href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_22BX01814_20240409"
-            >
-            2nde annulation en appel de la pêche aux engins et filets des poissons migrateurs en Gironde, Lot-et-Garonne et Dordogne pour défaut d'évaluation des incidences Natura 2000 et violation du principe de précaution
-            </a>
-            <span class="tag">9 avril</span>
-            <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_22BX01819_20240409">jugement 22BX01819_22BX01828</a> et
-            <a target="_blank" href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_22BX01820_20240409">jugement 22BX01820_22BX01829</a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2300920_20260219"
               target="_blank"
-              href="https://opendata.justice-administrative.fr/recherche/shareFile/ORTA_2300031_20240325"
+              rel="noopener"
             >
-            Suppression de 6 licences de marins-pêcheurs en amont du pont de pierre de Libourne. 
-            </a>
-            <span class="tag">25 mars</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a target="_blank" href="https://bordeaux.tribunal-administratif.fr/content/download/185630/document/Ordonnance_2400891.pdf">
-              Suspension de l'arrêté inter-préfectoral du 22 janvier 2024 autorisant la translocation de 21 000 lamproies marines
-            </a>
-            <span class="tag">26 février 2024</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a target="_blank" href="./7_AP_12-2-2024_ABROGEANT_FILETS_FIXES_ESTRAN_LANDAIS.pdf">
-              Publication de l'arrêté du 12 février 2024 abrogeant la pêche aux filets fixes dans la zone de balancement des marées sur la côte landaise
+              jugement 2300920 AP PÊCHE POMI 40
+            </a> et
+            <a
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2300882_20260219"
+              target="_blank"
+              rel="noopener"
+            >
+              jugement 2300882 AP PÊCHE POMI 64
             </a>
             <span class="tag">19 février</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a target="_blank" href="/2_AP_23-1-2024_interdisant_chasse_oiseaux_BA_2024.pdf">
-              Publication de l'arrêté interdisant la chasse des sept espèces d'oiseaux migrateurs sur le bassin d'Arcacho.
+          </li>
+          <li>
+            <a
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/ORTA_2403381_20260202"
+              target="_blank"
+              rel="noopener"
+            >
+              Transmission des captures de saumons et d'aloses déclarées dans
+              l'Adour en 2023 par transmission 3 jours avant la clôture de la
+              requête 2403381 et justifiant le désistement de DMA
             </a>
-            <span class="tag">23 janvier</span>
-          </div>
-        </li>
-      </ul>
-      <ul x-show="selectedTab === '2023'" id="tabpanelGroups" role="tabpanel" aria-label="2023" class="jugements-list">
+            <span class="tag">27 janvier</span>
+          </li>
+          <li>
+            Annulation du mode d'instruction des licences de pêche fluviale de
+            l'Adour
+            <a
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2303227_20260326"
+              target="_blank"
+              rel="noopener"
+            >
+              JUGEMENT 2303227 du 26-3-2026 LICENCES PÊCHE FLUVIALE 40
+            </a> et
+            <a
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA64/DTA_2303228_20260326"
+              target="_blank"
+              rel="noopener"
+            >
+              JUGEMENT 2303228 du 26-3-2026 LICENCES PÊCHE FLUVIALE 64
+            </a>
+            <span class="tag">26 mars</span>
+          </li>
+        </ul>
+        <ul
+          x-show="selectedTab === '2025'"
+          id="tabpanelGroups"
+          role="tabpanel"
+          aria-label="2025"
+          class="jugements-list"
+        >
+          <li>
+            Confirmation en appel de la suspension des travaux de bathymétrie
+            pour l'interconnexion électrique France-Espagne.
+            <a
+              href="https://www.liberation.fr/environnement/biodiversite/chantier-du-projet-golfe-de-gascogne-la-justice-confirme-en-appel-les-nuisances-des-sondages-sur-les-mammiferes-marins-20250130_LH3Y4WCYQVC2BL7Q753WZQZTQU/"
+            >
+              Chantier du projet «golfe de Gascogne» : la justice confirme en
+              appel les nuisances des sondages sur les mammifères marins –
+              Libération
+              <svg
+                class="inline"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                ><path
+                  d="M3 2C2.44772 2 2 2.44772 2 3V12C2 12.5523 2.44772 13 3 13H12C12.5523 13 13 12.5523 13 12V8.5C13 8.22386 12.7761 8 12.5 8C12.2239 8 12 8.22386 12 8.5V12H3V3L6.5 3C6.77614 3 7 2.77614 7 2.5C7 2.22386 6.77614 2 6.5 2H3ZM12.8536 2.14645C12.9015 2.19439 12.9377 2.24964 12.9621 2.30861C12.9861 2.36669 12.9996 2.4303 13 2.497L13 2.5V2.50049V5.5C13 5.77614 12.7761 6 12.5 6C12.2239 6 12 5.77614 12 5.5V3.70711L6.85355 8.85355C6.65829 9.04882 6.34171 9.04882 6.14645 8.85355C5.95118 8.65829 5.95118 8.34171 6.14645 8.14645L11.2929 3H9.5C9.22386 3 9 2.77614 9 2.5C9 2.22386 9.22386 2 9.5 2H12.4999H12.5C12.5678 2 12.6324 2.01349 12.6914 2.03794C12.7504 2.06234 12.8056 2.09851 12.8536 2.14645Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"></path></svg
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/DTA_2500154_20250131"
+            >
+              Suspension partielle de l'arrêté du 6 janvier 2025 autorisant la
+              translocation de 17 945 lamproies, aboutissant à l'interdiction de
+              l'usage du filet dérivant en mars 2025 et à l'obligation de
+              remettre vivantes à l'eau les lamproies fluviatiles.
+            </a>
+            <span class="tag">31 janvier</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/ORTA_2502188_20250410"
+            >
+              Suspension de l'arrêté du 31 mars 2025 complétant l’arrêté inter
+              préfectoral du 6 janvier 2025 portant autorisation de capture et
+              de transport de lamproies marines, interdisant la reprise de
+              l'usage du filet dérivant.
+            </a>
+            <span class="tag">10 avril</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/DTA_2303717_20250505"
+            >
+              Annulation de l'arrêté du préfet de la région Nouvelle-Aquitaine
+              du 6 juillet 2023 portant réglementation de l’usage des filets
+              remorqués à moins de trois milles de la laisse de basse-mer du
+              littoral du département de la Gironde.
+            </a>
+            <span class="tag">5 mai</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX01514_20250507"
+            >
+              Aggravation en appel de l'annulation de l'arrêté
+              n°64-2020-11-23-011 fixant les périodes d'ouverture de la pêche en
+              eau douce pour l'année 2021 dans le département des
+              Pyrénées-Atlantiques.
+            </a>
+            <span class="tag">7 mai</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX01518_20250507"
+            >
+              Aggravation en appel de l'annulation de l'arrêté n°2020-1674
+              fixant les conditions d'exercice de la pêche en eau douce pour
+              l'année 2021 dans le département des Landes.
+            </a>
+
+            <span class="tag">7 mai</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX02848_20250507"
+            >
+              Aggravation en appel de l'annulation de l'arrêté préfectoral
+              n°64-2021-03-11-0000631 du 11 mars 2022 fixant les périodes
+              d'ouverture de la pêche en eau douce pour les espèces migratrices
+              pour l'année 2022 dans le département des Pyrénées-Atlantiques.
+            </a>
+            <span class="tag">7 mai</span>
+          </li>
+          <li>
+            <a
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/CAA33/DCA_23BX02884_20250507"
+              target="_blank"
+            >
+              Aggravation en appel de l'annulation de l'arrêté
+              DDTM/SPEMA/2022/n°1058 du 29 juin 2022 fixant les conditions
+              d'exercice de la pêche en eau douce en 2022 pour les espèces
+              migratrices dans le département des Landes.
+            </a>
+            <span class="tag">7 mai</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/TA33/DTA_2301077_20250515"
+            >
+              Annulation des arrêtés de la préfecture de la région
+              Nouvelle-Aquitaine du 28 décembre 2021 et du 18 janvier 2023
+              approuvant et modifiant le plan de gestion des poissons
+              migrateurs.
+            </a>
+            <span class="tag">15 mai</span>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opendata.justice-administrative.fr/recherche/shareFile/CE/DCE_459110_20250724"
+            >
+              Abrogation de l’article 5 de l’arrêté ministériel du 12 décembre
+              1983 fixant les conditions d’exercice de chalutage dans le pertuis
+              breton, le pertuis d’Antioche et le courreau d’Oléron, relatives
+              au maillage minimal autorisé pour la pêche du poisson de courreaux
+              et de l’anguille <span class="tag">24 juillet</span>
+            </a>
+          </li>
+          <li>
+            Sous la pression de Défense des Milieux Aquatiques, la préfecture de
+            Martinique adopte les définitions correctes des cours d'eau pour
+            définir les zones de non traitement chimique, par un arrêté
+            modificatif publié le 21 août 2025. <span class="tag"
+              >4 septembre</span
+            >
+          </li>
+          <li>
+            Rejet de l'appel du ministère de la transition écologique contre le
+            jugement n° 2200433, 2201152 du 9 novembre 2023 annulant le plan de
+            gestion des poissons migrateurs du bassin Garonne-Dordogne <span
+              class="tag">30 septembre</span
+            >
+          </li>
+        </ul>
+        <ul
+          x-show="selectedTab === '2024'"
+          id="tabpanelGroups"
+          role="tabpanel"
+          aria-label="2024"
+          class="jugements-list"
+        >
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-12-30/489906"
+              >
+                Annulation partielle de l’arrêté du 24 octobre 2023 du
+                secrétaire d’État auprès de la Première ministre, chargé de la
+                mer établissant des mesures spatio-temporelles visant la
+                réduction des captures accidentelles de petits cétacés dans le
+                golfe de Gascogne pour les années 2024, 2025, et 2026
+              </a>
+              <span class="tag">30 décembre</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DCE_472199_20241218"
+              >
+                Annulation des dates de pêche 2023 de la civelle et de
+                l'anguille jaune
+              </a>
+              <span class="tag">18 décembre</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2202040_20241108"
+              >
+                Annulation de la pêche maritime professionnelle des saumons,
+                aloses et lamproies dans l'estuaire de l'Adour
+              </a>
+              <span class="tag">8 novembre</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_23BX00353_20241107"
+              >
+                Annulation de la pêche amateur au filet fixe sur l'estran
+                girondin
+              </a>
+              <span class="tag">7 novembre</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="/2201689.pdf">
+                Exclusion des filets dérivants de l'Adour fluvial par le
+                tribunal administratif de Pau
+              </a>
+              <span class="tag">28 octobre</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                href="/ORDO_REFERE_PENAL_ENVIRONNEMENTAL_INTERCONNEXION_ELECTRIQUE.pdf"
+              >
+                Suspension des travaux de l'interconnexion électrique
+                France-Espagne pour garantir la protection des cétacés
+              </a>
+              <span class="tag">14 août</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2206185_20240723"
+              >
+                Injonction à l'État de communiquer à l'Association les quantités
+                de poissons migrateurs (saumons, aloses et lamproies) déclarées
+                par les pêcheurs maritimes de l’estuaire de l’Adour, sous forme
+                des cumuls mensuels pour chacune des trois espèces et pour
+                chacune des deux années 2020 et 2021
+              </a>
+              <span class="tag">23 Juillet</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="/blog/jugement-2300308-plagepomi-garonne">
+                Annulation des articles 49 et 50 du cahier des charges pour
+                l'exploitation du droit de pêche de l'État dans le département
+                de la Dordogne et injonction au préfet de réviser l’article 49
+                afin qu’il précise que les filets de type araignée ou trémail
+                autorisés par le code de l'environnement sont tous des filets
+                nécessairement fixes, et l’article 50 pour qu’il mentionne
+                expressément l’interdiction d’emploi des nasses à lamproies,
+                dans le délai de deux mois à compter de la notification du
+                présent jugement.
+              </a>
+              <span class="tag">19 juin</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2300301_20240530"
+              >
+                Annulation de l'arrêté du 18 janvier 2023 modifiant le plan de
+                gestion des poissons migrateurs de Garonne-Dordogne
+              </a>
+              <span class="tag">30 mai </span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="/2_JUGEMENT_2204106_16-5-2024_CCCTP_2023-2027_33_FILETS_DERIVANTS_NASSES_A_LAMPROIE.pdf"
+              >
+                Interdiction des filets dérivants et des nasses à lamproies en
+                Gironde
+              </a>
+              <span class="tag">16 mai</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_22BX01814_20240409"
+              >
+                2nde annulation en appel de la pêche aux engins et filets des
+                poissons migrateurs en Gironde, Lot-et-Garonne et Dordogne pour
+                défaut d'évaluation des incidences Natura 2000 et violation du
+                principe de précaution
+              </a>
+              <span class="tag">9 avril</span>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_22BX01819_20240409"
+                >jugement 22BX01819_22BX01828</a
+              > et
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/DCA_22BX01820_20240409"
+                >jugement 22BX01820_22BX01829</a
+              >
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://opendata.justice-administrative.fr/recherche/shareFile/ORTA_2300031_20240325"
+              >
+                Suppression de 6 licences de marins-pêcheurs en amont du pont de
+                pierre de Libourne.
+              </a>
+              <span class="tag">25 mars</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="https://bordeaux.tribunal-administratif.fr/content/download/185630/document/Ordonnance_2400891.pdf"
+              >
+                Suspension de l'arrêté inter-préfectoral du 22 janvier 2024
+                autorisant la translocation de 21 000 lamproies marines
+              </a>
+              <span class="tag">26 février 2024</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="./7_AP_12-2-2024_ABROGEANT_FILETS_FIXES_ESTRAN_LANDAIS.pdf"
+              >
+                Publication de l'arrêté du 12 février 2024 abrogeant la pêche
+                aux filets fixes dans la zone de balancement des marées sur la
+                côte landaise
+              </a>
+              <span class="tag">19 février</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                target="_blank"
+                href="/2_AP_23-1-2024_interdisant_chasse_oiseaux_BA_2024.pdf"
+              >
+                Publication de l'arrêté interdisant la chasse des sept espèces
+                d'oiseaux migrateurs sur le bassin d'Arcacho.
+              </a>
+              <span class="tag">23 janvier</span>
+            </div>
+          </li>
+        </ul>
+        <ul
+          x-show="selectedTab === '2023'"
+          id="tabpanelGroups"
+          role="tabpanel"
+          aria-label="2023"
+          class="jugements-list"
+        >
           <li>
             <div>
               <a
@@ -291,11 +525,12 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
           </li>
           <li>
             <div>
-              Suspension des Plans de Gestion des poissons migrateurs des bassins
+              Suspension des Plans de Gestion des poissons migrateurs des
+              bassins
               <a href="/blog/jugement-2300308-plagepomi-garonne"
                 >Garonne-Dordogne (10/2/2023)</a
               >
-  
+
               <a href="/blog/jugement-2301078-plagepomi-adour">
                 Adour (28/3/2023)</a
               >
@@ -319,12 +554,15 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://www.legifrance.gouv.fr/ceta/id/CETATEXT000047439134?dateDecision=&init=true&page=1&query=%22article+L123-19-6%22+du+%22Code+de+l%27environnement%22&searchField=ALL&tab_selection=cetat">
-                Exclusion des chaluts des trois milles d'Arcachon 
+              <a
+                target="_blank"
+                href="https://www.legifrance.gouv.fr/ceta/id/CETATEXT000047439134?dateDecision=&init=true&page=1&query=%22article+L123-19-6%22+du+%22Code+de+l%27environnement%22&searchField=ALL&tab_selection=cetat"
+              >
+                Exclusion des chaluts des trois milles d'Arcachon
               </a>
               <span class="tag">11 avril</span>
               <a href="/blog/jugement-2303720-3-miles-arcachon">
-                 et suspension du nouvel arrêté du 6 juillet 2023
+                et suspension du nouvel arrêté du 6 juillet 2023
               </a>
               <span class="tag">8 août</span>
             </div>
@@ -334,8 +572,8 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
               <a
                 href="/blog/jugement-du-tribunal-administratif-de-bordeaux-n-2301662"
               >
-                Suspension de la pêche de la lamproie marine dans l'Adour puis en
-                Gironde
+                Suspension de la pêche de la lamproie marine dans l'Adour puis
+                en Gironde
               </a>
               <span class="tag">17 avril</span>
             </div>
@@ -353,15 +591,22 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://www.dalloz.fr/documentation/Document?id=TA_BORDEAUX_2023-11-09_2200433#_">
-                Annulation du plan de gestion des poissons migrateurs du bassin Garonne-Dordogne
+              <a
+                target="_blank"
+                href="https://www.dalloz.fr/documentation/Document?id=TA_BORDEAUX_2023-11-09_2200433#_"
+              >
+                Annulation du plan de gestion des poissons migrateurs du bassin
+                Garonne-Dordogne
               </a>
               <span class="tag">9 novembre</span>
             </div>
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048478836">
+              <a
+                target="_blank"
+                href="https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048478836"
+              >
                 Annulation de l'arrêté de pêche 2020 dans les Landes
               </a>
               <span class="tag">28 novembre</span>
@@ -369,58 +614,59 @@ Sous la pression de Défense des Milieux Aquatiques, la préfecture de Martiniqu
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048478837">
+              <a
+                target="_blank"
+                href="https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048478837"
+              >
                 Annulation de l'arrêté de pêche permanent dans les Landes
-              
               </a>
               <span class="tag">28 novembre</span>
             </div>
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://www.conseil-etat.fr/content/download/200913/document/489926-489932-489949.pdf">
-                Suspension des dérogations à la fermeture de la pêche maritime dans le golfe de Gascogne pendant l'hiver 2023-2024
+              <a
+                target="_blank"
+                href="https://www.conseil-etat.fr/content/download/200913/document/489926-489932-489949.pdf"
+              >
+                Suspension des dérogations à la fermeture de la pêche maritime
+                dans le golfe de Gascogne pendant l'hiver 2023-2024
               </a>
               <span class="tag">22 décembre</span>
             </div>
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://www.doctrine.fr/d/TA/Pau/2023/TA887BECD3FF496F7493BA">
+              <a
+                target="_blank"
+                href="https://www.doctrine.fr/d/TA/Pau/2023/TA887BECD3FF496F7493BA"
+              >
                 Abrogation des filets fixes amateurs sur l'estran des Landes
               </a>
               <span class="tag">29 décembre</span>
             </div>
           </li>
         </ul>
-      <p class="keep-fighting">
-        <strong>👇 Défendons les milieux aquatiques ensemble 👇</strong>
-      </p>
+        <p class="keep-fighting">
+          <strong>👇 Défendons les milieux aquatiques ensemble 👇</strong>
+        </p>
+      </div>
     </div>
   </div>
-</div>
   <Hero>
     <div class="text-white mb-12 text-left text-6xl uppercase">
       <div class="font-bold">Protéger</div>
-      <div class="text-4xl">
-les rivières
-      </div>
-      <div class="text-4xl">
- les estuaires
-      </div>
-      <div class="text-4xl">
-        et les océans
-      </div>
-      <div class="font-bold">
-        par le droit
-      </div>
+      <div class="text-4xl">les rivières</div>
+      <div class="text-4xl">les estuaires</div>
+      <div class="text-4xl">et les océans</div>
+      <div class="font-bold">par le droit</div>
     </div>
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/defensedesmilieuxaquatiques"
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
-            class="embeddable-buttondown-form"
+      class="embeddable-buttondown-form"
     >
       <input
         type="email"
@@ -475,11 +721,15 @@ les rivières
       <div>
         <div class="video__summary">
           <h3>La Rivière <span>de Dominique Marchais</span></h3>
-          <p>Entre Pyrénées et Atlantique coulent des rivières puissantes qu’on appelle les gaves.
-            Les champs de maïs les assoiffent, les barrages bloquent la circulation du saumon. L’activité humaine bouleverse le cycle de l’eau et la biodiversité de la rivière.
-            Des hommes et des femmes tendent leur regard curieux et amoureux vers ce monde fascinant fait de beauté et de désastre. 
-            </p>
-            <p>Au cinéma le 22 novembre 2023</p>
+          <p>
+            Entre Pyrénées et Atlantique coulent des rivières puissantes qu’on
+            appelle les gaves. Les champs de maïs les assoiffent, les barrages
+            bloquent la circulation du saumon. L’activité humaine bouleverse le
+            cycle de l’eau et la biodiversité de la rivière. Des hommes et des
+            femmes tendent leur regard curieux et amoureux vers ce monde
+            fascinant fait de beauté et de désastre.
+          </p>
+          <p>Au cinéma le 22 novembre 2023</p>
         </div>
         <Youtube videoid="EtIcELoNdNI" />
       </div>
@@ -488,12 +738,26 @@ les rivières
       <div class="mb-4">
         <h3>Podcast</h3>
         <p>
-          Guillaume MEURICE fait découvrir le sujet de la pêche maritime à deux adolescents Ilio et Enna. Leur curiosité et leur pertinence transcendent cette géniale émission. 
-          Défense des milieux Aquatiques a eu le privilège de répondre à Ilio et Enna avec une certaine émotion.
+          Guillaume MEURICE fait découvrir le sujet de la pêche maritime à deux
+          adolescents Ilio et Enna. Leur curiosité et leur pertinence
+          transcendent cette géniale émission. Défense des milieux Aquatiques a
+          eu le privilège de répondre à Ilio et Enna avec une certaine émotion.
         </p>
       </div>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2yQRNaXkDjzME12VGOrWpT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <a href="https://www.radiofrance.fr/franceinter/podcasts/mission-poseidon" target="_blank" rel="noopener">👉 Ecoutez la suite sur France Inter 👈</a>
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/episode/2yQRNaXkDjzME12VGOrWpT?utm_source=generator"
+        width="100%"
+        height="352"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
+      <a
+        href="https://www.radiofrance.fr/franceinter/podcasts/mission-poseidon"
+        target="_blank"
+        rel="noopener">👉 Ecoutez la suite sur France Inter 👈</a
+      >
     </section>
     <section class="podcast">
       <div class="mb-4">
@@ -506,10 +770,18 @@ les rivières
             <img alt={"SalmonWatch"} width={336} src={SalmonWatch.src} />
           </a>
           <a href="https://onepercentfortheplanet.org/">
-            <img alt={"One Percent For The Planet"} width={200} src={Onepercent.src} />
+            <img
+              alt={"One Percent For The Planet"}
+              width={200}
+              src={Onepercent.src}
+            />
           </a>
           <a href="https://www.eau-et-rivieres.org/">
-            <img alt={"Eau et Rivières de Bretagne"} width={200} src={ERB.src} />
+            <img
+              alt={"Eau et Rivières de Bretagne"}
+              width={200}
+              src={ERB.src}
+            />
           </a>
         </div>
       </div>
@@ -522,7 +794,7 @@ les rivières
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/defensedesmilieuxaquatiques', 'popupwindow')"
-              class="embeddable-buttondown-form"
+      class="embeddable-buttondown-form"
     >
       <input
         type="email"
@@ -597,10 +869,10 @@ les rivières
     </p>
     <p>
       Toutefois, l'association use de tous les moyens juridiques qui sont à sa
-      disposition pour <strong>atteindre des pratiques de pêche durables</strong> : préserver la
-      biodiversité aquatique en envisageant uniquement l'aspect environnemental
-      ne suffit pas, notre stratégie repose donc sur la triple condition
-      socio-économique et environnementale.
+      disposition pour <strong>atteindre des pratiques de pêche durables</strong
+      > : préserver la biodiversité aquatique en envisageant uniquement l'aspect environnemental
+      ne suffit pas, notre stratégie repose donc sur la triple condition socio-économique
+      et environnementale.
     </p>
     <p>
       Aussi, DMA tente de démontrer le bien-fondé de ses propositions sous ce
@@ -913,7 +1185,6 @@ les rivières
     background-color: white;
   }
 
-  
   @media (min-width: 768px) {
     .video > div {
       display: grid;
@@ -927,7 +1198,7 @@ les rivières
       flex-direction: column;
     }
   }
-  
+
   .video__summary {
     display: flex;
     flex-direction: column;
@@ -944,10 +1215,8 @@ les rivières
 
   .jugements-list a {
     text-decoration: none;
-   
   }
   .jugements-list li:hover a {
-      text-decoration: underline;
+    text-decoration: underline;
   }
-
 </style>

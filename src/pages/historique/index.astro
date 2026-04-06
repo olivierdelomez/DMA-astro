@@ -1,7 +1,15 @@
 ---
+import type { MarkdownInstance } from "astro";
+interface Frontmatter {
+  shortTitle: string;
+  description: string;
+}
 import Layout from "../../layouts/Layout.astro";
 import Card from "../../components/Card.astro";
-const allPosts = await Astro.glob("./*.md");
+const allPosts = import.meta.glob<MarkdownInstance<Frontmatter>>("./*.md", {
+  eager: true,
+});
+const posts = Object.values(allPosts);
 ---
 
 <Layout title="historique">
@@ -9,7 +17,7 @@ const allPosts = await Astro.glob("./*.md");
     <h1>Historique de nos actions</h1>
     <ul role="list" class="link-card-grid">
       {
-        allPosts.map((post) => (
+        posts.map((post) => (
           <Card
             href={`${post.url}`}
             title={post.frontmatter.shortTitle}
