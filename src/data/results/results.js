@@ -2,6 +2,16 @@ export const results2026 = {
     year: 2026,
     results: [
         {
+            title: `Le tribunal administratif de Paris enjoint l'État à réparer le préjudice lié aux mortalités des dauphins et à prendre les mesures réglementaires pour que les mortalités ne dépassent pas 809 dauphins communs, 22 marsouins communs et 33 grands dauphins dès le prochain hiver 2026-2027`,
+            link: 'https://opendata.justice-administrative.fr/recherche/shareFile/TA75/DTA_2309777_20260625',
+            date: "25 juin 2026"
+        },
+        {
+            title: 'Le tribunal administratif de Rouen enjoint le préfet de la région Normandie à protéger les trois milles du site Natura 2000',
+            link: 'https://opendata.justice-administrative.fr/recherche/shareFile/TA76/DTA_2500638_20260612',
+            date: "12 juin"
+        },
+        {
             title:
                 "Le Conseil d'État rejette le pourvoi de l'État contre les décisions de la Cour d'appel de Bordeaux annulant les arrêtés de pêche des poissons migrateurs dans les Landes.",
             link: "https://opendata.justice-administrative.fr/recherche/shareFile/CE/DCE_491304_20260522",
