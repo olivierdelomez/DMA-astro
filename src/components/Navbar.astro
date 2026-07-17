@@ -155,37 +155,60 @@ import MobileMenu from "./MobileMenu.astro";
   }
 </style>
 
-<aside
-  class="grid grid-cols-1 md:grid-cols-2 items-center gap-4 p-3 text-center w-full bg-white text-yellow-800 rounded-md"
->
-  <div
-    class="bg-yellow-100 border-yellow-300 border ms-auto max-w-md p-3 rounded-md"
+<div class="bg-white flex items-center justify-center">
+  <aside
+    class="grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-4 p-3 text-center w-full text-yellow-800 rounded-md max-w-7xl"
   >
-    <a
-      target="_blank"
-      href="https://defensedesmilieuxaquatiques.org/CP_APR_21_2026_Chausey.pdf"
+    <div
+      class="flex items-center justify-center mx-auto bg-yellow-100 border-yellow-300 border h-full max-w-md p-3 rounded-md"
     >
-      <div class="not-italic no-underline">
-        Lancement d'une campagne pour protéger le trésor rose de Chausey
-      </div>
-      <span class="text-xs">Communiqué de presse - 21 avril 2026</span>
-    </a>
-  </div>
-  <div
-    class="bg-yellow-100 border-yellow-300 border me-auto max-w-md p-3 rounded-sm"
-  >
-    <a
-      target="_blank"
-      href="https://defensedesmilieuxaquatiques.org/CP_CAPTURES_OM_FRANCAIS.pdf"
+      <a
+        target="_blank"
+        class="no-underline"
+        href="https://defensedesmilieuxaquatiques.org/CP_APR_21_2026_Chausey.pdf"
+      >
+        <div class="not-italic no-underline">
+          Lancement d'une campagne pour protéger le trésor rose de Chausey
+        </div>
+        <span class="text-xs underline"
+          >Communiqué de presse - 21 avril 2026</span
+        >
+      </a>
+    </div>
+    <div
+      class="flex items-center justify-center mx-auto bg-blue-100 border-blue-300 border h-full max-w-md p-3 rounded-sm"
     >
-      <div class="not-italic no-underline">
-        La France poursuivie en justice pour son inaction face au risque
-        d’extinction des oiseaux marins
-      </div>
-      <span class="text-xs">Communiqué de presse - 21 avril 2026</span>
-    </a>
-  </div>
-</aside>
+      <a
+        target="_blank"
+        class="no-underline"
+        href="https://defensedesmilieuxaquatiques.org/GOLDEN_MILES_GESTION_ROBUSTE_POUR_LA_PECHE_COTIERE.pdf"
+      >
+        <div class="not-italic no-underline">
+          E-book Golden Miles, une gestion robuste pour la pêche côtière
+        </div>
+        <span class="text-xs underline">Lire notre e-book sur Golden Miles</span
+        >
+      </a>
+    </div>
+    <div
+      class="flex items-center justify-center h-full mx-auto bg-yellow-100 border-yellow-300 border max-w-md p-3 rounded-sm"
+    >
+      <a
+        target="_blank"
+        class="no-underline"
+        href="https://defensedesmilieuxaquatiques.org/CP_CAPTURES_OM_FRANCAIS.pdf"
+      >
+        <div class="not-italic no-underline">
+          La France poursuivie en justice pour son inaction face au risque
+          d’extinction des oiseaux marins
+        </div>
+        <span class="text-xs underline"
+          >Communiqué de presse - 21 avril 2026</span
+        >
+      </a>
+    </div>
+  </aside>
+</div>
 <header>
   <a href="/">
     <Image src={Logo} width={150} height={150} alt="logo dma" />
