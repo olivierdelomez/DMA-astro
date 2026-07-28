@@ -19,6 +19,7 @@ Pour ce faire, elle a recours à l’expertise de nombreux halieutes, mathémati
 [Contrat d’engagement républicain](/DMA_ENGAGEMENT_REPUBLICAIN.pdf)
 ### Rapports d'Activités
 
+- [2025](/RAPPORT_ACTIVITE_DMA_2025.pdf)
 - [2024](/RAPPORT_ACTIVITE_DMA_2024.pdf)
 - [2023](/RAPPORT_ACTIVITE_DMA_2023.pdf)
 - [2022](/rapport-activite/2022) ou [version pdf](/RAPPORT_ACTIVITE_DMA_2022.pdf)
