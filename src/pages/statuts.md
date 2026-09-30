@@ -17,18 +17,24 @@ l\'assemblée générale de 2020.
 
 **Article 2 - objet**
 
-I. L\'association a pour vocation exclusive de contribuer directement et
-indirectement à la défense, la protection et la conservation, le cas
-échéant la restauration des milieux aquatiques naturels en général,
-quelque soit leur salinité ou non, et des autres entités dont ses
+I. L\'association a pour vocation de contribuer directement et
+indirectement à la défense, la protection et la conservation, et le cas
+échéant la restauration i) des milieux aquatiques naturels en général,
+quelque soit leur salinité ou non, ii) des autres entités dont ses
 caractères dépendent comme les sols, l\'atmosphère, les divers
 écosystèmes en rapport, par exemple les forêts, les prairies et les
-dunes littorales, de toutes les espèces animales, végétales, organiques
-dépendantes de ces différents milieux, par exemple les poissons, les
-amphibiens, les arbres, etc, tous les organismes connus ou à découvrir
-sans exception, y compris les mammifères marins et terrestres, les
-reptiles, les oiseaux, et les habitats naturels et d\'espèces
-concernés. 
+dunes littorales, iii) de toutes les espèces animales, végétales,
+organiques dépendantes de ces différents milieux, par exemple les
+poissons, les amphibiens, les arbres, etc, tous les organismes connus
+ou à découvrir sans exception, y compris les mammifères marins et
+terrestres, les reptiles, les oiseaux, iv) des habitats naturels et
+particuliers des espèces concernés. Elle a également pour objet de
+contribuer directement et indirectement à la connaissance des milieux
+et espèces, la sécurité sanitaire des spécimens des espèces animales,
+végétales, organiques précitées dans les milieux naturels, y compris
+dans sa dimension de santé publique pour les humains, la sécurité et
+la coexistence apaisée de tous les usages de l\'environnement dans les
+milieux naturels.
 
 Toutes les masses d\'eau au sens large et les espèces qui les
 fréquentent étant par nature mobiles et interconnectées, l\'association
@@ -43,19 +49,20 @@ son objet social, et notamment:
 milieu aquatique et leurs habitats respectifs, sans discrimination
 concernant leur état de conservation ou leur statut juridique,
 
-\(2\) œuvrer pour faire appliquer strictement les lois et règlements
-relatifs à ces situations
+\(2\) œuvrer pour faire appliquer strictement l\'ensemble des normes
+(constitution, droit international, droit européen, loi, règlement et
+textes d\'application) relatifs à ces situations,
 
-\(3\) participer à l\'amélioration constante de toutes les dispositions
-juridiques qui bénéficient directement et indirectement aux milieux
-aquatiques
+\(3\) participer à l\'amélioration constante de toutes les dispositions,
+notamment juridiques qui bénéficient directement et indirectement aux
+milieux aquatiques,
 
 \(4\) sensibiliser les citoyens par la publication numérique des actions
-et des motivations de l\'association (site internet, réseaux sociaux)
+et des motivations de l\'association (site internet, réseaux sociaux),
 
-\(5\) lutte contre toutes discriminations, envers le monde vivant et
-l'avènement d\'une société écologiquement viable, dans le cadre de son
-objet
+\(5\) lutter contre toutes discriminations envers le monde vivant et
+promouvoir l\'avènement d\'une société apaisée et écologiquement viable,
+dans le cadre de son objet
 
 \(6\) assurer la défense de l\'intérêt collectif et individuel de ses
 membres, dans le cadre des actions qu\'ils entreprennent au soutien de
@@ -421,6 +428,8 @@ modifiés le 25 septembre 2021 par l\'assemblée générale de DMA
 modifiés le 11 mars 2023 par l\'assemblée générale de DMA
 
 modifiés le 1er mars 2025 par l\'assemblée générale de DMA
+
+modifiés le 12 septembre 2026 par l\'assemblée générale de DMA
 
 *Signatures de deux représentants (nom, prénom et fonction) au minimum,
 nécessaires pour la formalité de déclaration de l'association.*
